@@ -50,15 +50,15 @@ $datos_contacto_sedes = array(
 		"horario" => "Pendiente"
 	),
 	"bogota_chico" => array(
-		"nombre_sede" => "Sede Bogota Chico",
-		"direccion" => "Carrera 18 #86ª-14 Oficina 304 Ed Regus.",
+		"nombre_sede" => "Sede Bogotá Chico",
+		"direccion" => "Carrera 17 #88-23 Oficina 102 Edif. Cezanne, Bogotá D.C.",
 		"celular" => array(
-			'link' => '0001111',
-			"imprimir" => '00022222',
+			'link' => '+0573043297400',
+			"imprimir" => '304 329 7400',
 		),
 		"fijo" => array(
-			'link' => '+',
-			'imprimir' => '000'
+			'link' => '+0312324524',
+			'imprimir' => 'PBX +57(1) 232 4524'
 		),
 		"correo" => "servicioalclienteb@supropiedadinmobiliaria.com",
 		"horario" => "Pendiente",
