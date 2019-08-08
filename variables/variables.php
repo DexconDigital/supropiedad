@@ -54,7 +54,7 @@ $datos_contacto_sedes = array(
 		"direccion" => "Carrera 18 #86ª-14 Oficina 304 Ed Regus.",
 		"celular" => array(
 			'link' => '0001111',
-			"imprimir" => '000',
+			"imprimir" => '00022222',
 		),
 		"fijo" => array(
 			'link' => '+',
