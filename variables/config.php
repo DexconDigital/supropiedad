@@ -3,6 +3,6 @@
     // $url_host = 'https://'.$_SERVER["HTTP_HOST"].'/';
     $url_total = 'http://'.$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"];
 
-    define('TOKEN', 'XTSlqsnuawQp63TLoLzzAZMeis3MOFNP1jEUb8tq-46');
+    define('TOKEN', '8uyOx0ieVEsNqAS2KQNesUNJMSF7wCT08DAT3fGS-813');
 
 ?>

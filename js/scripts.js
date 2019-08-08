@@ -26,4 +26,60 @@ if(pagina == 'inicio'){
             }
         }
     })
+    // owl segun cantidad de inmuebles 
+    if(cantidad_inmuebles == 1){
+        $('#owl-propiedades').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            dots: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    }else if(cantidad_inmuebles == 2){
+        $('#owl-propiedades').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            dots: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
+    }else{
+        $('#owl-propiedades').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            dots: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    }    
 }

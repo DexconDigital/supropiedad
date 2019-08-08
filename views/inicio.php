@@ -1,4 +1,6 @@
-<?php $page = "inicio";
+<?php 
+require 'controllers/inicioController.php';
+$page = "inicio";
 include 'layout/menu.php';
 ?>
 <script>
@@ -17,9 +19,9 @@ include 'layout/menu.php';
                         <video src="./videos/video2.mov" class="d-block w-100" autoplay muted loop></video>
                     </div>
                     <?php
-                    for($i=0; $i<count($imagenes_slide_principal)-1;$i++){
+                    for ($i = 0; $i < count($imagenes_slide_principal) - 1; $i++) {
                         echo ' <div class="carousel-item">
-                                <img src="'.$imagenes_slide_principal[$i]['imagen'] .'" class="d-block w-100" alt="...">
+                                <img src="' . $imagenes_slide_principal[$i]['imagen'] . '" class="d-block w-100" alt="...">
                             </div>';
                     }
                     ?>
@@ -42,35 +44,31 @@ include 'layout/menu.php';
                         <div class="col-12">
                             <form action="" class="w-100">
                                 <div class="form-row justify-content-center">
-                                    <div class="col-auto">
-                                        <input type="text" class="form-control" placeholder="Código">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Código" id="codigo_buscar" disabled>
                                     </div>
-                                    <div class="col-auto">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>Ciudad</option>
-                                            <option>Bogota</option>
+                                    <div class="col">
+                                        <select id="ciudad_buscar" class="form-control">
+                                            <option selected value="0">Ciudad</option>
                                         </select>
                                     </div>
-                                    <div class="col-auto">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>Barrio</option>
-                                            <option>...</option>
+                                    <div class="col">
+                                        <select id="barrio_buscar" class="form-control">
+                                            <option selected value='0'>Barrio</option>
                                         </select>
                                     </div>
-                                    <div class="col-auto">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>Tipo Inmueble</option>
-                                            <option>...</option>
+                                    <div class="col">
+                                        <select id="tipo_inmueble_buscar" class="form-control">
+                                            <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
-                                    <div class="col-auto">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>Gestion</option>
-                                            <option>Arriendo/venta</option>
+                                    <div class="col">
+                                        <select id="tipo_gestion_buscar" class="form-control">
+                                            <option selected value='0'>Gestion</option>
                                         </select>
                                     </div>
-                                    <div class="col-auto">
-                                        <button type="button" class="btn btn-primary">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary btn-lg btn-block" id="buscar">
                                             <i class="fas fa-search mr-2"></i>Buscar
                                         </button>
                                     </div>
@@ -91,47 +89,8 @@ include 'layout/menu.php';
                 <h2 class="text-center">Propiedades Destacadas</h2>
             </div>
             <div class="col-12">
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                        <div class="card" style="">
-                            <div class="container-img">
-                                <a href="">
-                                    <div class="gestion">
-                                        <span>Precio</span>
-                                    </div>
-                                    <div class="precio">
-                                        Arriendo
-                                    </div>
-                                    <img src="<?php echo $url_host; ?>images/no_image.png" class="card-img-top" alt="...">
-                                </a>
-                            </div>
-                            <div class="card-body pb-2">
-                                <h5 class="card-title mb-1">Card title</h5>
-                                <span class="ubicacion mb-1">
-                                    <i class="<?php echo $iconos_contacto['direccion']; ?>"></i> ubicación
-                                </span>
-                            </div>
-                            <ul class="detalles">
-                                <li>
-                                    <span>Area</span>3600
-                                </li>
-                                <li>
-                                    <span>Alcobas</span> 3
-                                </li>
-                                <li>
-                                    <span>Baños</span> 2
-                                </li>
-                                <li>
-                                    <span>Garaje</span> 1
-                                </li>
-                            </ul>
-                            <div class="footer">
-                                <a href="#">
-                                    Codigo: Codigo
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="owl-carousel owl-theme" id="owl-propiedades">
+                    <?php inmuebles_destacados($api, $url_host) ;?>
                 </div>
             </div>
         </div>
