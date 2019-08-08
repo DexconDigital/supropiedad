@@ -29,8 +29,8 @@ $datos_contacto_sedes = array(
 				'imprimir' => '315 673 33 00'
 		),
 		"fijo" => array(
-			'link' => '+',
-			'imprimir' => '000'
+			'link' => '+0314440591',
+			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "servicioalcliente@supropiedadinmobiliaria.com",
 		"horario" => "Pendiente"
@@ -43,15 +43,15 @@ $datos_contacto_sedes = array(
 			"imprimir" => '000',
 		),
 		"fijo" => array(
-			'link' => '+',
-			'imprimir' => '000'
+			'link' => '+0314440591',
+			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "info@supropiedadinmobiliaria.com",
 		"horario" => "Pendiente"
 	),
 	"bogota_chico" => array(
 		"nombre_sede" => "Sede Bogotá Chico",
-		"direccion" => "Carrera 17 #88-23 Oficina 102 Edif. Cezanne, Bogotá D.C.",
+		"direccion" => "Carrera 17 #88-23 Oficina 102 Edif. CEZANNE, Bogotá D.C.",
 		"celular" => array(
 			'link' => '+0573043297400',
 			"imprimir" => '304 329 7400',

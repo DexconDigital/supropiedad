@@ -36,7 +36,7 @@
                 </div>
                 <ul class="detalles">
                     <li>
-                        <span>Area</span>'.$api['AreaConstruida'].'
+                        <span>Área</span>'.$api['AreaConstruida'].' m<sup>2<sup/>
                     </li>
                     <li>
                         <span>Alcobas</span> '.$api['Alcobas'].'
@@ -50,7 +50,7 @@
                 </ul>
                 <div class="footer">
                     <a href="#">
-                        Codigo: '.$codigo.'
+                        Código: '.$codigo.'
                     </a>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                 </div>
                 <ul class="detalles">
                     <li>
-                        <span>Area</span>'.$api['AreaConstruida'].'
+                        <span>Área</span>'.$api['AreaConstruida'].' m<sup>2<sup/>
                     </li>
                     <li>
                         <span>Alcobas</span> '.$api['Alcobas'].'
@@ -109,7 +109,7 @@
                 </ul>
                 <div class="footer">
                     <a href="#">
-                        Codigo: '.$codigo.'
+                        Código: '.$codigo.'
                     </a>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                 <div class="overlay">
                   <ul class="additional-info">
                     <li>
-                      <header>Areá:</header>
+                      <header>Área:</header>
                       <figure>'.$api['AreaConstruida'].'<sup>2</sup></figure>
                     </li>
                     <li>

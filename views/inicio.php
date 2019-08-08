@@ -64,7 +64,7 @@ include 'layout/menu.php';
                                     </div>
                                     <div class="col">
                                         <select id="tipo_gestion_buscar" class="form-control">
-                                            <option selected value='0'>Gestion</option>
+                                            <option selected value='0'>Gestión</option>
                                         </select>
                                     </div>
                                     <div class="col">

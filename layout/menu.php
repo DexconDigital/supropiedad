@@ -12,22 +12,22 @@
                     <a class="nav-link" href="<?php echo $url_host?>inicio">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="quienesSomos">QUIENES SOMOS</a>
+                    <a class="nav-link" href="<?php echo $url_host?>quienesSomos">QUIÉNES SOMOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="servicios">SERVICIOS</a>
+                    <a class="nav-link" href="<?php echo $url_host?>servicios">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="inmuebles">INMUEBLES</a>
+                    <a class="nav-link" href="<?php echo $url_host?>inmuebles">INMUEBLES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="clientes">CLIENTES</a>
+                    <a class="nav-link" href="<?php echo $url_host?>clientes">CLIENTES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="consignaTuInmueble">CONSIGNA TU INMUEBLE</a>
+                    <a class="nav-link" href="<?php echo $url_host?>consignaTuInmueble">CONSIGNA TU INMUEBLE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactenos">CONTÁCTANOS</a>
+                    <a class="nav-link" href="<?php echo $url_host?>contactenos">CONTÁCTANOS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $link_pse?>" target="_blank">

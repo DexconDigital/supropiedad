@@ -35,10 +35,9 @@ include 'layout/menu.php';
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="inputPassword4">Gestion</label>
+                                    <label for="inputPassword4">Gestión</label>
                                     <select id="tipo_gestion_buscar" class="form-control">
-                                        <option selected value='0'>Gestion</option>
-                                        <option>Arriendo</option>
+                                        <option selected value='0'>Gestión</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4">
@@ -52,26 +51,26 @@ include 'layout/menu.php';
                                 </div>
                                 <div class="collapse" id="collapseExample">
                                     <label for="inputEmail4">Baños</label>
-                                    <input type="number" class="form-control" id="banios_buscar" placeholder="Alcobas">
+                                    <input type="number" class="form-control" id="banios_buscar" placeholder="Baños">
                                 </div>
                                 <div class="collapse" id="collapseExample">
                                     <label for="inputEmail4">Alcobas</label>
                                     <input type="number" class="form-control" id="alcobas_buscar" placeholder="Alcobas">
                                 </div>
                                 <div class="collapse" id="collapseExample">
-                                    <label for="inputEmail4">Área Minima</label>
-                                    <input type="number" class="form-control" id="area_minima_buscar" placeholder="Área Miníma">
+                                    <label for="inputEmail4">Área Mínima</label>
+                                    <input type="number" class="form-control" id="area_minima_buscar" placeholder="Área Mínima">
                                 </div><div class="collapse" id="collapseExample">
-                                    <label for="inputEmail4">Área Maxima</label>
-                                    <input type="number" class="form-control" id="area_maxima_buscar" placeholder="Área Maxíma">
+                                    <label for="inputEmail4">Área Máxima</label>
+                                    <input type="number" class="form-control" id="area_maxima_buscar" placeholder="Área Máxima">
                                 </div>
                                 <div class="collapse" id="collapseExample">
-                                    <label for="inputEmail4">Precio Minímo</label>
-                                    <input type="number" class="form-control" id="precio_minimo_buscar" placeholder="Precio Minímo">
+                                    <label for="inputEmail4">Precio Mínimo</label>
+                                    <input type="number" class="form-control" id="precio_minimo_buscar" placeholder="Precio Mínimo">
                                 </div>
                                 <div class="collapse" id="collapseExample">
-                                    <label for="inputEmail4">Maxímo</label>
-                                    <input type="number" class="form-control" id="precio_maximo_buscar" placeholder="Precio Maxímo">
+                                    <label for="inputEmail4">Máximo</label>
+                                    <input type="number" class="form-control" id="precio_maximo_buscar" placeholder="Precio Máximo">
                                 </div>
                                 <div class="collapse" id="collapseExample">
                                     <div class="container">
