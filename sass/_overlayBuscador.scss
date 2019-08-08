@@ -1,0 +1,111 @@
+.overlay {
+  .col-auto {
+    padding: 0 !important;
+    input,
+    select {
+      border-radius: 0 !important;
+      border: none;
+      border-left: 1px solid $gris;
+      height: 55px;
+    }
+    select {
+      color: $gris !important;
+    }
+    input::placeholder {
+      color: $gris;
+    }
+    .btn {
+      height: 55px !important;
+      border-radius: 0 !important;
+    }
+  }
+}
+
+.busqueda_avanzada {
+  display: flex;
+  align-items: flex-end;
+}
+#buscador_inmueble {
+  .card {
+    -webkit-box-shadow: inset -1px 3px 8px 5px #fff, 2px 5px 16px 0px $gris, 5px 5px 15px 5px rgba(255, 95, 44, 0);
+    box-shadow: inset -1px 3px 8px 5px #fff, 2px 5px 16px 0px $gris, 5px 5px 15px 5px rgba(255, 95, 44, 0);
+  }
+  padding: 0 !important;
+  input,
+  select {
+    border-radius: 0 !important;
+    height: 55px;
+  }
+  select {
+    color: $gris !important;
+  }
+  input::placeholder {
+    color: $gris;
+  }
+  .btn {
+    height: 55px !important;
+    border-radius: 0 !important;
+  }
+  .btn-primary {
+    background-color: $color_principal;
+    border: none;
+    &:hover {
+      background-color: darken($color: $color_principal, $amount: 10%);
+    }
+  }
+  #collapseExample{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 5px;
+    padding-left: 5px;
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+  }
+}
+
+#formulario, #consignar_formulario{
+  form{
+    padding-bottom: 3em;
+  }
+  input,
+  select {
+    border-radius: 0 !important;
+    height: 55px;
+  }
+  select {
+    color: $gris !important;
+  }
+  input::placeholder {
+    color: $gris;
+  }
+  .btn {
+    height: 55px !important;
+    border-radius: 0 !important;
+  }
+  .btn-primary {
+    background-color: $color_principal;
+    border: none;
+    &:hover {
+      background-color: darken($color: $color_principal, $amount: 10%);
+    }
+  }
+}
+
+textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:focus, select:focus {
+  border-color: $color_principal !important;
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px $color_principal !important;
+  outline: 0 none;
+}
+
+.form-check{
+  a{
+    color: $color_principal !important;
+    &:hover{
+      color: $color_principal !important;
+      text-decoration: underline;
+    }
+  }
+}

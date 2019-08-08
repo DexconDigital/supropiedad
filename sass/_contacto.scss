@@ -1,0 +1,32 @@
+#contacto {
+  ul {
+    .nav-item {
+        a{
+            color: $negro;
+        }
+       .nav-link.active {
+            background-color: $color_principal !important;
+            color: $blanco;
+      }
+    }
+  }
+  .tab-content{
+    .caracteristicas{
+      padding-bottom: 2em;
+      .card{
+        border:none;
+        margin-top:3em;
+        i{
+          font-size: 1.5em;
+        }
+        a{
+          color: inherit;
+        }
+      }
+    }
+    h5{
+      color: $gris;
+      margin-bottom: 1em;
+    }
+  }
+}

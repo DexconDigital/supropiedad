@@ -1,0 +1,85 @@
+#servicios{
+    a{
+        color:inherit;
+        &:hover{
+            text-decoration: none; 
+        }
+    }
+    .card{
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+        transition: all 400ms ease-in-out;
+        min-height: 9rem;
+        &:hover{
+            transform: scale(1.1);
+        }
+
+    }
+    .container-icon{
+        color: $color_principal;
+        padding: 20px;
+        padding-bottom: 15px;
+        i{
+            font-size: 70px;
+        }
+    }
+    h3{
+        font-family: $f-texto;
+    }
+}
+#propiedad_virtual{
+    a{
+        color:inherit;
+        &:hover{
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+    .card-img-overlay{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+#contador{
+    .contador{
+        padding: 60px 0 20px;
+        background: url(../images/imagen-contador.jpg);
+        z-index: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .counter-box{
+        margin-bottom: 40px;
+        text-align: center;
+        color: $blanco;
+        i{
+            font-size: 45px;
+            line-height: inherit;
+        }
+        h1{
+            font-weight: 700;
+            margin: 10px 0 5px;
+        }
+    }
+}
+
+#aliados{
+    .item{
+        height: 160px;
+        img{
+            height: 100%;
+            object-fit: contain;
+            filter: grayscale(1);
+            &:hover{
+                filter: none;
+            }
+        }
+    }
+}
+#formularios{
+    a{
+        color:inherit;
+        &:hover{
+            color:$color_principal;
+        }
+    }
+}
