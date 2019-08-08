@@ -53,7 +53,7 @@ $datos_contacto_sedes = array(
 		"nombre_sede" => "Sede Bogota Chico",
 		"direccion" => "Carrera 18 #86ª-14 Oficina 304 Ed Regus.",
 		"celular" => array(
-			'link' => '000',
+			'link' => '0001111',
 			"imprimir" => '000',
 		),
 		"fijo" => array(
