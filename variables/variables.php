@@ -22,7 +22,7 @@ $iconos_contacto = array(
 
 $datos_contacto_sedes = array(
 	"medellin_poblado" => array(
-		"nombre_sede" => "Sede Medellin Poblado",
+		"nombre_sede" => "Sede Medellín Poblado",
 		"direccion" => "Carrera 37 #8ª-46 oficina 201 Ed Primavera.",
 		"celular" => array(
 				'link' => '+573156733000',
@@ -36,7 +36,7 @@ $datos_contacto_sedes = array(
 		"horario" => "Pendiente"
 	),
 	"medellin_centro" => array(
-		"nombre_sede" => "Sede Medellin Centro",
+		"nombre_sede" => "Sede Medellín Centro",
 		"direccion" => "Calle 52 #49-28 Piso 13 Ed Lonja de Propiedad Raíz",
 		"celular" => array(
 			'link' => '000',
