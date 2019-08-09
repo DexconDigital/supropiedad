@@ -25,7 +25,7 @@ include 'layout/menu.php';
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h2 class="mb-4">
-                            Mision
+                            Misión
                         </h2>
                         <p> <?php echo $texto_quienes_somos['mision'][0]; ?></p>
                     </div>
@@ -45,7 +45,7 @@ include 'layout/menu.php';
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h2 class="mb-4">
-                            Vision
+                            Visión
                         </h2>
                         <ul>
                             <?php for($i=0; $i<count($texto_quienes_somos['valores']); $i++){
