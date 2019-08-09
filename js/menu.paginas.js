@@ -17,7 +17,8 @@ if(pagina == 'inicio'){
         }
     });
 }else{
-    $("#imagen_menu").attr("src","images/logo_trazo.png");
+    direccion = URLDOMAIN +'images/logo_trazo.png';
+    $("#imagen_menu").attr("src",direccion);
     var altura = $('#menu').height();
     $(window).scroll(function() {
         if ($(this).scrollTop() > altura) {

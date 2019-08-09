@@ -191,7 +191,7 @@ var busqueda_inicio = function(){
 
 
     if (code !== ""){
-        window.location.href = URLDOMAIN+'detalle-inmueble/codigo/' + code + '';
+        window.location.href = URLDOMAIN+'detalleInmueble/codigo/' + code + '';
     }else{
         window.location.href = URLDOMAIN+'inmuebles/'+
         'ciudad/'+ciudad_buscar+
@@ -228,7 +228,7 @@ var busqueda_inmuebles = function(){
 
 
     if (code !== "") {
-        window.location.href = URLDOMAIN+'detalle-inmueble/codigo/' + code + '';
+        window.location.href = URLDOMAIN+'detalleInmueble/codigo/' + code + '';
     }else{
         window.location.href = URLDOMAIN+'inmuebles/ciudad/'+ciudad_buscar+
         '/barrio/'+barrio_buscar+

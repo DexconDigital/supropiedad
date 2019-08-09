@@ -11,9 +11,14 @@ require 'variables/variables.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Su propiedad Inmobiliaria</title>
+    <meta property="og:url"           content="<?php echo $url_host;?>" />
+    <meta property="og:type"          content="Sitio web Inmobiliario de SuPropiedad" />
+    <meta property="og:title"         content="Inmueble de Supropiedad" />
+    <meta property="og:description"   content="Mira este increible Inmueble" />
+    <meta property="og:image"         content="<?php echo $url_host;?>logo_trazo.png"/>
     <link rel="shortcut icon" href="<?php echo $url_host ?>favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/bootstrap.min.css" class="css">
-    <link rel="stylesheet" href="<?php echo $url_host ?>css/all.css" class="css">
+    <link rel="stylesheet" href="<?php echo $url_host ?>css/all.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/owl.carousel.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/owl.theme.default.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/style.css">
@@ -53,10 +58,11 @@ require 'variables/variables.php';
     <script src="<?php echo $url_host ?>js/jquery.min.js"></script>
     <script src="<?php echo $url_host ?>js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo $url_host ?>js/owl.carousel.min.js"></script>
+    <script src="<?php echo $url_host ?>conexion_api/token_api.js"></script>
     <script src="<?php echo $url_host ?>js/menu.paginas.js"></script>
     <script src="<?php echo $url_host ?>js/busqueda.avanzada.js"></script>
     <script src="<?php echo $url_host ?>js/scripts.js"></script>
-    <script src="<?php echo $url_host ?>conexion_api/token_api.js"></script>
+
     <script src="<?php echo $url_host ?>conexion_api/validadores.js"></script>
     <script src="<?php echo $url_host ?>conexion_api/buscador.js"></script>
     <script src="<?php echo $url_host ?>conexion_api/listarInmuebles.js"></script>

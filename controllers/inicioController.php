@@ -1,6 +1,5 @@
 <?php
 
-require_once 'variables/config.php';
 require_once 'modelo_inmueble.php';
 
 

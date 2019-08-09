@@ -32,6 +32,9 @@ body .body {
     padding-bottom: 40px;
 }
 #slide_inicio{
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
     .carousel-inner{
         height: 100vh;
         overflow: hidden;

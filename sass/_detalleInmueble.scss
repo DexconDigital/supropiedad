@@ -1,0 +1,73 @@
+#detalle_inmueble {
+  ul {
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0;
+    li {
+      i {
+        color: $color_principal !important;
+      }
+      .badge-dark {
+        background-color: $color_principal !important;
+      }
+    }
+  }
+  .caracteristicas {
+    .card {
+      margin-top: 1.1rem;
+      border: none;
+      ul {
+        list-style: none;
+        padding: 0;
+        font-size: 1rem;
+      }
+    }
+    .compartir {
+      box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      .fa-facebook-square {
+        color: #3b5998;
+        font-size: 2rem;
+      }
+      .fa-twitter {
+        color: #00acee;
+        font-size: 2rem;
+      }
+      .fa-whatsapp {
+        color: #00bb2d;
+        font-size: 2rem;
+      }
+    }
+  }
+  .form-contact-property {
+    border: none;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  }
+  .form-control {
+    border-radius: 0;
+    height: 47px;
+  }
+  textarea{
+      height: 80px !important;
+  }
+  .title-form {
+    position: relative;
+    margin-bottom: 1.5rem;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 2.5rem;
+      height: 3px;
+      background-color: $color_principal;
+      bottom: -45%;
+    }
+  }
+}
+.btn-primary {
+  background-color: $color_principal;
+  border: none;
+  &:hover {
+    background-color: darken($color_principal, 20%);
+  }
+}

@@ -20,7 +20,7 @@ include 'layout/menu.php';
                             <div class="form-row justify-content-center">
                                 <div class="form-group col-md-4">
                                     <label for="codigo">Código</label>
-                                    <input type="number" class="form-control" id="codigo_buscar" placeholder="Código" disabled>
+                                    <input type="number" class="form-control" id="codigo_buscar" placeholder="Código">
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputPassword4">Ciudad</label>

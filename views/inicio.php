@@ -45,7 +45,7 @@ include 'layout/menu.php';
                             <form action="" class="w-100">
                                 <div class="form-row justify-content-center">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Código" id="codigo_buscar" disabled>
+                                        <input type="text" class="form-control" placeholder="Código" id="codigo_buscar">
                                     </div>
                                     <div class="col">
                                         <select id="ciudad_buscar" class="form-control">
@@ -203,25 +203,19 @@ include 'layout/menu.php';
         <div class="col-12 contador">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
                             <h1 class="counter Starting">967</h1>
                             <p>Propiedades en Venta</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
                             <h1 class="counter Starting">1276</h1>
                             <p>Propiedades en Arriendo</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
-                        <div class="counter-box">
-                            <h1 class="counter Starting">396</h1>
-                            <p>Clientes</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
                             <h1 class="counter Starting">177</h1>
                             <p>Años de Experiencia</p>

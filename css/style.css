@@ -169,7 +169,13 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
     z-index: 20; }
   .propiedades .container-img a {
     text-decoration: none;
-    color: #4d4d4d; }
+    color: #4d4d4d;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; }
     .propiedades .container-img a::hover {
       text-decoration: none;
       color: inherit; }
@@ -339,6 +345,59 @@ footer {
   .redes img:hover {
     width: 45px; }
 
+#detalle_inmueble ul {
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0; }
+  #detalle_inmueble ul li i {
+    color: #944813 !important; }
+  #detalle_inmueble ul li .badge-dark {
+    background-color: #944813 !important; }
+#detalle_inmueble .caracteristicas .card {
+  margin-top: 1.1rem;
+  border: none; }
+  #detalle_inmueble .caracteristicas .card ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem; }
+#detalle_inmueble .caracteristicas .compartir {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); }
+  #detalle_inmueble .caracteristicas .compartir .fa-facebook-square {
+    color: #3b5998;
+    font-size: 2rem; }
+  #detalle_inmueble .caracteristicas .compartir .fa-twitter {
+    color: #00acee;
+    font-size: 2rem; }
+  #detalle_inmueble .caracteristicas .compartir .fa-whatsapp {
+    color: #00bb2d;
+    font-size: 2rem; }
+#detalle_inmueble .form-contact-property {
+  border: none;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); }
+#detalle_inmueble .form-control {
+  border-radius: 0;
+  height: 47px; }
+#detalle_inmueble textarea {
+  height: 80px !important; }
+#detalle_inmueble .title-form {
+  position: relative;
+  margin-bottom: 1.5rem; }
+  #detalle_inmueble .title-form:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 2.5rem;
+    height: 3px;
+    background-color: #944813;
+    bottom: -45%; }
+
+.btn-primary {
+  background-color: #944813;
+  border: none; }
+  .btn-primary:hover {
+    background-color: #3a1c07; }
+
 html, body {
   overflow-x: hidden; }
 
@@ -371,6 +430,8 @@ body .body {
   padding-top: 70px;
   padding-bottom: 40px; }
 
+#slide_inicio .carousel-control-next, #slide_inicio .carousel-control-prev {
+  width: 5%; }
 #slide_inicio .carousel-inner {
   height: 100vh;
   overflow: hidden; }
