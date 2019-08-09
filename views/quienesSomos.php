@@ -15,7 +15,7 @@ include 'layout/menu.php';
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h2 class="mb-4">
-                            Quienes Somos
+                            Quiénes Somos
                         </h2>
                         <p> <?php echo $texto_quienes_somos['parrafos'][0]; ?> </p>
                     </div>
