@@ -8,7 +8,7 @@ $link_facebook = "https://www.facebook.com/Su-Propiedad-Inmobiliaria-26100065402
 $link_instagram = "https://www.instagram.com/supropiedadinmobiliaria/";
 $link_pse = "https://www.pagosvirtualesavvillas.com.co/personal/pagos/9255";
 $logo_pse = "images/logopse.png";
-$link_whatsapp = "";
+$link_whatsapp = "https://api.whatsapp.com/send?phone=573156733000&text=&source=&data=";
 $telefono_fijo = "PBX +57(4) 444 0591";
 
 
@@ -29,7 +29,7 @@ $datos_contacto_sedes = array(
 				'imprimir' => '315 673 33 00'
 		),
 		"fijo" => array(
-			'link' => '+0314440591',
+			'link' => '+0344440591',
 			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "servicioalcliente@supropiedadinmobiliaria.com",
@@ -43,7 +43,7 @@ $datos_contacto_sedes = array(
 			"imprimir" => '316 616 10 76',
 		),
 		"fijo" => array(
-			'link' => '+0314440591',
+			'link' => '+0344440591',
 			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "info@supropiedadinmobiliaria.com",
@@ -102,7 +102,7 @@ $formularios_aseguradoras = [
 		'ruta' => '/Formulario+Persona+Juridica.pdf'
 	],
 	2 => [
-		'nombre' => 'Libertador Persona Juridca Bogotá',
+		'nombre' => 'Libertador Persona Jurídica Bogotá',
 		'ruta' => '/Formulario+Persona+Juridica+Bogota.pdf'
 	],
 	3 =>[
@@ -118,7 +118,7 @@ $formularios_aseguradoras = [
 		'ruta' => '/Instrucciones P Natural.pdf'
 	],
 	6=>[
-		'nombre' => 'Libertador Instructivo Persona Juridica',
+		'nombre' => 'Libertador Instructivo Persona Jurídica',
 		'ruta' => '/Instruccion P Juridica.pdf'
 	],
 	7=>[
@@ -134,7 +134,7 @@ $formularios_aseguradoras = [
 		'ruta' => '/SOLICITUD-DE-ARRENDAMIENTO-PERSONA-NATURAL.pdf'
 	],
 	10 =>[
-		'nombre' => 'FGI Persona Juridica',
+		'nombre' => 'FGI Persona Jurídica',
 		'ruta' => '/SOLICITUD-DE-ARRENDAMIENTO-PERSONA-JURÍDICA.pdf'
 	]
 ];
@@ -221,7 +221,7 @@ $consignar_inmueble = array(
 			4 => "Revisamos que los arrendatarios que vayan a ocupar el inmueble NO tengan antecedentes legales de ninguna índole.",
 		),
 		"asesoria_seguimiento" => array(
-			0 => "ASESORIA Y SEGUIMIENTO",
+			0 => "ASESORÍA Y SEGUIMIENTO",
 			1 => "Asesoría en el precio correcto del inmueble y comparativos.",
 			2 => "Planes de marketing y estrategias para ocupar tu inmueble rápidamente.",
 			3 => "Asesoría jurídica y comercial durante la administración de tu inmueble.",
