@@ -1,15 +1,18 @@
 if(pagina == 'inicio'){
-    $("#imagen_menu").attr("src","images/logoB.png");
+    direccion = URLDOMAIN +'images/logoB.png';
+    $("#imagen_menu").attr("src", direccion);
     var altura = $('#carousel').height() - $('#menu').height();
     $(window).scroll(function() {
         if ($(this).scrollTop() > altura) {
-            $("#imagen_menu").attr("src","images/logo_trazo.png");
+            direccion = URLDOMAIN +'images/logo_trazo.png';
+            $("#imagen_menu").attr("src",direccion);
             $('#menu').removeClass('transparent');
             $('#menu').addClass('fixed-top');
             $('#menu').addClass('bg-light');
             $('#menu').addClass('borde-menu');
         } else {
-            $("#imagen_menu").attr("src","images/logoB.png");
+            direccion = URLDOMAIN +'images/logoB.png';
+            $("#imagen_menu").attr("src",direccion);
             $('#menu').removeClass('bg-light');
             $('#menu').removeClass('borde-menu');
             $('#menu').addClass('transparent');

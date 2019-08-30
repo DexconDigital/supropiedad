@@ -33,25 +33,25 @@ $datos_contacto_sedes = array(
 			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "servicioalcliente@supropiedadinmobiliaria.com",
-		"horario" => "Pendiente"
+		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00"
 	),
 	"medellin_centro" => array(
 		"nombre_sede" => "Sede Medellin Centro",
 		"direccion" => "Calle 52 #49-28 Piso 13 Ed Lonja de Propiedad Raíz",
 		"celular" => array(
-			'link' => '000',
-			"imprimir" => '000',
+			'link' => '+573166161076',
+			"imprimir" => '316 616 10 76',
 		),
 		"fijo" => array(
 			'link' => '+0314440591',
 			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "info@supropiedadinmobiliaria.com",
-		"horario" => "Pendiente"
+		"horario" => "8:00-12:00 2:00- 6:00 PM L-V, S 9:00-12:00"
 	),
 	"bogota_chico" => array(
 		"nombre_sede" => "Sede Bogotá Chico",
-		"direccion" => "Carrera 17 #88-23 Oficina 102 Edif. CEZANNE, Bogotá D.C.",
+		"direccion" => "CARRERA 17 #88-23 EDIFICIO CEZANNE, OFICINA 102, BOGOTÁ",
 		"celular" => array(
 			'link' => '+0573043297400',
 			"imprimir" => '304 329 7400',
@@ -61,7 +61,7 @@ $datos_contacto_sedes = array(
 			'imprimir' => 'PBX +57(1) 232 4524'
 		),
 		"correo" => "servicioalclienteb@supropiedadinmobiliaria.com",
-		"horario" => "Pendiente",
+		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00",
 	)
 );
 
@@ -142,23 +142,11 @@ $formularios_aseguradoras = [
 
 $imagenes_slide_principal = array(
 	0 => [
-		'imagen' => 'https://image.shutterstock.com/z/stock-photo-husband-and-wife-and-their-child-moving-in-new-home-765764875.jpg',
+		'imagen' => 'images/imagenslide.jpeg',
 		'alt' =>''
 	],
 	1 => [
 		'imagen' => 'https://image.shutterstock.com/z/stock-photo-modern-living-room-with-sofa-and-furniture-549055441.jpg',
-		'alt' =>''
-	],
-	2 => [
-		'imagen' => 'https://image.shutterstock.com/z/stock-photo-artist-s-living-room-in-minimal-style-with-artworks-689978848.jpg',
-		'alt' =>''
-	],
-	3 => [
-		'imagen' => 'https://image.shutterstock.com/z/stock-photo-interior-of-white-and-gray-cozy-bedroom-370340261.jpg',
-		'alt' =>''
-	],
-	4 =>[
-		'imagen' => 'https://image.shutterstock.com/z/stock-photo-white-and-brown-modern-kitchen-with-wooden-island-d-rendering-1012939687.jpg',
 		'alt' =>''
 	]
 );

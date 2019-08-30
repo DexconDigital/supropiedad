@@ -1,4 +1,4 @@
-<?php 
+<?php
 require 'controllers/inicioController.php';
 $page = "inicio";
 include 'layout/menu.php';
@@ -6,26 +6,24 @@ include 'layout/menu.php';
 <script>
     var pagina = 'inicio';
 </script>
-
+    
 <section id="carousel">
     <div class="container-fluid">
         <div class="row">
-            <div id="slide_inicio" class="carousel slide" data-ride="carousel">
+            <div id="slide_inicio" class="carousel slide w-100" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <video src="./videos/video1.mov" class="d-block w-100" autoplay muted loop></video>
-                    </div>
-                    <div class="carousel-item">
                         <video src="./videos/video2.mov" class="d-block w-100" autoplay muted loop></video>
                     </div>
                     <?php
-                    for ($i = 0; $i < count($imagenes_slide_principal) - 1; $i++) {
-                        echo ' <div class="carousel-item">
+                    for ($i = 0; $i < count($imagenes_slide_principal); $i++) {
+                        echo ' <div class="carousel-item carousel-imagen-slide-'.$i.'">
                                 <img src="' . $imagenes_slide_principal[$i]['imagen'] . '" class="d-block w-100" alt="...">
                             </div>';
-                    }
+                        }
                     ?>
                 </div>
+
                 <a class="carousel-control-prev" href="#slide_inicio" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -90,7 +88,7 @@ include 'layout/menu.php';
             </div>
             <div class="col-12">
                 <div class="owl-carousel owl-theme" id="owl-propiedades">
-                    <?php inmuebles_destacados($api, $url_host) ;?>
+                    <?php inmuebles_destacados($api, $url_host); ?>
                 </div>
             </div>
         </div>
@@ -205,19 +203,19 @@ include 'layout/menu.php';
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
-                            <h1 class="counter Starting">967</h1>
+                            <h1 class="counter-sale"></h1>
                             <p>Propiedades en Venta</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
-                            <h1 class="counter Starting">1276</h1>
+                            <h1 class="counter-rent"></h1>
                             <p>Propiedades en Arriendo</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
-                            <h1 class="counter Starting">177</h1>
+                            <h1 class="counter-experence"></h1>
                             <p>Años de Experiencia</p>
                         </div>
                     </div>
@@ -248,3 +246,24 @@ include 'layout/menu.php';
         </div>
     </div>
 </section>
+
+<div class="modal fade" id="formularios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Descargar Formularios</h5>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group">
+                    <?php for($i=0; $i < count($formularios_aseguradoras); $i++){
+                        echo '<li class="list-group-item"><a href="formatos/'.$formularios_aseguradoras[$i]['ruta'].'" target="_blank">'.$formularios_aseguradoras[$i]['nombre'].'</a></li>';
+                    }?>
+                    
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -3,7 +3,7 @@
     <div class="row pb-4 pt-1">
         <div class="col-12 col-lg-3">
             <div class="container-img text-center">
-                <img src="<?php echo $url_host.$logo_blanco ?>" alt="" width="200px;">
+                <img src="<?php echo $url_host . $logo_blanco ?>" alt="" width="200px;">
             </div>
             <p class="mt-4"><?php echo $texto_quienes_somos['parrafos'][0] ?></p>
         </div>
@@ -37,9 +37,9 @@
                         </li>
                         <li>
                             <div class="icon-container">
-                                <i class="<?php echo $iconos_contacto['correo'] ?>"></i> 
+                                <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
                             </div>
-                            <a class="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<a href='<?php echo $datos_contacto_sedes['medellin_poblado']['correo'];?>'><?php echo $datos_contacto_sedes['medellin_poblado']['correo'];?></a>" data-html="true">
+                            <a class="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<a href='<?php echo $datos_contacto_sedes['medellin_poblado']['correo']; ?>'><?php echo $datos_contacto_sedes['medellin_poblado']['correo']; ?></a>" data-html="true">
                                 Correo Electronico
                             </a>
                         </li>
@@ -72,9 +72,9 @@
                         </li>
                         <li>
                             <div class="icon-container">
-                                <i class="<?php echo $iconos_contacto['correo'] ?>"></i> 
+                                <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
                             </div>
-                            <a class="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<a href='<?php echo $datos_contacto_sedes['medellin_centro']['correo'];?>'><?php echo $datos_contacto_sedes['medellin_centro']['correo'];?></a>" data-html="true">
+                            <a class="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<a href='<?php echo $datos_contacto_sedes['medellin_centro']['correo']; ?>'><?php echo $datos_contacto_sedes['medellin_centro']['correo']; ?></a>" data-html="true">
                                 Correo Electronico
                             </a>
                         </li>
@@ -107,9 +107,9 @@
                         </li>
                         <li>
                             <div class="icon-container">
-                                <i class="<?php echo $iconos_contacto['correo'] ?>"></i> 
+                                <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
                             </div>
-                            <a class="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<a href='<?php echo $datos_contacto_sedes['bogota_chico']['correo'];?>'><?php echo $datos_contacto_sedes['bogota_chico']['correo'];?></a>" data-html="true">
+                            <a class="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="<a href='<?php echo $datos_contacto_sedes['bogota_chico']['correo']; ?>'><?php echo $datos_contacto_sedes['bogota_chico']['correo']; ?></a>" data-html="true">
                                 Correo Electronico
                             </a>
                         </li>
@@ -127,3 +127,4 @@
         </div>
     </div>
 </div>
+

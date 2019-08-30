@@ -16,9 +16,15 @@ curl_setopt($ch, CURLOPT_USERPWD, $headers);
 $result = curl_exec($ch);
 curl_close($ch);
 $r = json_decode($result, true);
+
+if(isset($r['msn']))
+{
+    echo "<script>alert('No se Encontraron Inmuebles');</script>";
+    die();
+}
+
 $r['ValorVenta'] = number_format($r['ValorVenta']);
 $r['ValorCanon'] = number_format($r['ValorCanon']);
-
 function precio($r){
     if($r['Gestion'] == 'Arriendo'){
         echo '$'.$r['ValorCanon'];

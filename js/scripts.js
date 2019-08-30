@@ -1,5 +1,14 @@
 if(pagina == 'inicio'){
 
+    var randomSlide = Math.floor(Math.random() * 3);
+    var alto_imagen = $('.carousel-imagen-slide-1').height();
+    $('.carousel-inner').height(alto_imagen);
+    
+    jQuery(document).ready(function($) {
+        $('#slide_inicio').carousel(randomSlide);
+        $('#slide_inicio').carousel('next');
+    })
+    
     $('#slide_inicio').carousel({
         interval: 15000
       })
