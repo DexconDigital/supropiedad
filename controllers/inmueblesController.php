@@ -1,6 +1,10 @@
 <?php
 
 require_once 'modelo_inmueble.php';
+require 'vendor/autoload.php';
+require_once 'variables/config.php';
+
+use JasonGrimes\Paginator;
 
 $pag = 1;
 $ciudad = 0;
@@ -63,3 +67,17 @@ function listar_inmuebles($r, $url)
         echo '<h2 class="text-center w-100" >No se encontraron inmuebles</h2>';
     }
 }
+
+$totalinmuebles=0;
+if(is_array($api)){
+    $totalinmuebles = $api['datosGrales']['totalInmuebles'];
+}
+
+$valor_reemplazar = '/pagina/'.$pag.'';
+$url_total = str_ireplace($valor_reemplazar, '', $url_total);
+$totalItems = $totalinmuebles;
+$itemsPerPage = 12;
+$currentPage = $pag;
+$urlPattern = $url_total.'/pagina/(:num)';
+
+$paginator = new Paginator($totalItems, $itemsPerPage, $currentPage, $urlPattern);

@@ -100,25 +100,35 @@ include 'layout/menu.php';
             <div class="col-12 row">
                 <?php listar_inmuebles($api['Inmuebles'], $url_host);?>
             </div>
-            <div class="col-12 text-center">
-            <?php
-                if (is_array($api) && isset($api['datosGrales'])) {
-                    echo '
-                        <nav aria-label="Page navigation example" class="text-center">
-                        <span><small id="numero_pagina"></small></span>
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item">
-                                <a class="page-link" id="ant" onclick="paginador(1)" >Atras</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" id="next" onclick="paginador(2)">Siguiente</a>
-                            </li>
-                        </ul>
-                    </nav>
-                        ';
-                }
-                ?>
-            </div>
+           
+            <div class="col-12 row">
+                    <div class="col-12 text-center">
+                        <?php if (is_array($api)) : ?>
+                            <div class="pagination-box text-center">
+                            <nav aria-label="Page navigation example" class="text-center">
+                                <span><small id="numero_pagina"></small></span>
+                                    <ul class="pagination align-items-end justify-content-center">
+                                        <?php if ($paginator->getPrevUrl()) : ?>
+                                            <li class="page-item"><a href="<?php echo $paginator->getPrevUrl(); ?>" class="page-link">&laquo;</a></li>
+                                        <?php endif; ?>
+                                        <?php foreach ($paginator->getPages() as $page) : ?>
+                                            <?php if ($page['url']) : ?>
+                                                <li <?php echo $page['isCurrent'] ? 'class="page-item active"' : ''; ?>>
+                                                    <a href="<?php echo $page['url']; ?>" class="page-link"><?php echo $page['num']; ?></a>
+                                                </li>
+                                            <?php else : ?>
+                                                <li class="page-item disabled"><span><?php echo $page['num']; ?></span></li>
+                                            <?php endif; ?>
+                                        <?php endforeach; ?>
+                                        <?php if ($paginator->getNextUrl()) : ?>
+                                            <li class="page-item"><a href="<?php echo $paginator->getNextUrl(); ?>" class="page-link"> &raquo;</a></li>
+                                        <?php endif; ?>
+                                    </ul>
+                                </nav>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
         </div>
     </div>
 </section>

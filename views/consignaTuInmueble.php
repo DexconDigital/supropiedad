@@ -107,12 +107,12 @@ $con = $consignar_inmueble;
                         </div>
                         <h5 class="col-12 pb-3">Información del inmueble</h5>
                         <div class="col-6 form-group">
-                            <select name="" id="" class="form-control">
+                            <select name="" id="tipo_gestion_buscar" class="form-control">
                                 <option value="0">Gestión</option>
                             </select>
                         </div>
                         <div class="col-6 form-group">
-                            <select name="" id="" class="form-control">
+                            <select name="" id="tipo_inmueble_buscar" class="form-control">
                                 <option value="0">Tipo Inmueble</option>
                             </select>
                         </div>

@@ -114,3 +114,10 @@
 .page-link{
   color: $color-principal !important;
 }
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #944813;
+  border-color: #944813;
+  color: #fff !important;
+}

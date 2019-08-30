@@ -209,6 +209,13 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
 .page-link {
   color: #944813 !important; }
 
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #944813;
+  border-color: #944813;
+  color: #fff !important; }
+
 #servicios a {
   color: inherit; }
   #servicios a:hover {
