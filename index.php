@@ -51,7 +51,7 @@ require 'variables/variables.php';
             top: 0;
             right: 0;
             left: 0;
-            z-index: 2;
+            z-index: 997;
         }
 
         #wrap-preload>img.gif {
