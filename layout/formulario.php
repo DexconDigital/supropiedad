@@ -19,7 +19,7 @@
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
                 <label class="form-check-label" for="gridCheck">
-                    Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">policita de tratamiento de datos personales</a>
+                    Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
                     de su Propiedad Inmobiliaria SAS
                 </label>
             </div>

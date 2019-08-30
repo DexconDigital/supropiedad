@@ -140,7 +140,7 @@ include 'layout/menu.php';
                         <!-- caracteristicas Basicas -->
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Caracteristicas</h5>
+                                <h5 class="card-title">Características</h5>
                                 <ul>
                                     <?php if (!$r['Administracion'] == 0 || !$r['Administracion'] == '') {
                                         echo '<li><i class="fas fa-check mr-2"></i> Administración: $' . $r['Administracion'] . '</li>';
@@ -160,7 +160,7 @@ include 'layout/menu.php';
                             echo
                                 '<div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Caracteristicas Internas</h5>
+                                    <h5 class="card-title">Características Internas</h5>
                                     <ul>';
                             for ($i = 0; $i < count($r['caracteristicasInternas']); $i++) {
                                 $caracteristicas = ltrim($r['caracteristicasInternas'][$i]['Descripcion']);
@@ -178,7 +178,7 @@ include 'layout/menu.php';
                             echo
                                 '<div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Caracteristicas Externas</h5>
+                                    <h5 class="card-title">Características Externas</h5>
                                     <ul>';
                             for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
                                 $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
@@ -196,7 +196,7 @@ include 'layout/menu.php';
                             echo
                                 '<div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Caracteristicas Alrededores</h5>
+                                    <h5 class="card-title">Características Alrededores</h5>
                                     <ul>';
                             for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
                                 $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
@@ -240,10 +240,10 @@ include 'layout/menu.php';
                                         <input type="text" class="form-control" placeholder="Nombre Completo">
                                     </div>
                                     <div class="form-group col-12">
-                                        <input type="email" class="form-control" placeholder="Correo Electronico">
+                                        <input type="email" class="form-control" placeholder="Correo Electrónico">
                                     </div>
                                     <div class="form-group col-12">
-                                        <input type="number" class="form-control" placeholder="Telefóno">
+                                        <input type="number" class="form-control" placeholder="Teléfono">
                                     </div>
                                     <div class="form-group col-12">
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensajes"></textarea>
@@ -252,7 +252,7 @@ include 'layout/menu.php';
                                         <input type="checkbox" class="form-check-input ml-1" id="exampleCheck1">
                                         <label class="form-check-label ml-4" for="gridCheck">
                                             <small>
-                                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">policita de tratamiento de datos personales</a>
+                                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
                                                 de su Propiedad Inmobiliaria SAS
                                             </small>
                                         </label>

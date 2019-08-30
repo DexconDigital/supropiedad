@@ -22,7 +22,7 @@ $iconos_contacto = array(
 
 $datos_contacto_sedes = array(
 	"medellin_poblado" => array(
-		"nombre_sede" => "Sede Medellin Poblado",
+		"nombre_sede" => "Sede Medellín Poblado",
 		"direccion" => "Carrera 37 #8ª-46 oficina 201 Ed Primavera.",
 		"celular" => array(
 				'link' => '+573156733000',
@@ -36,7 +36,7 @@ $datos_contacto_sedes = array(
 		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00"
 	),
 	"medellin_centro" => array(
-		"nombre_sede" => "Sede Medellin Centro",
+		"nombre_sede" => "Sede Medellín Centro",
 		"direccion" => "Calle 52 #49-28 Piso 13 Ed Lonja de Propiedad Raíz",
 		"celular" => array(
 			'link' => '+573166161076',
@@ -157,13 +157,13 @@ $texto_quienes_somos = array(
 		0 => "Somos una empresa del sector inmobiliario, con una experiencia de más de 18 años en el mercado, lo cual nos permite diferenciarnos en el sector, y  generar una experiencia superior a nuestros clientes.",
 	),
 	"mision" => array(
-		0 => "MISION: Brindar a nuestros Clientes soluciones efectivas dentro del sector, esto de la mano de una asesoría no solo profesional si no humana.",
+		0 => "Brindar a nuestros Clientes soluciones efectivas dentro del sector, esto de la mano de una asesoría no solo profesional si no humana.",
 	),
 	"valores" => array(
-		0 => "Honestidad: Obligación de realizar todos los procesos de una manera transparente y clara para toda la comunidad.",
-		1 => "Calidez: Compromiso de brindar experiencias positivas a todas las personas.",
-		2 => "Respeto: Capacidad para situarse en el lugar del otro.",
-		3 => "Armonía: Crear un ambiente laboral ideal donde todos (clientes y empleados) se sientan a gusto.",
+		0 => "<b>Honestidad:</b> Obligación de realizar todos los procesos de una manera transparente y clara para toda la comunidad.",
+		1 => "<b>Calidez:</b> Compromiso de brindar experiencias positivas a todas las personas.",
+		2 => "<b>Respeto:</b> Capacidad para situarse en el lugar del otro.",
+		3 => "<b>Armonía:</b> Crear un ambiente laboral ideal donde todos (clientes y empleados) se sientan a gusto.",
 	)
 );
 

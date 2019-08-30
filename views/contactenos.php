@@ -15,10 +15,10 @@ include 'layout/menu.php';
         </div>
         <ul class="nav nav-pills mb-3 row w-100 text-center" id="pills-tab" role="tablist">
             <li class="nav-item col-4">
-                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellin Poblado</a>
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín Poblado</a>
             </li>
             <li class="nav-item col-4">
-                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Medellin Centro</a>
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Medellín Centro</a>
             </li>
             <li class="nav-item col-4">
                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá Chico</a>

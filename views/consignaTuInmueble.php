@@ -108,7 +108,7 @@ $con = $consignar_inmueble;
                         <h5 class="col-12 pb-3">Información del inmueble</h5>
                         <div class="col-6 form-group">
                             <select name="" id="" class="form-control">
-                                <option value="0">Gestion</option>
+                                <option value="0">Gestión</option>
                             </select>
                         </div>
                         <div class="col-6 form-group">
@@ -144,7 +144,7 @@ $con = $consignar_inmueble;
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
                                 <label class="form-check-label" for="gridCheck">
-                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host;?>formatos/politica_de_datos.pdf">policita de tratamiento de datos personales</a>
+                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host;?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
                                     de su Propiedad Inmobiliaria SAS
                                 </label>
                             </div>
