@@ -11,7 +11,7 @@ include 'layout/menu.php';
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="mt-4">Busqueda de Inmuebles</h2>
+                <h2 class="mt-4">Búsqueda de Inmuebles</h2>
             </div>
             <div class="col-12">
                 <div class="card bg-grey">
@@ -47,7 +47,7 @@ include 'layout/menu.php';
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4 busqueda_avanzada">
-                                    <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary btn-md btn-block d-flex align-items-center justify-content-center" id="button_avanzada">Busqueda Avanzada</a>
+                                    <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary btn-md btn-block d-flex align-items-center justify-content-center" id="button_avanzada">Búsqueda Avanzada</a>
                                 </div>
                                 <div class="collapse" id="collapseExample">
                                     <label for="inputEmail4">Baños</label>
