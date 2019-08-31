@@ -24,6 +24,16 @@ body .body {
     overflow-x: hidden;
     margin: 0;
 }
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5);
+}
+
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #9448132e;
+}
+
 .bg-grey{
     background: #f9f9f8;
 }

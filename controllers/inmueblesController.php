@@ -53,6 +53,7 @@ curl_setopt($ch, CURLOPT_USERPWD, $headers);
 $result = curl_exec($ch);
 curl_close($ch);
 $api = json_decode($result, true);
+
 if (!is_array($api)) {
     $api=[
         'Inmuebles' => ''
@@ -69,14 +70,14 @@ function listar_inmuebles($r, $url)
 }
 
 $totalinmuebles=0;
-if(is_array($api)){
+if(isset($api['datosGrales'])){
     $totalinmuebles = $api['datosGrales']['totalInmuebles'];
 }
 
 $valor_reemplazar = '/pagina/'.$pag.'';
 $url_total = str_ireplace($valor_reemplazar, '', $url_total);
 $totalItems = $totalinmuebles;
-$itemsPerPage = 12;
+$itemsPerPage = 9;
 $currentPage = $pag;
 $urlPattern = $url_total.'/pagina/(:num)';
 

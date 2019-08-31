@@ -36,7 +36,7 @@
                 </div>
                 <ul class="detalles">
                     <li>
-                        <span>Área</span>'.$api['AreaConstruida'].' m<sup>2<sup/>
+                        <span>Área</span>'.$api['AreaConstruida'].'m<sup>2<sup/>
                     </li>
                     <li>
                         <span>Alcobas</span> '.$api['Alcobas'].'
@@ -95,7 +95,7 @@
                 </div>
                 <ul class="detalles">
                     <li>
-                        <span>Área</span>'.$api['AreaConstruida'].' m<sup>2<sup/>
+                        <span>Área</span>'.$api['AreaConstruida'].'m<sup>2<sup/>
                     </li>
                     <li>
                         <span>Alcobas</span> '.$api['Alcobas'].'
@@ -154,7 +154,7 @@
                 </div>
                 <ul class="detalles row">
                     <li class="col-3 mr-0">
-                        <span>Área</span>'.$api['AreaConstruida'].' m<sup>2<sup/>
+                        <span>Área</span>'.$api['AreaConstruida'].'m<sup>2<sup/>
                     </li>
                     <li class="col-3 mr-0">
                         <span>Alcobas</span> '.$api['Alcobas'].'

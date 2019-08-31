@@ -16,7 +16,7 @@ include 'layout/menu.php';
 
 
 <section id="detalle_inmueble">
-    <div class="container">
+    <div class="container p-0">
         <div class="row pt-3">
             <div class="col-12">
                 <h3 class="mb-4"><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h3>
@@ -145,6 +145,7 @@ include 'layout/menu.php';
                                     <?php if (!$r['Administracion'] == 0 || !$r['Administracion'] == '') {
                                         echo '<li><i class="fas fa-check mr-2"></i> Administración: $' . $r['Administracion'] . '</li>';
                                     }
+                                    echo '<li><i class="fas fa-check mr-2"></i> Codigo: ' . $co . '</li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Área Construida: ' . $r['AreaConstruida'] . 'm<sup>2</sup></li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Área Lote: ' . $r['AreaLote'] . 'm<sup>2</sup></li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Edad del Inmueble: ' . $r['EdadInmueble'] . '</li>';
@@ -228,7 +229,7 @@ include 'layout/menu.php';
                     </div>
                     <!-- fin del script de carousel -->
                 </div>
-                <div class="col-4 row">
+                <div class="col-4 row pr-lg-0">
                     <div class="col-12">
                         <div class="card form-contact-property">
                             <div class="card-body">
