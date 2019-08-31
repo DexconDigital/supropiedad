@@ -145,7 +145,7 @@ include 'layout/menu.php';
                                     <?php if (!$r['Administracion'] == 0 || !$r['Administracion'] == '') {
                                         echo '<li><i class="fas fa-check mr-2"></i> Administración: $' . $r['Administracion'] . '</li>';
                                     }
-                                    echo '<li><i class="fas fa-check mr-2"></i> Codigo: ' . $co . '</li>';
+                                    echo '<li><i class="fas fa-check mr-2"></i> Código: ' . $co . '</li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Área Construida: ' . $r['AreaConstruida'] . 'm<sup>2</sup></li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Área Lote: ' . $r['AreaLote'] . 'm<sup>2</sup></li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Edad del Inmueble: ' . $r['EdadInmueble'] . '</li>';
