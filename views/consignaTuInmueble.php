@@ -1,5 +1,5 @@
 <?php $page = "consigna";
-include 'layout/menu.php';
+include 'layout/menu2.php';
 $con = $consignar_inmueble;
 ?>
 

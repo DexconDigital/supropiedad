@@ -1,5 +1,5 @@
 <?php $page = "contacto";
-include 'layout/menu.php';
+include 'layout/menu2.php';
 ?>
 <script>
     var pagina = 'contacto';

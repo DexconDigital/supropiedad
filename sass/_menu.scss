@@ -9,6 +9,17 @@
     -webkit-box-shadow: 0px 1px 1px 0px $blanco; 
     box-shadow: 0px 1px 1px 0px $blanco;
     color: $blanco !important;
+    li.nav-item.active{
+        position: relative;
+        &:before{
+            position: absolute;
+            height: 2px;
+            background-color: $blanco;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+    }
     a{
         color: $blanco !important;
         font-family: $f-texto;
@@ -22,7 +33,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    & a{
+    a{
         font-family: $f-texto;
         color: $negro !important;
         font-size: 0.9rem !important;
