@@ -37,10 +37,10 @@ include 'layout/menu.php';
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h1 class="text-center">Encuentra tu Inmueble Ideal con Nosotros</h1>
+                            <h1 class="text-center wow bounceInDown" data-wow-Duration = "2s" data-wow-delay = ".5s">Encuentra tu Inmueble Ideal con Nosotros</h1>
                         </div>
                         <div class="col-12">
-                            <form action="" class="w-100">
+                            <form action="" class="w-100 wow bounceInUp" data-wow-Duration = "2s" data-wow-delay = ".5s">
                                 <div class="form-row justify-content-center">
                                     <div class="col">
                                         <input type="text" class="form-control" placeholder="Código" id="codigo_buscar">
@@ -87,7 +87,7 @@ include 'layout/menu.php';
                 <h2 class="text-center">Propiedades Destacadas</h2>
             </div>
             <div class="col-12">
-                <div class="owl-carousel owl-theme" id="owl-propiedades">
+                <div class="owl-carousel owl-theme wow flipInX" data-wow-Duration="2s" id="owl-propiedades">
                     <?php inmuebles_destacados($api, $url_host); ?>
                 </div>
             </div>
@@ -102,17 +102,17 @@ include 'layout/menu.php';
         </div>
         <div class="col-12 row justify-content-center">
             <div class="col-4">
-                <div class="card text-center" style="">
+                <div class="card text-center wow slideInLeft" style="">
                     <div class="container-icon">
                         <i class="<?php echo $iconos_servicios['arriendos'] ?>"></i>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body ">
                         <h3 class="card-title">Arriendos</h3>
                     </div>
                 </div>
             </div>
             <div class="col-4">
-                <div class="card text-center" style="">
+                <div class="card text-center wow slideInDown" style="">
                     <div class="container-icon">
                         <i class="<?php echo $iconos_servicios['ventas'] ?>"></i>
                     </div>
@@ -122,7 +122,7 @@ include 'layout/menu.php';
                 </div>
             </div>
             <div class="col-4">
-                <div class="card text-center" style="">
+                <div class="card text-center wow slideInRight" style="">
                     <div class="container-icon">
                         <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
                     </div>
@@ -146,7 +146,7 @@ include 'layout/menu.php';
             <div class="col-12 row">
                 <div class="col-3">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=2" target="_blank">
-                        <div class="card text-center" style="">
+                        <div class="card text-center wow zoomInLeft" data-wow-Duration="2s" style="">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['arredatarios'] ?>"></i>
                             </div>
@@ -158,7 +158,7 @@ include 'layout/menu.php';
                 </div>
                 <div class="col-3">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=1" target="_blank">
-                        <div class="card text-center" style="">
+                        <div class="card text-center wow zoomInUp" data-wow-Duration="2s" style="">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['propietarios'] ?>"></i>
                             </div>
@@ -170,7 +170,7 @@ include 'layout/menu.php';
                 </div>
                 <div class="col-3">
                     <a href="<?php echo $link_pse ?>" target="_blank">
-                        <div class="card text-center" style="">
+                        <div class="card text-center wow zoomInDown" data-wow-Duration="2s" style="">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['pse'] ?>"></i>
                             </div>
@@ -181,7 +181,7 @@ include 'layout/menu.php';
                     </a>
                 </div>
                 <div class="col-3">
-                    <a type="button" data-toggle="modal" data-target="#formularios">
+                    <a type="button" class="wow zoomInRight" data-wow-Duration="2s" data-toggle="modal" data-target="#formularios">
                         <div class="card text-center" style="">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
@@ -198,7 +198,7 @@ include 'layout/menu.php';
 
 <section class="separador" id="contador">
     <div class="row">
-        <div class="col-12 contador">
+        <div class="col-12 contador wow slideInRight">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6">
@@ -208,7 +208,7 @@ include 'layout/menu.php';
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="counter-box">
+                        <div class="counter-box ">
                             <h1 class="counter-rent"></h1>
                             <p>Propiedades en Arriendo</p>
                         </div>
@@ -231,7 +231,7 @@ include 'layout/menu.php';
             <div class="col-12">
                 <h2>Nuestros Aliados</h2>
             </div>
-            <div class="col-12">
+            <div class="col-12 wow slideInLeft">
                 <div class="owl-carousel owl-theme" id="owl_aliados">
                     <?php
                     for ($i = 1; $i < count($aliados); $i++) {

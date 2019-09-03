@@ -22,6 +22,11 @@ require 'variables/variables.php';
     <link rel="stylesheet" href="<?php echo $url_host ?>css/owl.carousel.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/owl.theme.default.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/style.css">
+    <link rel="stylesheet" href="<?php echo $url_host ?>css/animate.css">
+    <script src="<?php echo $url_host ?>js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
 </head>
 
