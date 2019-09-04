@@ -7,29 +7,46 @@ $con = $consignar_inmueble;
     var pagina = 'consignar';
 </script>
 
-<section id="consigna" class="separador">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 bg-grey">
-                <h2 class="pt-2 mb-4">Consigna tu Inmueble</h2>
+<div id="consigna" class="separador">
+    <!-- Consigna tu Inmueble -->
+    <section class="consignar-inmueble">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-grey">
+                    <h2 class="pt-2 mb-4">Consigna tu Inmueble</h2>
+                </div>
+                <div class="col-12">
+                    <p><?php echo $con['parrafos'][0]; ?></p>
+                    <p><?php echo $con['parrafos'][1]; ?></p>
+                </div>
             </div>
-            <div class="col-12">
-                <p><?php echo $con['parrafos'][0]; ?></p>
-                <p><?php echo $con['parrafos'][1]; ?></p>
-            </div>
-            <div class="col-12 bg-grey">
-                <h2 class="mt-4 mb-4"><?php echo $con['oferta'][0]; ?></h2>
-            </div>
-            <div class="col-12">
-                <h3 class="bg-grey"><?php echo $con['oferta']['pagos'][0]; ?></h3>
-                <ul>
-                    <?php for ($i = 1; $i < count($con['oferta']['pagos']); $i++) {
-                        echo '
+        </div>
+    </section>
+    
+    <!-- oferta inmobiliara -->
+    <section class="oferta bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-grey">
+                    <h2 class="mt-4 mb-4"><?php echo $con['oferta'][0]; ?></h2>
+                </div>
+                <div class="col-12">
+                    <h3 class="bg-grey"><?php echo $con['oferta']['pagos'][0]; ?></h3>
+                    <ul>
+                        <?php for ($i = 1; $i < count($con['oferta']['pagos']); $i++) {
+                            echo '
                             <li>' . $con['oferta']['pagos'][$i] . '</li>
                         ';
-                    }; ?>
-                </ul>
+                        }; ?>
+                    </ul>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+
             <div class="col-12">
                 <h3 class="bg-grey"><?php echo $con['oferta']['seguridad_respaldo'][0]; ?></h3>
                 <ul>
@@ -144,7 +161,7 @@ $con = $consignar_inmueble;
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
                                 <label class="form-check-label" for="gridCheck">
-                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host;?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
+                                    Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
                                     de su Propiedad Inmobiliaria SAS
                                 </label>
                             </div>
@@ -159,4 +176,4 @@ $con = $consignar_inmueble;
             </div>
         </div>
     </div>
-</section>
+    </section>

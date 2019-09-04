@@ -107,7 +107,7 @@ require 'variables/variables.php';
     </div>
 
     <script src="<?php echo $url_host ?>js/jquery.min.js"></script>
-    <script src="<?php echo $url_host ?>js/countUp.js"  ></script>
+    <script src="<?php echo $url_host ?>js/countUp.min.js"  ></script>
     <script src="<?php echo $url_host ?>js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo $url_host ?>js/owl.carousel.min.js"></script>
     <script src="<?php echo $url_host ?>conexion_api/token_api.js"></script>

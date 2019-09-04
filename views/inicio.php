@@ -203,7 +203,7 @@ include 'layout/menu.php';
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
-                            <h1 id="counter-sale" data-count=""></h1>
+                            <h1 id="counter-sale"></h1>
                             <p>Propiedades en Venta</p>
                         </div>
                     </div>

@@ -11,11 +11,11 @@ include 'layout/menu2.php';
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="mt-4">Búsqueda de Inmuebles</h2>
+                <h2 class="mt-4 wow bounceInDown">Búsqueda de Inmuebles</h2>
             </div>
             <div class="col-12">
-                <div class="card bg-grey">
-                    <div class="card-body">
+                <div class="card bg-grey wow rubberBand">
+                    <div class="card-body ">
                         <form action="">
                             <div class="form-row justify-content-center">
                                 <div class="form-group col-md-4">
@@ -91,7 +91,7 @@ include 'layout/menu2.php';
     </div>
 </section>
 
-<section id="inmuebles" class="propiedades bg-grey separador">
+<section id="inmuebles" class="propiedades bg-grey separador wow fadeIn" data-wow-delay="2s">
     <div class="container">
         <div class="row">
             <div class="col-12">

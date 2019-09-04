@@ -12,6 +12,9 @@ setTimeout(() => {
       
       let contador = new CountUp("counter-experence",0,total,0,5);
       //  Hacer efecto segun la posicion del scroll
+      var ubicacion = $("body").offset().top;
+
+      console.log(ubicacion + 'hp');
        $(window).scroll(function (event) {
          var ubicacion = $("#contador").offset().top;
            var scroll = $(window).scrollTop();

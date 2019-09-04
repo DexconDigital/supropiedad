@@ -1,0 +1,18 @@
+#quienesSomos{
+    .container-img{
+        overflow: hidden;
+        img{
+            transition: all .5s ease-in;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .mision{
+        background-color: $negro;
+        color: #fff !important;
+        h2{
+            color: #fff;
+        }
+    }
+}

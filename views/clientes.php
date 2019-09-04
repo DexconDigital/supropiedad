@@ -12,7 +12,7 @@ include 'layout/menu2.php';
                 <h2>Clientes</h2>
             </div>
             <div class="col-12 row">
-                <div class="col-3">
+                <div class="col-3 wow slideInLeft">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=2" target="_blank">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -24,7 +24,7 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-3 wow slideInDown">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=1" target="_blank">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -36,7 +36,7 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-3 wow slideInUp">
                     <a href="<?php echo $link_pse ?>" target="_blank">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -48,7 +48,7 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-3 wow slideInRight">
                     <a type="button" data-toggle="modal" data-target="#formularios">
                         <div class="card text-center" style="">
                             <div class="container-icon">

@@ -144,10 +144,6 @@ $imagenes_slide_principal = array(
 	0 => [
 		'imagen' => 'images/imagenslide.jpeg',
 		'alt' =>''
-	],
-	1 => [
-		'imagen' => 'https://image.shutterstock.com/z/stock-photo-modern-living-room-with-sofa-and-furniture-549055441.jpg',
-		'alt' =>''
 	]
 );
 
@@ -196,7 +192,19 @@ $texto_servicios = array(
 		2 => "Aprobación de estudio de arrendamiento en menos de 8 horas* (Aplica términos y condiciones)",
 		3 => "Proceso de arrendamiento fácil, rápido y seguro.",
 		4 => "Garantía durante todo el contrato de arrendamiento o proceso de venta"
-	)
+	),
+	'iconos' =>[
+		1 => "far fa-handshake",
+		2 => "fas fa-file-signature",
+		3 => "fas fa-project-diagram",
+		4 => "fas fa-certificate" 
+	],
+	'animacion' => [
+		1 => 'slideInLeft',
+		2 => 'slideInDown',
+		3 => 'slideInUp',
+		4 => 'slideInRight'
+	]
 );
 
 $consignar_inmueble = array(
