@@ -8,25 +8,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto d-flex  align-items-center">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="<?php echo $url_host?>inicio">INICIO</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if($page == 'quienesSomos'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>quienesSomos">QUIÉNES SOMOS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if($page == 'servicios'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>servicios">SERVICIOS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if($page == 'inmuebles'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>inmuebles">INMUEBLES</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if($page == 'clientes'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>clientes">CLIENTES</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if($page == 'consigna'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>consignaTuInmueble">CONSIGNA TU INMUEBLE</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if($page == 'contacto'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>contactenos">CONTÁCTANOS</a>
                 </li>
                 <li class="nav-item">

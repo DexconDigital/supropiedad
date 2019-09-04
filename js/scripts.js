@@ -1,8 +1,8 @@
 if(pagina == 'inicio'){
     
     $(window).resize(function(){ location.reload(); });
-    var randomSlide = Math.floor(Math.random() * 3);
-    var alto_imagen = $('.carousel-imagen-slide-1').height();
+    var randomSlide = Math.floor(Math.random() * 2);
+    var alto_imagen = $('.carousel-imagen-slide-0').height();
 
     $('.carousel-inner').height(alto_imagen);
     

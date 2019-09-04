@@ -442,7 +442,7 @@ body {
   padding: 0;
   margin: 0; }
 
-section h2 {
+section h2, section h3 {
   font-family: "Century Gothic";
   font-weight: 800;
   color: #944813;
@@ -529,7 +529,29 @@ iframe {
   margin-bottom: 1em; }
 
 #consigna h3 {
-  padding: 0.5em 0; }
+  padding: 0.5em 0;
+  color: #944813; }
+#consigna .frase_consigna {
+  background-image: url(../images/banner_consigna.jpg);
+  padding: 60px 0 20px;
+  z-index: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff; }
+  #consigna .frase_consigna:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); }
+#consigna ul {
+  list-style: none; }
+#consigna .fa-check {
+  color: #944813; }
 
 #quienesSomos .container-img {
   overflow: hidden; }

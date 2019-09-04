@@ -50,7 +50,7 @@ include 'layout/menu2.php';
             <div class="row wow bounceInRight separador">
                 <div class="col-6">
                     <div class="container-img">
-                        <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
+                        <img src="<?php echo $url_host; ?>images/manos.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-6 d-flex align-items-center wow flipInX">
