@@ -18,7 +18,7 @@ include 'layout/menu2.php';
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['arredatarios'] ?>"></i>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body pl-0 pr-0">
                                 <h3 class="card-title">Arrendatarios</h3>
                             </div>
                         </div>
