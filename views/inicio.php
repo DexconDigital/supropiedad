@@ -92,13 +92,13 @@ include 'layout/menu.php';
     </div>
 </section>
 
-<section class="separador bg-grey" id="servicios">
+<section class="separador" id="servicios">
     <div class="container">
         <div class="col-12">
             <h2 class="text-center">Nuestros Servicios</h2>
         </div>
         <div class="col-12 row justify-content-center">
-            <div class="col-4">
+            <div class="col-3">
                 <div class="card text-center wow slideInLeft" style="">
                     <div class="container-icon">
                         <i class="<?php echo $iconos_servicios['arriendos'] ?>"></i>
@@ -108,7 +108,7 @@ include 'layout/menu.php';
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <div class="card text-center wow slideInDown" style="">
                     <div class="container-icon">
                         <i class="<?php echo $iconos_servicios['ventas'] ?>"></i>
@@ -118,13 +118,23 @@ include 'layout/menu.php';
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <div class="card text-center wow slideInRight" style="">
                     <div class="container-icon">
                         <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Avalúos</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center wow slideInRight" style="">
+                    <div class="container-icon">
+                        <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Publica tu Inmueble</h3>
                     </div>
                 </div>
             </div>
