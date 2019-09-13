@@ -1,7 +1,7 @@
 if(pagina == 'inicio'){
     direccion = URLDOMAIN +'images/logoB.png';
     $("#imagen_menu").attr("src", direccion);
-    var altura = $('#carousel').height() - $('#menu').height();
+    var altura = 100;
     $(window).scroll(function() {
         if ($(this).scrollTop() > altura) {
             direccion = URLDOMAIN +'images/logo_trazo.png';

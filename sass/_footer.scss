@@ -2,9 +2,13 @@ footer{
     font-family: $f-texto;
     font-size: 13px;
     padding-top:50px;
-    background-color: $negro;
-    color: $gris;
+    background-color: #565656;
+    color: $blanco;
+    font-weight: 500;
     box-sizing: content-box;
+    h6{
+        font-weight: 600;
+    }
     a{
         color:inherit;
     }a:hover{

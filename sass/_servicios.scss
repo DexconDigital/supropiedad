@@ -6,9 +6,14 @@
         }
     }
     .card{
-        box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
         transition: all 400ms ease-in-out;
         min-height: 9rem;
+        border: 1px solid $blanco;
+        background-color: transparent;
+        color: #fff;
+        .color-blanco{
+            color: #fff !important;
+        }
         &:hover{
             transform: scale(1.1);
         }
@@ -81,5 +86,52 @@
         &:hover{
             color:$color_principal;
         }
+    }
+}
+
+.frase_servicios{
+        background-image: url(../images/banner-1.jpg);
+        padding: 60px 0 20px;
+        z-index: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: #fff;
+        &:before{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.808);
+        }
+}
+
+#clientes{
+    a{
+        color:inherit;
+        &:hover{
+            text-decoration: none; 
+        }
+    }
+    .card{
+        transition: all 400ms ease-in-out;
+        min-height: 9rem;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .container-icon{
+        color: $color_principal;
+        padding: 20px;
+        padding-bottom: 15px;
+        i{
+            font-size: 70px;
+        }
+    }
+    h3{
+        font-family: $f-texto;
     }
 }

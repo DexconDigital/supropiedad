@@ -1,7 +1,11 @@
 #consigna{
+    input, select, .btn{
+        border-radius: 0;
+    }
     h3{
         padding: 0.5em 0;
         color: $color_principal;
+        margin-bottom: 8px !important;
     }
     .frase_consigna{
         background-image: url(../images/banner_consigna.jpg);
@@ -27,5 +31,23 @@
     }
     .fa-check{
         color: $color_principal;
+    }
+    .form-control{
+        height: calc(1.5em + .75rem + 2px) !important;
+    }
+    .btn{
+        height: auto !important;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #495057;
+        background-color: #fff;
+        border: none;
+        border-bottom: 3px solid $color_principal;
+    }
+    .nav-tabs {
+        border: none;
+    }
+    .nav-link {
+        color: inherit !important;
     }
 }

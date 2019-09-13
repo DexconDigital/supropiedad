@@ -9,6 +9,9 @@
     -webkit-box-shadow: 0px 1px 1px 0px $blanco; 
     box-shadow: 0px 1px 1px 0px $blanco;
     color: $blanco !important;
+    .navbar-brand{
+        background-color: $color_principal;
+    }
     a{
         color: $blanco !important;
         font-family: $f-texto;

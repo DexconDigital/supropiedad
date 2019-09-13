@@ -57,8 +57,8 @@ $datos_contacto_sedes = array(
 			"imprimir" => '304 329 7400',
 		),
 		"fijo" => array(
-			'link' => '+0312324524',
-			'imprimir' => 'PBX +57(1) 232 4524'
+			'link' => '+0313106106',
+			'imprimir' => 'PBX +57(1) 3106106'
 		),
 		"correo" => "servicioalclienteb@supropiedadinmobiliaria.com",
 		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00",
@@ -183,8 +183,7 @@ $imagenes_slide_quienes_somos = array(
 
 $texto_servicios = array(
 	"parrafos" => array(
-		0 => "Su Propiedad Inmobiliaria tiene experiencia en el mercado inmobiliaria por más de 18 años, lo cual nos permite brindar siempre el mejor servicio y tener un amplia y variada oferta de inmuebles las ciudades Medellín (Área Metropolitana )  y Bogotá DC.",
-		1 => "En Su Propiedad Inmobiliaria encontraras la propiedad que estás buscando para arriendo o venta con tan solo un click",
+		0 => "¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos."
 	),
 	"lista" => array(
 		0 => "¿QUÉ TE OFRECEMOS?",
@@ -255,7 +254,7 @@ $consignar_inmueble = array(
 			),
 		),
 		"titulo_formulario" => array(
-			0 => "Consigna AQUÍ tu propiedad para arriendo o venta. ¡Un Asesor se contactará contigo lo más posible!",
+			0 => "Es completamente GRATIS",
 		),
 		"mensaje_confirmatorio_envio_consignar_inmueble" => array(
 			0 => "¡Hola! ¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos.",

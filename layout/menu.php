@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light
-    <?php if($page != 'inicio'){echo 'bg-light borde-menu';}else{echo'transparent fixed-top';}?>" id="menu">
-        <a class="navbar-brand" href="<?php echo $url_host ?>">
+    <?php if($page != 'inicio'){echo 'bg-light borde-menu';}else{echo'transparent fixed-top';}?> pt-0" id="menu">
+        <a class="navbar-brand pt-0" href="<?php echo $url_host ?>">
             <img id="imagen_menu" src="images/logoB.png" alt="" width="200px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
                     <a class="nav-link" href="<?php echo $url_host?>clientes">CLIENTES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url_host?>consignaTuInmueble">CONSIGNA TU INMUEBLE</a>
+                    <a class="nav-link" href="<?php echo $url_host?>publicaTuInmueble">PUBLICA TU INMUEBLE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $url_host?>contactenos">CONTÁCTANOS</a>

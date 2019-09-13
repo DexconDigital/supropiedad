@@ -6,7 +6,7 @@ include 'layout/menu.php';
 <script>
     var pagina = 'inicio';
 </script>
-    
+
 <section id="carousel">
     <div class="container-fluid">
         <div class="row">
@@ -17,10 +17,10 @@ include 'layout/menu.php';
                     </div>
                     <?php
                     for ($i = 0; $i < count($imagenes_slide_principal); $i++) {
-                        echo ' <div class="carousel-item carousel-imagen-slide-'.$i.'">
+                        echo ' <div class="carousel-item carousel-imagen-slide-' . $i . '">
                                 <img src="' . $imagenes_slide_principal[$i]['imagen'] . '" class="d-block w-100" alt="...">
                             </div>';
-                        }
+                    }
                     ?>
                 </div>
 
@@ -35,17 +35,14 @@ include 'layout/menu.php';
             </div>
             <div class="overlay">
                 <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-12">
-                            <h1 class="text-center wow bounceInDown" data-wow-Duration = "2s" data-wow-delay = ".5s">Encuentra tu Inmueble Ideal con Nosotros</h1>
+                            <h1 class="text-center wow bounceInDown" data-wow-Duration="2s" data-wow-delay=".5s">Encuentra tu Inmueble Ideal con Nosotros</h1>
                         </div>
-                        <div class="col-12">
-                            <form action="" class="w-100 wow bounceInUp" data-wow-Duration = "2s" data-wow-delay = ".5s">
+                        <div class="col-9">
+                            <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Código" id="codigo_buscar">
-                                    </div>
-                                    <div class="col">
+                                    <div class="col pl-4 ml-4">
                                         <select id="ciudad_buscar" class="form-control">
                                             <option selected value="0">Ciudad</option>
                                         </select>
@@ -60,15 +57,15 @@ include 'layout/menu.php';
                                             <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
-                                    <div class="col">
+                                    <div class="col pr-4 mr-4 input-group">
                                         <select id="tipo_gestion_buscar" class="form-control">
                                             <option selected value='0'>Gestión</option>
                                         </select>
-                                    </div>
-                                    <div class="col">
+                                        <div class="input-group-append">
                                         <button type="button" class="btn btn-primary btn-lg btn-block" id="buscar">
-                                            <i class="fas fa-search mr-2"></i>Buscar
+                                            <i class="fas fa-search"></i>
                                         </button>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
@@ -80,11 +77,11 @@ include 'layout/menu.php';
     </div>
 </section>
 
-<section class="propiedades separador" id="destacadas">
+<section class="propiedades separador mt-4 pt-0" id="destacadas">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center">Propiedades Destacadas</h2>
+                <h2 class="text-center mb-4">Propiedades Destacadas</h2>
             </div>
             <div class="col-12">
                 <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
@@ -255,10 +252,10 @@ include 'layout/menu.php';
             </div>
             <div class="modal-body">
                 <ul class="list-group">
-                    <?php for($i=0; $i < count($formularios_aseguradoras); $i++){
-                        echo '<li class="list-group-item"><a href="formatos/'.$formularios_aseguradoras[$i]['ruta'].'" target="_blank">'.$formularios_aseguradoras[$i]['nombre'].'</a></li>';
-                    }?>
-                    
+                    <?php for ($i = 0; $i < count($formularios_aseguradoras); $i++) {
+                        echo '<li class="list-group-item"><a href="formatos/' . $formularios_aseguradoras[$i]['ruta'] . '" target="_blank">' . $formularios_aseguradoras[$i]['nombre'] . '</a></li>';
+                    } ?>
+
                 </ul>
             </div>
             <div class="modal-footer">

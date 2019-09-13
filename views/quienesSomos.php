@@ -26,7 +26,7 @@ include 'layout/menu2.php';
         </div>
     </section>
     
-    <section class="mision">
+    <section class="">
         <div class="container">
             <div class="row wow bounceInLeft separador" data-wow-delay="2s">
                 <div class="col-6 d-flex align-items-center wow flipInX" data-wow-delay="2.2s">

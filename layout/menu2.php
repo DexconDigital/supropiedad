@@ -24,7 +24,7 @@
                     <a class="nav-link" href="<?php echo $url_host?>clientes">CLIENTES</a>
                 </li>
                 <li class="nav-item <?php if($page == 'consigna'){echo'active';}?>">
-                    <a class="nav-link" href="<?php echo $url_host?>consignaTuInmueble">CONSIGNA TU INMUEBLE</a>
+                    <a class="nav-link" href="<?php echo $url_host?>publicaTuInmueble">PUBLICA TU INMUEBLE</a>
                 </li>
                 <li class="nav-item <?php if($page == 'contacto'){echo'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>contactenos">CONTÁCTANOS</a>

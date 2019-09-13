@@ -15,17 +15,17 @@ include 'layout/menu2.php';
         </div>
         <ul class="nav nav-pills mb-3 row w-100 text-center" id="pills-tab" role="tablist">
             <li class="nav-item col-4">
-                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín Poblado</a>
+                <a class="nav-link active" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá Chico</a>
+            </li>
+            <li class="nav-item col-4">
+                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín Poblado</a>
             </li>
             <li class="nav-item col-4">
                 <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Medellín Centro</a>
             </li>
-            <li class="nav-item col-4">
-                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá Chico</a>
-            </li>
         </ul>
         <div class="tab-content row" id="pills-tabContent">
-            <div class="tab-pane fade show active w-100" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="tab-pane fade  w-100" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="container-fluid">
                     <div class="row caracteristicas">
                         <div class="col-12 row">
@@ -185,7 +185,7 @@ include 'layout/menu2.php';
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                 <div class="container-fluid">
                     <div class="row caracteristicas">
                         <div class="col-12 row">
