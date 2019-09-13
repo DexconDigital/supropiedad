@@ -7,6 +7,10 @@ include 'layout/menu.php';
     var pagina = 'inicio';
 </script>
 
+<style>
+    
+</style>
+
 <section id="carousel">
     <div class="container-fluid">
         <div class="row">
@@ -62,9 +66,9 @@ include 'layout/menu.php';
                                             <option selected value='0'>Gestión</option>
                                         </select>
                                         <div class="input-group-append">
-                                        <button type="button" class="btn btn-primary btn-lg btn-block" id="buscar">
-                                            <i class="fas fa-search"></i>
-                                        </button>
+                                            <button type="button" class="btn btn-primary btn-lg btn-block" id="buscar">
+                                                <i class="fas fa-search"></i>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -79,13 +83,15 @@ include 'layout/menu.php';
 
 <section class="propiedades separador mt-4 pt-0" id="destacadas">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h2 class="text-center mb-4">Propiedades Destacadas</h2>
             </div>
-            <div class="col-12">
-                <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
-                    <?php inmuebles_destacados($api, $url_host); ?>
+            <div class="col-11">
+                <div style="position:relative;">
+                    <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
+                        <?php inmuebles_destacados($api, $url_host); ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,12 +136,14 @@ include 'layout/menu.php';
             </div>
             <div class="col-3">
                 <div class="card text-center wow slideInRight" style="">
-                    <div class="container-icon">
-                        <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Publica tu Inmueble</h3>
-                    </div>
+                    <a href="<?php echo $url_host ?>publicaTuInmueble">
+                        <div class="container-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Publica tu Inmueble</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -203,8 +211,15 @@ include 'layout/menu.php';
         </div>
 </section>
 
+
+
 <section class="separador" id="contador">
     <div class="row">
+        <div class="col-12">
+            <h2 class="text-center mb-2 pt-2">
+                SU PROPIEDAD INMOBILIARIA EN CIFRAS
+            </h2>
+        </div>
         <div class="col-12 contador">
             <div class="container">
                 <div class="row">

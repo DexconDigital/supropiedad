@@ -36,16 +36,16 @@
                 </div>
                 <ul class="detalles">
                     <li>
-                        <span>Área</span>'.$api['AreaConstruida'].'m<sup>2<sup/>
+                        <i class="fas fa-ruler-combined mr-2"></i>'.$api['AreaConstruida'].'m<sup>2<sup/>
                     </li>
                     <li>
-                        <span>Alcobas</span> '.$api['Alcobas'].'
+                        <i class="fas fa-bed mr-2"></i> '.$api['Alcobas'].'
                     </li>
                     <li>
-                        <span>Baños</span> '.$api['banios'].'
+                        <i class="fas fa-bath mr-2"></i>'.$api['banios'].'
                     </li>
                     <li>
-                        <span>Garaje</span> '.$api['garaje'].'
+                        <i class="fas fa-car mr-2"></i>'.$api['garaje'].'
                     </li>
                 </ul>
                 <div class="footer">
@@ -94,19 +94,19 @@
                     </span>
                 </div>
                 <ul class="detalles">
-                    <li>
-                        <span>Área</span>'.$api['AreaConstruida'].'m<sup>2<sup/>
-                    </li>
-                    <li>
-                        <span>Alcobas</span> '.$api['Alcobas'].'
-                    </li>
-                    <li>
-                        <span>Baños</span> '.$api['banios'].'
-                    </li>
-                    <li>
-                        <span>Garaje</span> '.$api['garaje'].'
-                    </li>
-                </ul>
+                <li>
+                    <i class="fas fa-ruler-combined mr-2"></i>'.$api['AreaConstruida'].'m<sup>2<sup/>
+                </li>
+                <li>
+                    <i class="fas fa-bed mr-2"></i> '.$api['Alcobas'].'
+                </li>
+                <li>
+                    <i class="fas fa-bath mr-2"></i>'.$api['banios'].'
+                </li>
+                <li>
+                    <i class="fas fa-car mr-2"></i>'.$api['garaje'].'
+                </li>
+            </ul>
                 <div class="footer">
                     <a href="#">
                         Código: '.$codigo.'
@@ -152,18 +152,18 @@
                         '.$api['Barrio'].', '.$api['Ciudad'].'
                     </span>
                 </div>
-                <ul class="detalles row">
-                    <li class="col-3 mr-0">
-                        <span>Área</span>'.$api['AreaConstruida'].'m<sup>2<sup/>
+                <ul class="detalles">
+                    <li>
+                        <i class="fas fa-ruler-combined mr-2"></i>'.$api['AreaConstruida'].'m<sup>2<sup/>
                     </li>
-                    <li class="col-3 mr-0">
-                        <span>Alcobas</span> '.$api['Alcobas'].'
+                    <li>
+                        <i class="fas fa-bed mr-2"></i> '.$api['Alcobas'].'
                     </li>
-                    <li class="col-3 mr-0">
-                        <span>Baños</span> '.$api['banios'].'
+                    <li>
+                        <i class="fas fa-bath mr-2"></i>'.$api['banios'].'
                     </li>
-                    <li class="col-3 mr-0">
-                        <span>Garaje</span> '.$api['garaje'].'
+                    <li>
+                        <i class="fas fa-car mr-2"></i>'.$api['garaje'].'
                     </li>
                 </ul>
                 <div class="footer">

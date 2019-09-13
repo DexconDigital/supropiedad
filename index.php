@@ -17,7 +17,6 @@ require 'variables/variables.php';
     <meta property="og:description"   content="Mira este increible Inmueble" />
     <meta property="og:image"         content="<?php echo $url_host;?>logo_trazo.png"/>
     <link rel="shortcut icon" href="<?php echo $url_host ?>favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="<?php echo $url_host ?>css/bootstrap.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/all.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/owl.carousel.min.css" class="css">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/owl.theme.default.min.css" class="css">

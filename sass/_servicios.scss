@@ -9,8 +9,8 @@
         transition: all 400ms ease-in-out;
         min-height: 9rem;
         border: 2px solid $color_principal;
-        background-color: transparent;
         color: #fff;
+        height: 210px;
         .color-blanco{
             color: #fff !important;
         }
@@ -46,7 +46,7 @@
 #contador{
     .contador{
         padding: 60px 0 20px;
-        background: url(../images/imagen-contador.jpg);
+        // background: url(../images/imagen-contador.jpg);
         z-index: 0;
         background-position: center center;
         background-repeat: no-repeat;
@@ -55,7 +55,7 @@
     .counter-box{
         margin-bottom: 40px;
         text-align: center;
-        color: $blanco;
+        color: $color_principal;
         i{
             font-size: 45px;
             line-height: inherit;
