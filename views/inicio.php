@@ -8,7 +8,7 @@ include 'layout/menu.php';
 </script>
 
 <style>
-    
+
 </style>
 
 <section id="carousel">
@@ -47,22 +47,22 @@ include 'layout/menu.php';
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
                                     <div class="col pl-4 ml-4">
-                                        <select id="ciudad_buscar" class="form-control">
+                                        <select id="ciudad_buscar" class="form-control rounded-0">
                                             <option selected value="0">Ciudad</option>
                                         </select>
                                     </div>
                                     <div class="col">
-                                        <select id="barrio_buscar" class="form-control">
+                                        <select id="barrio_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Barrio</option>
                                         </select>
                                     </div>
                                     <div class="col">
-                                        <select id="tipo_inmueble_buscar" class="form-control">
+                                        <select id="tipo_inmueble_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
                                     <div class="col pr-4 mr-4 input-group">
-                                        <select id="tipo_gestion_buscar" class="form-control">
+                                        <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Gestión</option>
                                         </select>
                                         <div class="input-group-append">
@@ -106,32 +106,38 @@ include 'layout/menu.php';
         <div class="col-12 row justify-content-center">
             <div class="col-3">
                 <div class="card text-center wow slideInLeft" style="">
-                    <div class="container-icon">
-                        <i class="<?php echo $iconos_servicios['arriendos'] ?>"></i>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Arriendos</h3>
-                    </div>
+                    <a href="<?php echo $url_host ?>servicios">
+                        <div class="container-icon">
+                            <i class="<?php echo $iconos_servicios['arriendos'] ?>"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Arriendos</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card text-center wow slideInDown" style="">
-                    <div class="container-icon">
-                        <i class="<?php echo $iconos_servicios['ventas'] ?>"></i>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Ventas</h3>
-                    </div>
+                    <a href="<?php echo $url_host ?>servicios">
+                        <div class="container-icon">
+                            <i class="<?php echo $iconos_servicios['ventas'] ?>"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Ventas</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-3">
                 <div class="card text-center wow slideInRight" style="">
-                    <div class="container-icon">
-                        <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Avalúos</h3>
-                    </div>
+                    <a href="<?php echo $url_host ?>servicios">
+                        <div class="container-icon">
+                            <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Avalúos</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col-3">
@@ -226,19 +232,19 @@ include 'layout/menu.php';
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
                             <h1 id="counter-sale"></h1>
-                            <p>Propiedades en Venta</p>
+                            <p class="text-center">Propiedades en Venta</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box ">
                             <h1 id="counter-rent"></h1>
-                            <p>Propiedades en Arriendo</p>
+                            <p class="text-center">Propiedades en Arriendo</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="counter-box">
                             <h1 id="counter-experence"></h1>
-                            <p>Años de Experiencia</p>
+                            <p class="text-center">Años de Experiencia</p>
                         </div>
                     </div>
                 </div>
@@ -249,11 +255,11 @@ include 'layout/menu.php';
 
 <section class="separador" id="aliados">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
+        <div class="row justify-content-center">
+            <div class="col-10">
                 <h2>Nuestros Aliados</h2>
             </div>
-            <div class="col-12 wow slideInLeft">
+            <div class="col-11 wow slideInLeft">
                 <div class="owl-carousel owl-theme" id="owl_aliados">
                     <?php
                     for ($i = 1; $i < count($aliados); $i++) {

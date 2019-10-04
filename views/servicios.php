@@ -22,11 +22,11 @@ include 'layout/menu2.php';
     </div>
 </section>
 
-<section class="frase_servicios separador" id="servicios">
+<section class="separador" id="servicios">
         <div class="container-fluid">
             <div class="row">
             <div class="col-12 wow zoomInUp" data-wow-delay=".7s" data-wow-duration="2s">
-                <h2 style="color:#fff !important;"><?php echo $texto_servicios['lista'][0] ?></h2>
+                <h2><?php echo $texto_servicios['lista'][0] ?></h2>
             </div>
             <div class="col-12">
                 <div class="card-deck">
@@ -34,7 +34,7 @@ include 'layout/menu2.php';
                         echo '
                         <div class="card wow '.$texto_servicios['animacion'][$i].'">
                             <div class="container-icon text-center">
-                                <i class="'.$texto_servicios['iconos'][$i].' color-blanco"></i>
+                                <i class="'.$texto_servicios['iconos'][$i].'"></i>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">'.$texto_servicios['lista'][$i].'</p>

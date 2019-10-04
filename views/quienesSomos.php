@@ -1,4 +1,5 @@
 <?php $page = "quienesSomos";
+require 'variables/asesores.php';
 include 'layout/menu2.php';
 ?>
 <script>
@@ -10,14 +11,14 @@ include 'layout/menu2.php';
         <div class="container">
             <div class="row">
                 <div class="col-6 wow slideInLeft" data-wow-delay="1s">
-                    <div class="container-img text-center ">
-                        <img src="<?php echo $url_host; ?>images/Logo2.jpg" alt="" style="width:80%">
+                    <div class="container-img text-center mt-4">
+                        <img src="<?php echo $url_host; ?>images/SEDE MEDELLIN.jpg" alt="" style="width:80%">
                     </div>
                 </div>
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h2 class="mb-4 wow bounceInDown" data-wow-delay="1s">
-                            Quiénes Somos
+                            Somos
                         </h2>
                         <p class="wow bounceInUp" data-wow-delay="1s"> <?php echo $texto_quienes_somos['parrafos'][0]; ?> </p>
                     </div>
@@ -25,7 +26,106 @@ include 'layout/menu2.php';
             </div>
         </div>
     </section>
-    
+
+    <section class="separador" id="aliados">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2 class="mb-0 pb-0">Nuestros Aliados</h2>
+                </div>
+                <div class="col-11 wow slideInLeft">
+                    <div class="owl-carousel owl-theme" id="owl_aliados">
+                        <?php
+                        for ($i = 1; $i < count($aliados); $i++) {
+                            echo '
+                        <div class="item">
+                            <img src="' . $url_host . $aliados[$i] . '" alt="">
+                        </div>    
+                        ';
+                        }; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Nuestro Equipo de trabajo</h2>
+                </div>
+                <div class="col-12">
+                    <!-- Bogota Medellin  -->
+                    <ul class="nav nav-pills mb-3 row justify-content-center w-100 text-center" id="pills-tab" role="tablist">
+                        <!-- Bogota  -->
+                        <li class="nav-item col-3">
+                            <a class="nav-link active rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá</a>
+                        </li>
+                        <!-- Medellin  -->
+                        <li class="nav-item col-3">
+                            <a class="nav-link rounded-0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content row w-100" id="pills-tabContent">
+                        <!-- Contenido Bogota -->
+                        <div class="tab-pane fade show active w-100" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="container">
+                                <div class="row w-100 justify-content-center">
+                                    <?php
+                                    for ($i = 0; $i < count($asesores); $i++) {
+                                        if ($asesores[$i]['sede'] == 0 ||$asesores[$i]['sede'] == 2) {
+                                            echo '<div class="col-3">
+                                                    <img src="' . $url_host . '' . $asesores[$i]['rutaImagen'] . '" alt="" class="img-fluid">
+                                                </div>';
+                                        }
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contenido Medellin -->
+                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="container">
+                                <div class="row w-100 justify-content-center">
+                                    <?php
+                                    for ($i = 0; $i < count($asesores); $i++) {
+                                        if ($asesores[$i]['sede'] == 1 || $asesores[$i]['sede'] == 2) {
+                                            echo '<div class="col-3 mt-4">
+                                                    <img  src="' . $url_host . '' . $asesores[$i]['rutaImagen'] . '" alt="" class="img-fluid">
+                                                </div>';
+                                        }
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="row wow bounceInLeft separador" data-wow-delay="2s">
+                <div class="col-6">
+                    <div class="container-img">
+                        <img src="<?php echo $url_host; ?>images/Experiencia.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-6 d-flex align-items-center wow flipInX" data-wow-delay="2.2s">
+                    <div class="text-center w-100">
+                        <h2 class="mb-4">
+                            Experiencia
+                        </h2>
+                        <p class="text-center">Experiencia informacion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="">
         <div class="container">
             <div class="row wow bounceInLeft separador" data-wow-delay="2s">
@@ -45,6 +145,7 @@ include 'layout/menu2.php';
             </div>
         </div>
     </section>
+
     <section class="vision">
         <div class="container">
             <div class="row wow bounceInRight separador">
@@ -70,4 +171,5 @@ include 'layout/menu2.php';
             </div>
         </div>
     </section>
+
 </div>

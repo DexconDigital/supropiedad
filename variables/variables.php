@@ -26,7 +26,7 @@ $datos_contacto_sedes = array(
 		"direccion" => "Carrera 37 #8ª-46 oficina 201 Ed Primavera.",
 		"celular" => array(
 				'link' => '+573156733000',
-				'imprimir' => '315 673 33 00'
+				'imprimir' => '315 673 30 00'
 		),
 		"fijo" => array(
 			'link' => '+0344440591',
@@ -142,7 +142,7 @@ $formularios_aseguradoras = [
 
 $imagenes_slide_principal = array(
 	0 => [
-		'imagen' => 'images/imagenslide.jpeg',
+		'imagen' => 'images/imagenslide.png',
 		'alt' =>''
 	]
 );
@@ -150,7 +150,7 @@ $imagenes_slide_principal = array(
 
 $texto_quienes_somos = array(
 	"parrafos" => array(
-		0 => "Somos una empresa del sector inmobiliario, con una experiencia de más de 18 años en el mercado, lo cual nos permite diferenciarnos en el sector, y  generar una experiencia superior a nuestros clientes.",
+		0 => "Empresa del sector inmobiliario, con una experiencia de más de 18 años en el mercado, lo cual nos permite diferenciarnos en el sector, y  generar una experiencia superior a nuestros clientes.",
 	),
 	"mision" => array(
 		0 => "Brindar a nuestros Clientes soluciones efectivas dentro del sector, esto de la mano de una asesoría no solo profesional si no humana.",
@@ -183,7 +183,7 @@ $imagenes_slide_quienes_somos = array(
 
 $texto_servicios = array(
 	"parrafos" => array(
-		0 => "¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos."
+		0 => " ¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años."
 	),
 	"lista" => array(
 		0 => "¿QUÉ TE OFRECEMOS?",

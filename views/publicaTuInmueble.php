@@ -12,7 +12,7 @@ $con = $consignar_inmueble;
         <div class="container">
             <div class="row">
                 <div class="col-12 wow fadeIn">
-                    <h2 class="pt-2 mb-4">Publica Tu inmueble</h2>
+                    <h1 class="pt-2 mb-4 text-center">Publica Tu inmueble</h1>
                 </div>
                 <div class="col-12 wow fadeIn">
                     <p><?php echo $con['parrafos'][0]; ?></p>
@@ -31,7 +31,7 @@ $con = $consignar_inmueble;
                         <h3 class="text-center mb-4 mt-4"><?php echo $con['oferta']['titulo_formulario'][0]; ?></h3>
                     </div>
                     <div class="col-6">
-                        <img src="<?php echo $url_host ?>images/no_image.png" alt="">
+                        <img src="<?php echo $url_host ?>images/SEDE MEDELLIN 2.JPG" alt="" class="img-fluid">
                     </div>
                     <div class="col-6 d-flex align-items-center">
                         <div>
@@ -145,13 +145,11 @@ $con = $consignar_inmueble;
                             cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las
                             ciudades Medellín y Bogotá. En nuestras sucursales contamos con nuestros mejores aliados para
                             realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y
-                            garantías. Agregar foto. La idea es poner texto en un lado y foto al otro lado. Que se va
-                            intercalando con la otra info que va con fotos, es decir que no quede el texto todo en un lado y
-                            las fotos al otro lado. Seria intercalado a medida que se va dando la información.</p>
+                            garantías.</p>
                     </div>
                 </div>
                 <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
+                    <img src="<?php echo $url_host; ?>images/Experiencia.jpeg" alt="" class="img-fluid">
                 </div>
             </div>
             <!-- bloque -->
@@ -162,9 +160,9 @@ $con = $consignar_inmueble;
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h3 class="">FOTOGRAFIA CON CAMARAS Y LENTES PROFESIONALES</h3>
-                        <p>Todos los inmuebles consigandos a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro Broker
+                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro Broker
                             Inmobiliario y se tomarán fotografías de alta calidad, con cámaras y lentes profesionales.
-                            Sabemos la importancia de mostrar cada de datalle al momento de ofrecerlos para venta/arriendo.
+                            Sabemos la importancia de mostrar cada de detalle al momento de ofrecerlos para venta/arriendo.
                         </p>
                     </div>
                 </div>
@@ -196,7 +194,7 @@ $con = $consignar_inmueble;
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
+                    <img src="<?php echo $url_host; ?>images/personalizado.jpeg" alt="" class="img-fluid">
                 </div>
                 <div class="col-6 d-flex align-items-center">
                     <div>
@@ -215,17 +213,17 @@ $con = $consignar_inmueble;
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h3 class="">ASESORÍA Y SEGUIMIENTO</h3>
-                        <p>Te asignamos un Broker Inmobiliario encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalemente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
+                        <p>Te asignamos un Broker Inmobiliario encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalmente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
                     </div>
                 </div>
                 <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
+                    <img src="<?php echo $url_host; ?>images/asesoriayseguimiento.jpeg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Frase del inmueble -->
+    <!-- Frase del inmueble
     <section class="frase_consigna">
         <div class="container">
             <div class="row">
@@ -235,15 +233,120 @@ $con = $consignar_inmueble;
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- otros servicios -->
-    <section class="pt-4">
+    <section class="pt-4" id="otros-servicios">
         <div class="container">
-            <div class="row">
+            <div class="row ">
                 <div class="col-12">
-                    <h2 class="mb-4 mt-4">NUESTROS MEJORES PRECIOS Y BENEFICIOS</h2>
+                    <h1 class="mb-4 mt-4 pb-2 text-center">NUESTROS MEJORES PRECIOS Y BENEFICIOS</h1>
                 </div>
+                <div class="col-12">
+                    <h2 class="mb-4 mt-4">Arriendo</h2>
+                </div>
+                <!-- administración  -->
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="mt-4 mb-4 text-center">Administración</h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="card-body pl-0">
+                                <ul class="pl-0">
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>PRECIO UNICO mensual del 10% más IVA de comisión INCLUIDO el Seguro/Fianza de Arrendamiento.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Realizamos estudios de crédito al arrendatario con respuesta en menos de 4-8 horas en promedio.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Garantizamos el pago ANTICIPADO (5 primeros días hábiles de cada mes) de tu canon de arrendamiento por medio de transferencia electrónica, esté o no en mora el arrendatario.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Tenemos la opción de ADELANTAR los primeros 3 meses de arriendo. *Aplica términos y condiciones.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Contamos con el respaldo de empresas ASEGURADORAS/AFIANZADORAS durante toda la vigencia del contrato.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt   -1 mr-2"></i>
+                                        <p>Ofrecemos el servicio de pago de la administración de la copropiedad de tu inmueble (Si aplica).</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- corretajae  -->
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="mt-4 mb-4 text-center">Corretaje</h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="card-body pl-0">
+                                <ul class="pl-0">
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Administras tu arriendo directamente, y SU PROPIEDAD INMOBILIARIA te consigue el cliente.
+                                            Precio correspondiente a un (1) Canon de arrendamiento Más IVA.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Hacemos los trámites de estudio de papeles de los futuros arrendatarios ante la Aseguradora/ Afianzadora.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p> Realizamos un detallado inventario INICIAL fotográfico y escrito del inmueble. </p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Realizamos contrato de arrendamiento y ofrecemos también acompañamiento de trámite ante notaria para la firma. </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h2 class="mb-4 mt-4">Ventas</h2>
+                </div>
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <div class="card-body pl-0">
+                                <ul class="pl-0">
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Comisión de 3% más IVA para inmuebles ubicados en las ciudades principales.
+                                            Comisión de 5% más IVA para inmuebles ubicados por fuera de las ciudades principales. </p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Asesoría jurídica</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Realizamos contrato de Promesa de venta</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Nos encargamos de hacer todos los trámites requeridos y necesarios.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- </div>
                 <div class="col-6">
                     <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
                 </div>
@@ -256,7 +359,7 @@ $con = $consignar_inmueble;
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h3 class="">EFECTIVIDAD</h3>
-                        <p>Realizamos estudios de crédito al arrendatario con respuesta en menos de 4-8 horas en promedio.</p>
+                        
                     </div>
                 </div>
                 <div class="col-6">
@@ -344,7 +447,7 @@ $con = $consignar_inmueble;
                         <p>Realizamos contrato de Promesa de venta</p>
                         <p>Nos encargamos de hacer todos los trámites requeridos y necesarios.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

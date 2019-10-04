@@ -47,7 +47,7 @@ footer{
         box-sizing: border-box;
     }
     h6{
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
     h6::after{
         position: absolute;
@@ -55,7 +55,7 @@ footer{
         width: 50px;
         height: 5px;
         background-color: $gris;
-        bottom: -200%;
+        bottom: -80%;
         left: 0;
     }
     .row.borde a{

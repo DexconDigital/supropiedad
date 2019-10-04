@@ -26,11 +26,7 @@ require 'variables/variables.php';
     <script>
         new WOW().init();
     </script>
-    
-</head>
-
-<body>
-<style>
+    <style>
         #wrap-preload {
             position: fixed;
             z-index: 10;
@@ -65,7 +61,11 @@ require 'variables/variables.php';
             transform: translate3d(-50%, -50%, 0);
             z-index: 1032;
         }
-    </style>
+    </style>  
+</head>
+
+<body>
+
     <div id="wrap-preload">
         <img src="<?php echo $url_host ?>images/preloader.gif" alt="gif" class="gif" id="gif">
     </div>

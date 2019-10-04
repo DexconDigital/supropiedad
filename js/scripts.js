@@ -1,6 +1,5 @@
 if(pagina == 'inicio'){
-    
-    $(window).resize(function(){ location.reload(); });
+        
     var randomSlide = Math.floor(Math.random() * 2);
     var alto_imagen = $('.carousel-imagen-slide-0').height() - 70;
 
@@ -15,28 +14,7 @@ if(pagina == 'inicio'){
         interval: 15000
       })
 
-    $('#owl_aliados').owlCarousel({
-        loop: true,
-        margin: 10,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout: 1000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            600: {
-                items: 3,
-                nav: false
-            },
-            1000: {
-                items: 4,
-                nav: false,
-            }
-        }
-    })
+    
     // owl segun cantidad de inmuebles 
     if(cantidad_inmuebles == 1){
         $('#owl-propiedades').owlCarousel({
@@ -60,7 +38,7 @@ if(pagina == 'inicio'){
         $('#owl-propiedades').owlCarousel({
             loop:true,
             margin:10,
-            nav:false,
+            nav:true,
             dots: true,
             responsive:{
                 0:{
@@ -79,7 +57,7 @@ if(pagina == 'inicio'){
             loop:true,
             margin:10,
             nav:true,
-            dots: false,
+            dots: true,
             navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
             responsive:{
                 0:{
@@ -95,3 +73,26 @@ if(pagina == 'inicio'){
         })
     }    
 }
+
+$('#owl_aliados').owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 3,
+            nav: false
+        },
+        1000: {
+            items: 4,
+            nav: false,
+        }
+    }
+})
