@@ -134,3 +134,11 @@
         font-family: $f-texto;
     }
 }
+
+.asesores-contain{
+    .card-title{
+        color: $color_principal;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}

@@ -102,6 +102,7 @@ require 'variables/variables.php';
             <li><a href="<?php echo $link_facebook; ?>" target="blank"><img src="<?php echo $url_host ?>images/facebook.jpg" alt=""></a></li>
             <li><a href="<?php echo $link_instagram; ?>" target="blank"><img src="<?php echo $url_host ?>images/instagram.png" alt=""></a></li>
             <li><a href="<?php echo $link_whatsapp; ?>" target="blank"><img src="<?php echo $url_host ?>images/whatsapp2.png" alt=""></a></li>
+            <li><a href="<?php echo $link_youtube; ?>" target="blank"><img src="<?php echo $url_host ?>images/youtube.jpg" alt=""></a></li>
         </ul>
     </div>
 

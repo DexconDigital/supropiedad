@@ -6,6 +6,7 @@ $logo_blanco = "images/logoB.png";
 $logo_vertical = "Logo2.jpg";
 $link_facebook = "https://www.facebook.com/Su-Propiedad-Inmobiliaria-261000654021571/";
 $link_instagram = "https://www.instagram.com/supropiedadinmobiliaria/";
+$link_youtube ="https://www.youtube.com/channel/UCcnQAfZgx5f7B5A1v6IcAYA";
 $link_pse = "https://www.pagosvirtualesavvillas.com.co/personal/pagos/9255";
 $logo_pse = "images/logopse.png";
 $link_whatsapp = "https://api.whatsapp.com/send?phone=573156733000&text=&source=&data=";

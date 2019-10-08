@@ -59,17 +59,38 @@ include 'layout/menu2.php';
                     <!-- Bogota Medellin  -->
                     <ul class="nav nav-pills mb-3 row justify-content-center w-100 text-center" id="pills-tab" role="tablist">
                         <!-- Bogota  -->
-                        <li class="nav-item col-3">
-                            <a class="nav-link active rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá</a>
-                        </li>
                         <!-- Medellin  -->
                         <li class="nav-item col-3">
-                            <a class="nav-link rounded-0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín</a>
+                            <a class="nav-link active rounded-0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link  rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá</a>
                         </li>
                     </ul>
                     <div class="tab-content row w-100" id="pills-tabContent">
+                        <!-- Contenido Medellin -->
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="container">
+                                <div class="row w-100 justify-content-center asesores-contain">
+                                    <?php
+                                    for ($i = 0; $i < count($asesores); $i++) {
+                                        if ($asesores[$i]['sede'] == 1 || $asesores[$i]['sede'] == 2) {
+                                            echo '<div class="col-3 mt-4">
+                                                <div class="container-img">
+                                                    <img  src="' . $url_host . '' . $asesores[$i]['rutaImagen'] . '" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="card-body pt-1">
+                                                    <div class="card-title text-center">'.$asesores[$i]['nombre'].'</div>
+                                                </div>
+                                                </div>';
+                                        }
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Contenido Bogota -->
-                        <div class="tab-pane fade show active w-100" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="tab-pane fade  w-100" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                             <div class="container">
                                 <div class="row w-100 justify-content-center">
                                     <?php
@@ -84,22 +105,7 @@ include 'layout/menu2.php';
                                 </div>
                             </div>
                         </div>
-                        <!-- Contenido Medellin -->
-                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <div class="container">
-                                <div class="row w-100 justify-content-center">
-                                    <?php
-                                    for ($i = 0; $i < count($asesores); $i++) {
-                                        if ($asesores[$i]['sede'] == 1 || $asesores[$i]['sede'] == 2) {
-                                            echo '<div class="col-3 mt-4">
-                                                    <img  src="' . $url_host . '' . $asesores[$i]['rutaImagen'] . '" alt="" class="img-fluid">
-                                                </div>';
-                                        }
-                                    }
-                                    ?>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
