@@ -92,13 +92,18 @@ include 'layout/menu2.php';
                         <!-- Contenido Bogota -->
                         <div class="tab-pane fade  w-100" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                             <div class="container">
-                                <div class="row w-100 justify-content-center">
+                                <div class="row w-100 justify-content-center asesores-contain">
                                     <?php
                                     for ($i = 0; $i < count($asesores); $i++) {
                                         if ($asesores[$i]['sede'] == 0 ||$asesores[$i]['sede'] == 2) {
-                                            echo '<div class="col-3">
+                                            echo '<div class="col-3 mt-4">
+												<div class="container-img">
                                                     <img src="' . $url_host . '' . $asesores[$i]['rutaImagen'] . '" alt="" class="img-fluid">
-                                                </div>';
+                                                </div>
+												<div class="card-body pt-1">
+                                                    <div class="card-title text-center">'.$asesores[$i]['nombre'].'</div>
+                                                </div>
+												</div>';
                                         }
                                     }
                                     ?>
