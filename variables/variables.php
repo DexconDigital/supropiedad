@@ -58,7 +58,7 @@ $datos_contacto_sedes = array(
 		),
 		"fijo" => array(
 			'link' => '+0313106106',
-			'imprimir' => 'PBX +57(1) 3106106'
+			'imprimir' => 'PBX +57(1) 3 106 106'
 		),
 		"correo" => "servicioalclienteb@supropiedadinmobiliaria.com",
 		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00",
