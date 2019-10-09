@@ -247,7 +247,7 @@ include 'layout/menu2.php';
                                         <input type="number" class="form-control" placeholder="Teléfono">
                                     </div>
                                     <div class="form-group col-12">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensajes"></textarea>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
                                     </div>
                                     <div class="form-group form-check col-12">
                                         <input type="checkbox" class="form-check-input ml-1" id="exampleCheck1">

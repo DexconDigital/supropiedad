@@ -34,7 +34,7 @@ $datos_contacto_sedes = array(
 			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "servicioalcliente@supropiedadinmobiliaria.com",
-		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00"
+		"horario" => "L-V 8:00 a.m. - 12:30 p.m. y 2:00 p.m. - 5:30 p.m. <br> S 9:00 a.m. - 12:00 m."
 	),
 	"medellin_centro" => array(
 		"nombre_sede" => "Sede Medellín Centro",
@@ -48,7 +48,7 @@ $datos_contacto_sedes = array(
 			'imprimir' => 'PBX +57(4) 444 0591',
 		),
 		"correo" => "info@supropiedadinmobiliaria.com",
-		"horario" => "8:00-12:00 2:00- 6:00 PM L-V, S 9:00-12:00"
+		"horario" => "L-V 8:00 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m. <br> S 9:00 a.m - 12:00 m."
 	),
 	"bogota_chico" => array(
 		"nombre_sede" => "Sede Bogotá Chico",
@@ -62,7 +62,7 @@ $datos_contacto_sedes = array(
 			'imprimir' => 'PBX +57(1) 3 106 106'
 		),
 		"correo" => "servicioalclienteb@supropiedadinmobiliaria.com",
-		"horario" => "8:00-12:30 2:00- 5:30 PM L-V, S 9:00-12:00",
+		"horario" => " L-V 8:00 a.m. - 12:30 p.m. y 2:00 p.m. - 5:30 p.m. <br> S 9:00 a.m. - 12:00 m.",
 	)
 );
 

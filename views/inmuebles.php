@@ -74,7 +74,7 @@ include 'layout/menu2.php';
                                 </div>
                                 <div class="collapse" id="collapseExample">
                                     <div class="container">
-                                        <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary btn-md btn-block d-flex align-items-center justify-content-center" id="button_avanzada_2">Cerrar Busqueda Avanzada</a>
+                                        <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary btn-md btn-block d-flex align-items-center justify-content-center" id="button_avanzada_2">Cerrar Búsqueda Avanzada</a>
                                     </div>
                                 </div>
                                 <div class="col-5 text-center">

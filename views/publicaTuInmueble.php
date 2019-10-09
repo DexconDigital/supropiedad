@@ -160,7 +160,7 @@ $con = $consignar_inmueble;
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h3 class="">FOTOGRAFIA CON CAMARAS Y LENTES PROFESIONALES</h3>
-                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro Broker
+                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro Bróker
                             Inmobiliario y se tomarán fotografías de alta calidad, con cámaras y lentes profesionales.
                             Sabemos la importancia de mostrar cada de detalle al momento de ofrecerlos para venta/arriendo.
                         </p>
@@ -213,7 +213,7 @@ $con = $consignar_inmueble;
                 <div class="col-6 d-flex align-items-center">
                     <div>
                         <h3 class="">ASESORÍA Y SEGUIMIENTO</h3>
-                        <p>Te asignamos un Broker Inmobiliario encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalmente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
+                        <p>Te asignamos un Bróker Inmobiliario encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalmente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
                     </div>
                 </div>
                 <div class="col-6">

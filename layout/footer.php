@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-12 col-lg-8 row">
                     <div class="col-12">
-                        <h4 class="text-center mb-4 mt-4">Medellin</h4>
+                        <h4 class="text-center mb-4 mt-4">Medellín</h4>
                     </div>
                     <div class="col-6">
                         <h6>Poblado</h6>

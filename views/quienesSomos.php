@@ -27,28 +27,6 @@ include 'layout/menu2.php';
         </div>
     </section>
 
-    <section class="separador" id="aliados">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-10">
-                    <h2 class="mb-0 pb-0">Nuestros Aliados</h2>
-                </div>
-                <div class="col-11 wow slideInLeft">
-                    <div class="owl-carousel owl-theme" id="owl_aliados">
-                        <?php
-                        for ($i = 1; $i < count($aliados); $i++) {
-                            echo '
-                        <div class="item">
-                            <img src="' . $url_host . $aliados[$i] . '" alt="">
-                        </div>    
-                        ';
-                        }; ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="contacto">
         <div class="container">
             <div class="row">
@@ -117,20 +95,22 @@ include 'layout/menu2.php';
         </div>
     </section>
 
-    <section class="">
+    <section class="separador" id="aliados">
         <div class="container">
-            <div class="row wow bounceInLeft separador" data-wow-delay="2s">
-                <div class="col-6">
-                    <div class="container-img">
-                        <img src="<?php echo $url_host; ?>images/Experiencia.png" alt="" class="w-100">
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2 class="mb-0 pb-0">Nuestros Aliados</h2>
                 </div>
-                <div class="col-6 d-flex align-items-center wow flipInX" data-wow-delay="2.2s">
-                    <div class="text-center w-100">
-                        <h2 class="mb-4">
-                            Experiencia
-                        </h2>
-                        <p class="text-center">Experiencia informacion.</p>
+                <div class="col-11 wow slideInLeft">
+                    <div class="owl-carousel owl-theme" id="owl_aliados">
+                        <?php
+                        for ($i = 1; $i < count($aliados); $i++) {
+                            echo '
+                        <div class="item">
+                            <img src="' . $url_host . $aliados[$i] . '" alt="">
+                        </div>    
+                        ';
+                        }; ?>
                     </div>
                 </div>
             </div>
