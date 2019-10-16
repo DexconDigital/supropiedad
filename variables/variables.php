@@ -73,7 +73,11 @@ $aliados = array(
 	4 => "images/ciencuadras.png",
 	5 => "images/libertador.png",
 	6 => "images/Fenalco.png",
-	7 => "images/Properati.png",
+	7 => "images/fenalco-atlantico-procredito.jpg",
+	8 => "images/Properati.png",
+	9 => "images/",
+	
+
 );
 
 
