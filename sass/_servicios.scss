@@ -142,3 +142,26 @@
         font-weight: 700;
     }
 }
+
+#servi_ar_ven_ava{
+    .imagen{
+        width: 100%;height: 100%;
+    }
+    .titulos{
+        margin-bottom: 24px;margin-top: 9%;
+    }
+    .fas{
+        color: #c87a33;
+    }
+    .enlace{
+        color: #c87a33; font-weight: 800;
+        text-transform: uppercase; 
+        text-decoration: none;
+    }
+    .sub_tit{
+        color: #c87a33;
+    }
+    .stylo_p{
+        margin-top: 10%;
+    }
+}
