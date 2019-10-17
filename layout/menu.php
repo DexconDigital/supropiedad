@@ -10,7 +10,7 @@
             <ul class="navbar-nav ml-auto d-flex  align-items-center">
                 <li class="nav-item <?php if($page ='inicio'){echo 'active';}?>">
                     <a class="nav-link" href="<?php echo $url_host?>inicio">INICIO</a>
-                </li>
+                </li> 
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $url_host?>quienesSomos">QUIÉNES SOMOS</a>
                 </li>
@@ -25,6 +25,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $url_host?>publicaTuInmueble">PUBLICA TU INMUEBLE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_host?>publicaTuInmueble">TRABAJA CON NOSOTROS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $url_host?>contactenos">CONTÁCTANOS</a>

@@ -150,6 +150,7 @@
     .titulos{
         margin-bottom: 24px;margin-top: 9%;
     }
+    
     .fas{
         color: #c87a33;
     }
@@ -164,4 +165,21 @@
     .stylo_p{
         margin-top: 10%;
     }
+    .collapsed .fas:before {
+        content: "\f078";
+        
+    }
+    .btn-primary:active{
+        color: #fff;
+    background-color: #77481e;
+    border-color: #77481e;
+    }
+    .btn-primary:active:focus{
+        box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5);
+    }
+    .titulo_trabaja{
+        margin-bottom: 0px;
+    }
+
+    
 }

@@ -25,7 +25,7 @@
   &:focus,
   &.focus {
     outline: 0;
-    box-shadow: $btn-focus-box-shadow;
+    box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5);
   }
 
   // Disabled comes first so active can properly restyle
@@ -37,10 +37,10 @@
 
   &:not(:disabled):not(.disabled):active,
   &:not(:disabled):not(.disabled).active {
-    @include box-shadow($btn-active-box-shadow);
+    
 
     &:focus {
-      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+      box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5);
     }
   }
 }

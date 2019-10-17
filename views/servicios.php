@@ -22,50 +22,40 @@ include 'layout/menu2.php';
     </div>
 </section>
 
-<style>
-    .accordion .card-header:after{
-        content: "\f068";
-        float: right;
-    }
 
-    .accordion .card-header:after .collapsed:after{
-        content: "\f067";
-        
-    }
 
-</style>
 
 <section id="servi_ar_ven_ava" class=" wow bounceInLeft " data-wow-delay=".7s" data-wow-duration="2s">
     <div class="container">
-        <div class="col-12 ">
+        <div class="col-12">
             <div class="row">
-                <div class="col-4 ">
+                <div class="col-4">
                     <h2>Arriendo</h2>
                     <p>
-                        <button class="btn btn-primary col-12" type="button" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
-                          QUIERO ARRENDAR MI PROPIEDAD ▼
+                        <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
+                            <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO ARRENDAR MI PROPIEDAD
                         </button>
-                        
+
                     </p>
                 </div>
-                <div class="col-4 ">
+                <div class="col-4">
                     <h2>Venta</h2>
                     <p>
-                        <button class="btn btn-primary col-12" type="button" data-toggle="collapse" data-target="#tres" aria-expanded="false" aria-controls="collapseExample">
-                            QUIERO VENDER ▼
+                        <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
+                            <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO VENDER
                         </button>
                     </p>
                 </div>
-                <div class="col-4 ">
+                <div class="col-4">
                     <h2>Avalúos</h2>
                     <p>
-                        <button class="btn btn-primary col-12" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
-                            QUIERO AVALUAR MI INMUEBLE ▼
+                        <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
+                            <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO AVALUAR MI INMUEBLE
                         </button>
                     </p>
                 </div>
             </div>
-            <div class="col-12 ">
+            <div class="col-12">
                 <div class="collapse" id="uno">
                     <div class="card card-body mb-3">
                         <div class="row">
@@ -73,7 +63,6 @@ include 'layout/menu2.php';
                             <div class="col-8 text-justify"> En SU PROPIEDAD INMOBILIARIA somos expertos en brindarte el mejor acompañamiento en la búsqueda de tu inmueble ideal hasta finalizar el proceso con la entrega de este. Nuestros aliados hacen que el proceso de arriendo sea más fácil y práctico a la hora de presentar los documentos para tu estudio. Tenemos en promedio respuesta en trámites en menos de 24 horas. Para tranquilidad de nuestros clientes, nuestros contratos y procesos están avalados por la secretaria de gobierno y La Lonja de Propiedad raíz. Nuestros asesores, están totalmente a disposición de nuestros clientes para la búsqueda de tu inmueble ideal según tus necesidades y requerimientos.</div>
                         </div>
                         <div class="row">
-
                             <div class="col-6">
                                 <h5 class="titulos"> <strong>EN ADMINISTRACIÓN - TU ARRIENDO SEGURO</strong></h5>
                                 <ul class="pl-0">
@@ -195,8 +184,27 @@ include 'layout/menu2.php';
                 </div>
                 <div class="collapse" id="cinco">
                     <div class="card card-body mb-3">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        <div class="row">
+                            <div class="col-4"><img class="imagen" src="images/avaluos.jpeg" alt=""></div>
+                            <div class="col-8 text-justify"> En SU PROPIEDAD INMOBILIARIA contamos con un grupo de Avaluadores altamente capacitados y calificados para ofrecerles un servicio de calidad a los clientes. Nuestros Avaluadores cuentan con el Registro Nacional de Avalúos R.N.A. y el Registro Abierto de Avaluadores A.N.A. <br>
+                                En nuestros Avalúos tenemos diferentes maneras y métodos de hacer la estimación más aproximada del valor del inmueble ya sea para compra o venta.
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-3">
+                                <div class="col-12 text-justify"> Nuestro personal está constantemente actualizándose acerca de los precios, de acuerdo al mercado inmobiliario y su comportamiento, tanto para venta, como para arriendo.
+                                    Para realizar el avaluó solo necesitamos una copia de la escritura de compraventa del bien, en cuanto al precio este varía de acuerdo al área del inmueble.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <h4 class="mt-3 titulo_trabaja"> <strong>TRABAJA CON NOSOTROS</strong></h4>
+                                <h5 class="titulo_trabaja"><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h5>
+                                <p class=" mt-3 text-justify"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO.  Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -206,15 +214,15 @@ include 'layout/menu2.php';
             <div class="row">
                 <div class="col-4">
                     <p>
-                        <button class="btn btn-primary col-12" type="button" data-toggle="collapse" data-target="#dos" aria-expanded="false" aria-controls="collapseExample">
-                            QUIERO ARRENDAR UN INMUEBLE ▼
+                        <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#dos" aria-expanded="false" aria-controls="collapseExample">
+                            <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO ARRENDAR UN INMUEBLE
                         </button>
                     </p>
                 </div>
                 <div class="col-4">
                     <p>
-                        <button class="btn btn-primary col-12" type="button" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
-                            QUIERO COMPRAR ▼
+                        <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
+                            <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO COMPRAR
                         </button>
                     </p>
                 </div>
@@ -222,7 +230,7 @@ include 'layout/menu2.php';
 
                 </div>
             </div>
-            <div class="col-12 ">
+            <div class="col-12">
                 <div class="collapse" id="dos">
                     <div class="card card-body mb-3">
                         <div class="row">
@@ -405,7 +413,7 @@ include 'layout/menu2.php';
                         </div>
 
                         <div class="col-12 text-center">
-                            <h2 style="margin-bottom: 0px;"><a class="enlace" href="inicio">ENCUENTRA TU INMUEBLE AQUÍ </a></h2>
+                            <h2 style="margin-bottom: 0px;"><a class="enlace" href="inmuebles">ENCUENTRA TU INMUEBLE AQUÍ </a></h2>
                         </div>
                     </div>
                 </div>
@@ -461,7 +469,7 @@ include 'layout/menu2.php';
 
                         </div>
                         <div class="col-12 text-center">
-                            <h2 style="margin-bottom: 0px;"><a class="enlace" href="inicio">ENCUENTRA TU INMUEBLE AQUÍ</a></h2>
+                            <h2 style="margin-bottom: 0px;"><a class="enlace" href="inmuebles">ENCUENTRA TU INMUEBLE AQUÍ</a></h2>
                         </div>
                     </div>
                 </div>
@@ -470,7 +478,8 @@ include 'layout/menu2.php';
     </div>
 </section>
 
-<!--
+
+
 <section class="separador" id="servicios">
     <div class="container-fluid">
         <div class="row">
@@ -496,4 +505,4 @@ include 'layout/menu2.php';
         </div>
     </div>
 </section>
-                -->
+-->

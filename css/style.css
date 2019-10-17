@@ -1818,9 +1818,11 @@ textarea.form-control {
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5); }
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
+  .btn:not(:disabled):not(.disabled):active:focus, .btn:not(:disabled):not(.disabled).active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5); }
 
 a.btn.disabled,
 fieldset:disabled a.btn {
@@ -7954,6 +7956,16 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   color: #c87a33; }
 #servi_ar_ven_ava .stylo_p {
   margin-top: 10%; }
+#servi_ar_ven_ava .collapsed .fas:before {
+  content: "\f078"; }
+#servi_ar_ven_ava .btn-primary:active {
+  color: #fff;
+  background-color: #77481e;
+  border-color: #77481e; }
+#servi_ar_ven_ava .btn-primary:active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5); }
+#servi_ar_ven_ava .titulo_trabaja {
+  margin-bottom: 0px; }
 
 footer {
   font-family: "Century Gothic";
@@ -8136,7 +8148,7 @@ body {
   padding: 0;
   margin: 0; }
 
-section h2, section h3, h5 {
+section h2, section h3, h5, h4 {
   font-family: "Century Gothic";
   font-weight: 800;
   color: #c87a33;
@@ -8281,5 +8293,10 @@ iframe {
   color: #fff !important; }
   #quienesSomos .mision h2 {
     color: #fff; }
+
+.oferta .img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
 
 /*# sourceMappingURL=style.css.map */
