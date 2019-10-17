@@ -16,11 +16,17 @@ $con = $consignar_inmueble;
 
     </section>
 
-    <section class="oferta">
+    <section class="wow fadeIn">
+        <div class="col-1"></div>
+        <div class="col-12 mb-4">
+            <h5 class="titulo_trabaja titulo "><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h5>
+            <p class=" mt-3 text-center"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO. <br> Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
+        </div>
+        
         <div class="container wow bounceInLeft">
             <div class="mt-4 wow fadeIn">
-                <h2 class="mb-4">¿QUIERES POSTULARTE?</h4>
-                    <img src="<?php echo $url_host; ?>images/trabaja.jpeg" alt="" class="img-fluid">
+
+                <img src="<?php echo $url_host; ?>images/trabaja.jpeg" alt="" class="img-fluid">
 
             </div>
             <!-- bloque -->
@@ -78,17 +84,14 @@ $con = $consignar_inmueble;
                 <div class="col-1">
                 </div>
                 <div class="col-12">
-                <h5 class="titulo"><strong>¿QUIERES POSTULARTE?</strong></h5>
+                    <h5 class="titulo"><strong>¿QUIERES POSTULARTE?</strong></h5>
                     <div class="row justify-content-center">
                         <div class="card-body pl-0 col-8">
                             <p>Envíanos un correo electrónico a <a class="link_correo" href="mailto:jaristizabal@supropiedadinmobiliaria.com">jaristizabal@supropiedadinmobiliaria.com</a> incluyendo tu hoja de vida y contándonos por qué quieres ser parte del equipo de SU PROPIEDAD INMOBILIARIA.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mb-4">
-                    <h5 class="titulo_trabaja titulo"><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h5>
-                    <p class=" mt-3 text-center"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO. Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
-                </div>
+
 
 
             </div>

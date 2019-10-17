@@ -7939,33 +7939,35 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   font-size: 1.2rem;
   font-weight: 700; }
 
-#servi_ar_ven_ava .imagen {
-  width: 100%;
-  height: 100%; }
-#servi_ar_ven_ava .titulos {
-  margin-bottom: 24px;
-  margin-top: 9%; }
-#servi_ar_ven_ava .fas {
-  color: #c87a33; }
-#servi_ar_ven_ava .enlace {
-  color: #c87a33;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-decoration: none; }
-#servi_ar_ven_ava .sub_tit {
-  color: #c87a33; }
-#servi_ar_ven_ava .stylo_p {
-  margin-top: 10%; }
-#servi_ar_ven_ava .collapsed .fas:before {
-  content: "\f078"; }
-#servi_ar_ven_ava .btn-primary:active {
-  color: #fff;
-  background-color: #77481e;
-  border-color: #77481e; }
-#servi_ar_ven_ava .btn-primary:active:focus {
-  box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5); }
-#servi_ar_ven_ava .titulo_trabaja {
-  margin-bottom: 0px; }
+#servi_ar_ven_ava {
+  margin-bottom: 10%; }
+  #servi_ar_ven_ava .imagen {
+    width: 100%;
+    height: 100%; }
+  #servi_ar_ven_ava .titulos {
+    margin-bottom: 24px;
+    margin-top: 9%; }
+  #servi_ar_ven_ava .fas {
+    color: #c87a33; }
+  #servi_ar_ven_ava .enlace {
+    color: #c87a33;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none; }
+  #servi_ar_ven_ava .sub_tit {
+    color: #c87a33; }
+  #servi_ar_ven_ava .stylo_p {
+    margin-top: 10%; }
+  #servi_ar_ven_ava .collapsed .fas:before {
+    content: "\f078"; }
+  #servi_ar_ven_ava .btn-primary:active {
+    color: #fff;
+    background-color: #77481e;
+    border-color: #77481e; }
+  #servi_ar_ven_ava .btn-primary:active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(145, 58, 0, 0.5); }
+  #servi_ar_ven_ava .titulo_trabaja {
+    margin-bottom: 0px; }
 
 footer {
   font-family: "Century Gothic";
