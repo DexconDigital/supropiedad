@@ -197,11 +197,7 @@ include 'layout/menu2.php';
                                     Para realizar el avaluó solo necesitamos una copia de la escritura de compraventa del bien, en cuanto al precio este varía de acuerdo al área del inmueble.
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <h4 class="mt-3 titulo_trabaja"> <strong>TRABAJA CON NOSOTROS</strong></h4>
-                                <h5 class="titulo_trabaja"><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h5>
-                                <p class=" mt-3 text-justify"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO.  Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -479,7 +475,7 @@ include 'layout/menu2.php';
 </section>
 
 
-
+<!--
 <section class="separador" id="servicios">
     <div class="container-fluid">
         <div class="row">

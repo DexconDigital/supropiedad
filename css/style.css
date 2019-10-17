@@ -8299,4 +8299,10 @@ iframe {
   height: 100%;
   object-fit: contain; }
 
+.titulo {
+  margin-bottom: 12px; }
+
+.link_correo {
+  color: #c87a33; }
+
 /*# sourceMappingURL=style.css.map */
