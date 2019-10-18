@@ -32,7 +32,7 @@ $con = $consignar_inmueble;
 
 
 
-    <section class="pt-4" id="otros-servicios">
+    <section class="pt-4" id="lista">
         <div class="container wow fadeIn">
             <div class="row ">
                 <!-- trabaj con nosotros  -->

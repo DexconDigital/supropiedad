@@ -95,7 +95,7 @@ require 'variables/variables.php';
         <?php include 'layout/footer.php'; ?>
     </footer>
     <div class="subir">
-        <i style="color:white" class="fas fa-angle-double-up"></i>
+        <i class="fas fa-angle-double-up"></i>
     </div>
     <div class="redes">
         <ul>
