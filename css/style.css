@@ -8307,4 +8307,7 @@ iframe {
 .link_correo {
   color: #c87a33; }
 
+.link_correo:hover {
+  color: #4d4d4d; }
+
 /*# sourceMappingURL=style.css.map */

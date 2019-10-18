@@ -11,10 +11,6 @@ $con = $consignar_inmueble;
 
     <!-- Frase consigna -->
 
-    <!-- formulario-consigna -->
-    <section class="formulario-consigna bg-grey pb-4 wow fadeIn">
-
-    </section>
 
     <section class="wow fadeIn">
         <div class="col-1"></div>

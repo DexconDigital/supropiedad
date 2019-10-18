@@ -11,4 +11,8 @@
 }
 .link_correo{
     color: $color_principal;
+   
+}
+.link_correo:hover{
+    color: $gris_oscuro;
 }
