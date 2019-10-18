@@ -66,6 +66,36 @@ $asesores =[
 		'nombre' => 'Mayra Vásquez',
         'sede' => 1
     ],
+	10=>[
+        'rutaImagen' => 'images/CECILIA DAVILA-BOGOTA.jpg',
+        'alt' => 'texto alternativo',
+		'nombre' => 'Cecilia Dávila',
+        'sede' => 0
+    ],
+	11=>[
+        'rutaImagen' => 'images/JOHANA ARISTIZABAL-MEDELLIN.jpg',
+        'alt' => 'texto alternativo',
+		'nombre' => 'Johana Aristizabal',
+        'sede' => 1
+    ],
+	12=>[
+        'rutaImagen' => 'images/LEIDY MARIN-MEDELLIN.jpg',
+        'alt' => 'texto alternativo',
+		'nombre' => 'Leidy Marín',
+        'sede' => 1
+    ],
+	13=>[
+        'rutaImagen' => 'images/PAULA FERNANDEZ-BOGOTA.jpg',
+        'alt' => 'texto alternativo',
+		'nombre' => 'Paula Fernández',
+        'sede' => 0
+    ],
+	9=>[
+        'rutaImagen' => 'images/YULY SAENZ-MEDELLIN.jpg',
+        'alt' => 'texto alternativo',
+		'nombre' => 'Yuly Sáenz',
+        'sede' => 1
+    ],
 ]
 
 ?>
