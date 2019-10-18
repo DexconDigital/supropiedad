@@ -15,7 +15,7 @@ $con = $consignar_inmueble;
     <section class="wow fadeIn">
         <div class="col-1"></div>
         <div class="col-12 mb-4">
-            <h5 class="titulo_trabaja titulo "><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h5>
+            <h2 class="titulo_trabaja titulo "><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h2>
             <p class=" mt-3 text-center"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO. <br> Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
         </div>
         
@@ -41,7 +41,7 @@ $con = $consignar_inmueble;
                 <div class="col-10">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="mb-2 mt-4">¿POR QUÉ TRABAJAR CON SU PROPIEDAD INMOBILIARIA?</h4>
+                            <h3 class="mb-2 mt-4">¿POR QUÉ TRABAJAR CON SU PROPIEDAD INMOBILIARIA?</h3>
                                 <div class="card-body pl-0">
                                     <ul class="pl-0">
                                         <li class="d-flex">
@@ -80,7 +80,7 @@ $con = $consignar_inmueble;
                 <div class="col-1">
                 </div>
                 <div class="col-12">
-                    <h5 class="titulo"><strong>¿QUIERES POSTULARTE?</strong></h5>
+                    <h3 class="titulo"><strong>¿QUIERES POSTULARTE?</strong></h3>
                     <div class="row justify-content-center">
                         <div class="card-body pl-0 col-8">
                             <p>Envíanos un correo electrónico a <a class="link_correo" href="mailto:jaristizabal@supropiedadinmobiliaria.com">jaristizabal@supropiedadinmobiliaria.com</a> incluyendo tu hoja de vida y contándonos por qué quieres ser parte del equipo de SU PROPIEDAD INMOBILIARIA.</p>
