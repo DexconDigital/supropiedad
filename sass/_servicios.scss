@@ -148,6 +148,9 @@
     .imagen{
         width: 100%;height: 100%;
     }
+    .color_titulo{
+        color: #4b290f;
+    }
     .titulos{
         margin-bottom: 24px;margin-top: 9%;
     }
@@ -181,6 +184,8 @@
     .titulo_trabaja{
         margin-bottom: 0px;
     }
-
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
     
 }

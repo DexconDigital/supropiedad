@@ -27,7 +27,7 @@ include 'layout/menu2.php';
         </div>
     </section>
 
-    <section id="contacto">
+    <section id="contact" class="mt-4">
         <div class="container">
             <div class="row">
                 <div class="col-12">
