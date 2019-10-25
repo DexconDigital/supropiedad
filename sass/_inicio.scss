@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'century-gotic';
+    src: url("../fonts/GOTHIC.TTF"); 
+}
+
 html, body {
     overflow-x: hidden;
+    font-family: "century-gotic";
 }
 
 body {

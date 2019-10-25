@@ -8143,8 +8143,12 @@ span.img-text {
   display: block;
   text-transform: capitalize; }
 
+@font-face {
+  font-family: 'century-gotic';
+  src: url("../fonts/GOTHIC.TTF"); }
 html, body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: "century-gotic"; }
 
 body {
   display: flex;
