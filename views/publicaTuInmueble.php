@@ -31,7 +31,7 @@ $con = $consignar_inmueble;
                         <h3 class="text-center mb-4 mt-4"><?php echo $con['oferta']['titulo_formulario'][0]; ?></h3>
                     </div>
                     <div class="col-6">
-                        <img src="<?php echo $url_host ?>images/SEDE MEDELLIN 2.jpg" alt="" class="img-fluid">
+                        <img src="<?php echo $url_host ?>images/publica.jpeg" alt="" class="img-fluid">
                     </div>
                     <div class="col-6 d-flex align-items-center">
                         <div>
