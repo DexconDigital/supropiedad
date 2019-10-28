@@ -12,7 +12,7 @@ $con = $consignar_inmueble;
         <div class="container">
             <div class="row">
                 <div class="col-12 wow fadeIn">
-                    <h1 class="pt-2 mb-4 text-center">Publica Tu inmueble</h1>
+                    <h1 class="pt-2 mb-4 text-center">PUBLICA TU INMUEBLE</h1>
                 </div>
                 <div class="col-12 wow fadeIn">
                     <p><?php echo $con['parrafos'][0]; ?></p>
@@ -314,6 +314,69 @@ $con = $consignar_inmueble;
                         </div>
                     </div>
                 </div>
+                <!-- ventas  -->
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="mt-4 mb-4 text-center">Ventas</h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="card-body pl-0">
+                                        <ul class="pl-0">
+                                            <li class="d-flex">
+                                                <i class="fas fa-check mt-1 mr-2"></i>
+                                                <p>Comisión de 3% más IVA para inmuebles ubicados en las ciudades principales.
+                                                    Comisión de 5% más IVA para inmuebles ubicados por fuera de las ciudades principales. </p>
+                                            </li>
+                                            <li class="d-flex">
+                                                <i class="fas fa-check mt-1 mr-2"></i>
+                                                <p>Asesoría jurídica</p>
+                                            </li>
+                                            <li class="d-flex">
+                                                <i class="fas fa-check mt-1 mr-2"></i>
+                                                <p>Realizamos contrato de Promesa de venta</p>
+                                            </li>
+                                            <li class="d-flex">
+                                                <i class="fas fa-check mt-1 mr-2"></i>
+                                                <p>Nos encargamos de hacer todos los trámites requeridos y necesarios.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- corretajae  -->
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="mt-4 mb-4 text-center">Avalúos</h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="card-body pl-0">
+                                <ul class="pl-0">
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>En SU PROPIEDAD INMOBILIARIA contamos con un grupo de Avaluadores altamente capacitados y calificados para ofrecerles un servicio de calidad a los clientes. Nuestros Avaluadores cuentan con el Registro Nacional de Avalúos R.N.A. y el Registro Abierto de Avaluadores A.N.A.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Registro Abierto de Avaluadores A.N.A.
+                                            En nuestros Avalúos tenemos diferentes maneras y métodos de hacer la estimación más aproximada del valor del inmueble ya sea para compra o venta.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Nuestro personal está constantemente actualizándose acerca de los precios, de acuerdo al mercado inmobiliario y su comportamiento, tanto para venta, como para arriendo. Para realizar el avaluó solo necesitamos una copia de la escritura de compraventa del bien, en cuanto al precio este varía de acuerdo al área del inmueble.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
                 <div class="col-12">
                     <h2 class="mb-4 mt-4">Ventas</h2>
                 </div>
@@ -344,7 +407,7 @@ $con = $consignar_inmueble;
                         </div>
                     </div>
                 </div>
-
+-->
 
                 <!-- </div>
                 <div class="col-6">

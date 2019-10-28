@@ -51,8 +51,8 @@ $datos_contacto_sedes = array(
 		"horario" => "L-V 8:00 a.m. - 12:00 m. y 2:00 p.m. - 6:00 p.m. <br> S 9:00 a.m - 12:00 m."
 	),
 	"bogota_chico" => array(
-		"nombre_sede" => "Sede Bogotá Chico",
-		"direccion" => "CARRERA 17 #88-23 EDIFICIO CEZANNE, OFICINA 102, BOGOTÁ",
+		"nombre_sede" => "Sede Bogotá Chicó",
+		"direccion" => "CARRERA 17 #88-23 EDIFICIO CEZANNE, OFICINA 102, BOGOTÁ D.C",
 		"celular" => array(
 			'link' => '+0573043297400',
 			"imprimir" => '304 329 7400',

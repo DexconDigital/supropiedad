@@ -93,8 +93,14 @@ $asesores =[
 	9=>[
         'rutaImagen' => 'images/YULY SAENZ-MEDELLIN.jpg',
         'alt' => 'texto alternativo',
-		'nombre' => 'Yuly Sáenz',
+		'nombre' => 'Yuly Sáenz', 
         'sede' => 1
+    ],
+    14=>[
+        'rutaImagen' => 'images/NATALIE DRAGO-BOGOTÁ.jpg',
+        'alt' => 'texto alternativo',
+		'nombre' => 'Natalie Drago',
+        'sede' => 0
     ],
 ]
 

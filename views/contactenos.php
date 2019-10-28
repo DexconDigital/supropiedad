@@ -17,7 +17,7 @@ include 'layout/menu2.php';
         <ul class="nav nav-pills mb-3 row w-100 text-center justify-content-center" id="pills-tab" role="tablist">
             <!-- Bogota  -->
             <li class="nav-item col-4">
-                <a class="nav-link active rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá</a>
+                <a class="nav-link active rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá D.C</a>
             </li>
             <!-- Medellin -->
             <li class="nav-item col-4">
