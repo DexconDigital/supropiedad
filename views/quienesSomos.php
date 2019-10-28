@@ -42,7 +42,7 @@ include 'layout/menu2.php';
                             <a class="nav-link active rounded-0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín</a>
                         </li>
                         <li class="nav-item col-3">
-                            <a class="nav-link  rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá</a>
+                            <a class="nav-link  rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá D.C</a>
                         </li>
                     </ul>
                     <div class="tab-content row w-100" id="pills-tabContent">
