@@ -118,6 +118,7 @@ iframe{
         width: 100%;
         @include media-breakpoint-up(md){
             width: 100%;
+            margin-top: 0px;
         }
         @include media-breakpoint-up(lg){
             width: 100%;
