@@ -11,7 +11,7 @@ include 'layout/menu2.php';
             <div class="col-12">
                 <h2 class="mt-4 wow zoomInUp" data-wow-delay=".5s" data-wow-duration="2s">Nuestros Servicios</h2>
             </div>
-            <div class="col-12 wow zoomInDown" data-wow-delay=".6s" data-wow-duration="2s">
+            <div class="col-md-12 col-lg-12 cont_servicios col-11 wow zoomInDown" data-wow-delay=".6s" data-wow-duration="2s">
                 <?php for ($i = 0; $i < count($texto_servicios['parrafos']); $i++) {
                     echo '
                         <p>' . $texto_servicios['parrafos'][$i] . '</p>
@@ -22,66 +22,6 @@ include 'layout/menu2.php';
     </div>
 </section>
 
-<!--
-
-<section>
-    <div id="accordion">
-        <div class="container">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4">
-                        <h2 class="color_titulo">Arriendo</h2>
-                        <p>
-                            <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#uno" aria-expanded="true" aria-controls="uno">
-                                <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO ARRENDAR MI PROPIEDAD
-                            </button>
-
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <h2 class="color_titulo">Venta</h2>
-                        <p>
-                            <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
-                                <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO VENDER
-                            </button>
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <h2 class="color_titulo">Avalúos</h2>
-                        <p>
-                            <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#tres" aria-expanded="false" aria-controls="tres">
-                                <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO AVALUAR MI INMUEBLE
-                            </button>
-                        </p>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-        <div class="card">
-            <div id="uno" class="collapse show" aria-labelledby="uno" data-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div id="dos" class="collapse" aria-labelledby="dos" data-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div id="tres" class="collapse" aria-labelledby="tres" data-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-            -->
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="js/common.js"></script>
 
@@ -92,7 +32,7 @@ include 'layout/menu2.php';
             <div class="col-12">
                 <div class="row">
                     <!-- Opcion #uno-->
-                    <div class="col-4">
+                    <div class="col-md-4 col-lg-4 col-12">
                         <h2 class="color_titulo">Arriendo</h2>
                         <p>
                             <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
@@ -101,7 +41,7 @@ include 'layout/menu2.php';
                         </p>
                     </div>
                     <!-- Opcion #dos-->
-                    <div class="col-4">
+                    <div class="col-md-4 col-lg-4 col-12">
                         <h2 class="color_titulo">Venta</h2>
                         <p>
                             <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
@@ -110,7 +50,7 @@ include 'layout/menu2.php';
                         </p>
                     </div>
                     <!-- Opcion #tres-->
-                    <div class="col-4">
+                    <div class="col-md-4 col-lg-4 col-12">
                         <h2 class="color_titulo">Avalúos</h2>
                         <p>
                             <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
@@ -283,7 +223,7 @@ include 'layout/menu2.php';
 
                     <div class="row">
                         <!-- Opcion #cuatro-->
-                        <div class="col-4">
+                        <div class="col-md-4 col-lg-4 col-12">
                             <p>
                                 <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
                                     <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO ARRENDAR UN INMUEBLE
@@ -291,14 +231,14 @@ include 'layout/menu2.php';
                             </p>
                         </div>
                         <!-- Opcion #cinco-->
-                        <div class="col-4">
+                        <div class="col-md-4 col-lg-4 col-12">
                             <p>
                                 <button class="btn btn-primary col-12 collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
                                     <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO COMPRAR
                                 </button>
                             </p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-lg-4 col-12">
                         </div>
                     </div>
                     <div class="col-12">

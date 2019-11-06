@@ -15,7 +15,7 @@ include 'layout/menu.php';
     <div class="container-fluid">
         <div class="row">
             <div id="slide_inicio" class="carousel slide w-100" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="" style="height: 427px;">
                     <div class="carousel-item active">
                         <video src="./videos/video2.mov" class="d-block w-100" autoplay muted loop></video>
                     </div>
@@ -43,7 +43,7 @@ include 'layout/menu.php';
                         <div class="col-12">
                             <h1 class="text-center wow bounceInDown" data-wow-Duration="2s" data-wow-delay=".5s">Encuentra tu Inmueble Ideal con Nosotros</h1>
                         </div>
-                        <div class="col-9">
+                        <div class="col-12 col-md-12 col-lg-9">
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
                                     <div class="col pl-4 ml-4">
@@ -87,7 +87,7 @@ include 'layout/menu.php';
             <div class="col-12">
                 <h2 class="text-center mb-4">Propiedades Destacadas</h2>
             </div>
-            <div class="col-11">
+            <div class="col-md-11 col-lg-11 col-10">
                 <div style="position:relative;">
                     <div class="owl-carousel owl-theme wow fadeInUp" data-wow-Duration="2s" id="owl-propiedades">
                         <?php inmuebles_destacados($api, $url_host); ?>
@@ -103,8 +103,8 @@ include 'layout/menu.php';
         <div class="col-12">
             <h2 class="text-center">Nuestros Servicios</h2>
         </div>
-        <div class="col-12 row justify-content-center">
-            <div class="col-3">
+        <div class="col-12 row justify-content-center cont_servicios">
+            <div class="col-lg-3 col-md-6 col-10 tarjeta">
                 <div class="card text-center wow slideInLeft" style="">
                     <a href="<?php echo $url_host ?>servicios">
                         <div class="container-icon">
@@ -116,7 +116,7 @@ include 'layout/menu.php';
                     </a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 col-10 tarjeta">
                 <div class="card text-center wow slideInDown" style="">
                     <a href="<?php echo $url_host ?>servicios">
                         <div class="container-icon">
@@ -128,7 +128,7 @@ include 'layout/menu.php';
                     </a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 col-10 tarjeta">
                 <div class="card text-center wow slideInRight" style="">
                     <a href="<?php echo $url_host ?>servicios">
                         <div class="container-icon">
@@ -140,7 +140,7 @@ include 'layout/menu.php';
                     </a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 col-10 tarjeta">
                 <div class="card text-center wow slideInRight" style="">
                     <a href="<?php echo $url_host ?>publicaTuInmueble">
                         <div class="container-icon">
@@ -159,13 +159,13 @@ include 'layout/menu.php';
 <section class="separador" id="servicios">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h2 class="text-center">
+            <div class="col-md-12 col-lg-12 col-12">
+                <h2 class="text-center texto_servicios">
                     Su Propiedad Virtual
                 </h2>
             </div>
-            <div class="col-12 row">
-                <div class="col-3">
+            <div class="col-12 row justify-content-center cont_servicios">
+                <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=2" target="_blank">
                         <div class="card text-center wow zoomInLeft" data-wow-Duration="1.5s" style="">
                             <div class="container-icon">
@@ -177,7 +177,7 @@ include 'layout/menu.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=1" target="_blank">
                         <div class="card text-center wow zoomInUp" data-wow-Duration="1.5s" style="">
                             <div class="container-icon">
@@ -189,7 +189,7 @@ include 'layout/menu.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a href="<?php echo $link_pse ?>" target="_blank">
                         <div class="card text-center wow zoomInDown" data-wow-Duration="1.5s" style="">
                             <div class="container-icon">
@@ -201,8 +201,8 @@ include 'layout/menu.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3">
-                    <a type="button" class="wow zoomInRight" data-wow-Duration=1.5s" data-toggle="modal" data-target="#formularios">
+               <div class="col-lg-3 col-md-6 col-9 tarjeta">
+                    <a type="button" class="wow zoomInRight botton_virtual" data-wow-Duration="1.5s" data-toggle="modal" data-target="#formularios">
                         <div class="card text-center" style="">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
@@ -213,6 +213,7 @@ include 'layout/menu.php';
                         </div>
                     </a>
                 </div>
+                
             </div>
         </div>
 </section>

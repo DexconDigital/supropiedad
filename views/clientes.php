@@ -5,14 +5,14 @@ include 'layout/menu2.php';
     var pagina = 'clientes';
 </script>
 
-<section id="clientes" class="separador bg-grey">
+<section id="clientes" class="bg-grey separador_clientes">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <h2>Clientes</h2>
             </div>
-            <div class="col-12 row justify-content-center">
-                <div class="col-4 wow slideInLeft">
+            <div class="col-12 row justify-content-center cont_cards">
+                <div class="col-lg-4 col-md-6 col-12 wow slideInLeft">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=2" target="_blank">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -24,7 +24,7 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-4 wow slideInDown">
+                <div class="col-lg-4 col-md-6 col-12 wow slideInDown">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=1" target="_blank">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -36,7 +36,7 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-4 wow slideInUp">
+                <div class="col-lg-4 col-md-6 col-12 wow slideInUp">
                     <a href="<?php echo $link_pse ?>" target="_blank">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -48,8 +48,8 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3 wow slideInRight">
-                    <a type="button" data-toggle="modal" class="mt-4" data-target="#formularios">
+                <div class="col-lg-3 col-md-6 col-12 wow slideInRight">
+                    <a type="button" data-toggle="modal" class="botton_virtual" data-target="#formularios">
                         <div class="card text-center" style="">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
@@ -60,8 +60,8 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-3 wow slideInRight">
-                    <a type="button" data-toggle="modal" class="mt-4" data-target="#instructivo">
+                <div class="col-lg-3 col-md-6 col-12 wow slideInRight">
+                    <a type="button"  data-toggle="modal" class="cont_intruct_boton" data-target="#instructivo">
                         <div class="card text-center" style="">
                             <div class="container-icon">
                                 <i class="fas fa-book-open"></i>

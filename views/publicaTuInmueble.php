@@ -14,7 +14,7 @@ $con = $consignar_inmueble;
                 <div class="col-12 wow fadeIn">
                     <h1 class="pt-2 mb-4 text-center">PUBLICA TU INMUEBLE</h1>
                 </div>
-                <div class="col-12 wow fadeIn">
+                <div class="col-10 col-md-11 col-lg-12 text_publica wow fadeIn">
                     <p><?php echo $con['parrafos'][0]; ?></p>
                 </div>
             </div>
@@ -27,13 +27,13 @@ $con = $consignar_inmueble;
         <div class="container">
             <div class="row">
                 <div class="col-12 row">
-                    <div class="col-12">
+                    <div class="col-12 cont_titulo">
                         <h3 class="text-center mb-4 mt-4"><?php echo $con['oferta']['titulo_formulario'][0]; ?></h3>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-11 mb-4 cont_img">
                         <img src="<?php echo $url_host ?>images/publica.jpeg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6 col-11 cont_items  d-flex align-items-center">
                         <div>
                             <h5 class="text-center mb-2">¡Un asesor se contactara contigo lo más pronto posible!</h5>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -47,16 +47,16 @@ $con = $consignar_inmueble;
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div class="row mt-4">
-                                        <div class="col-6 form-group">
+                                        <div class="col-lg-6 col-md-6 col-12 form-group">
                                             <input type="text" class="form-control" placeholder="Nombres">
                                         </div>
-                                        <div class="col-6 form-group">
+                                        <div class="col-lg-6 col-md-6 col-12 form-group">
                                             <input type="text" class="form-control" placeholder="Apellidos">
                                         </div>
-                                        <div class="col-6 form-group">
+                                        <div class="col-lg-6 col-md-6 col-12 form-group">
                                             <input type="text" class="form-control" placeholder="Documento">
                                         </div>
-                                        <div class="col-6 form-group">
+                                        <div class="col-lg-6 col-md-6 col-12 form-group">
                                             <input type="text" class="form-control" placeholder="Teléfono">
                                         </div>
                                         <div class="col-12 form-group">
@@ -71,38 +71,38 @@ $con = $consignar_inmueble;
                                 </div>
                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <div class="row mt-4">
-                                        <div class="col-6 form-group">
+                                        <div class="col-lg-6 col-md-6 col-12 form-group">
                                             <select name="" id="tipo_gestion_buscar" class="form-control">
                                                 <option value="0">Gestión</option>
                                             </select>
                                         </div>
-                                        <div class="col-6 form-group">
+                                        <div class="col-lg-6 col-md-6 col-12 form-group">
                                             <select name="" id="tipo_inmueble_buscar" class="form-control">
                                                 <option value="0">Tipo Inmueble</option>
                                             </select>
                                         </div>
-                                        <div class="col-3 form-group">
+                                        <div class="col-lg-3 col-md-4 col-4 form-group">
                                             <input type="text" class="form-control" placeholder="Estrato">
                                         </div>
-                                        <div class="col-9 form-group">
+                                        <div class="col-lg-9 col-md-8 col-8 form-group">
                                             <input type="text" class="form-control" placeholder="Dirección">
                                         </div>
-                                        <div class="col-4 form-group">
+                                        <div class="col-lg-4 col-md-4 col-6 form-group">
                                             <input type="text" class="form-control" placeholder="Ciudad">
                                         </div>
-                                        <div class="col-4 form-group">
+                                        <div class="col-lg-4 col-md-4 col-6 form-group">
                                             <input type="text" class="form-control" placeholder="Precio">
                                         </div>
-                                        <div class="col-4 form-group">
+                                        <div class="col-lg-4 col-md-4 col-6 form-group">
                                             <input type="text" class="form-control" placeholder="Área">
                                         </div>
-                                        <div class="col-4 form-group">
+                                        <div class="col-lg-4 col-md-4 col-6 form-group">
                                             <input type="text" class="form-control" placeholder="Habitaciones">
                                         </div>
-                                        <div class="col-4 form-group">
+                                        <div class="col-lg-4 col-md-4 col-6 form-group">
                                             <input type="text" class="form-control" placeholder="Baños">
                                         </div>
-                                        <div class="col-4 form-group">
+                                        <div class="col-lg-4 col-md-4 col-6 form-group">
                                             <input type="text" class="form-control" placeholder="Parqueaderos">
                                         </div>
                                         <div class=" col-12 form-group">
@@ -137,7 +137,7 @@ $con = $consignar_inmueble;
                     <h2 class="">¿Por qué publicar con nosotros?</h2>
                 </div>
                 <!-- bloque -->
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-md-6 col-lg 6 col-10 cont_experiencia d-flex align-items-center">
                     <!-- Contenedor -->
                     <div>
                         <h3 class="">Experiencia</h3>
@@ -148,16 +148,16 @@ $con = $consignar_inmueble;
                             garantías.</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 col-lg 6 col-10 cont_experiencia">
                     <img src="<?php echo $url_host; ?>images/Experiencia.jpeg" alt="" class="img-fluid">
                 </div>
             </div>
             <!-- bloque -->
             <div class="row mt-4 wow fadeIn">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <img src="<?php echo $url_host; ?>images/Fotografia.jpeg" class="img-fluid" alt="">
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">FOTOGRAFIA CON CAMARAS Y LENTES PROFESIONALES</h3>
                         <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro Bróker
@@ -174,7 +174,7 @@ $con = $consignar_inmueble;
         <div class="container">
             <!-- bloque -->
             <div class="row mt-4 wow fadeIn vision pt-4 pb-4">
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">VISIBILIDAD</h3>
                         <p>Publicación y promoción de tu inmueble en diferentes medios; propios y externos, tales como
@@ -182,7 +182,7 @@ $con = $consignar_inmueble;
                             revistas especializadas, avisos, entre otros.</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <img src="<?php echo $url_host; ?>images/Visibilidad y servicio personalizado.jpeg" alt="" class="img-fluid">
                 </div>
             </div>
@@ -193,10 +193,10 @@ $con = $consignar_inmueble;
     <section class="pt-4">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <img src="<?php echo $url_host; ?>images/personalizado.jpeg" alt="" class="img-fluid">
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">SERVICIO PERSONALIZADO Y DIGITAL</h3>
                         <p>Acceso a tus facturas y estados de cuenta por medio de nuestra página web www.supropiedadinmobiliaria.com. Así mismo, Valoramos tu TIEMPO, nos desplazamos por ti y hacemos todos los trámites necesarios ante bancos, notarias, abogados, entre otros; y te ofrecemos nuestra Comunicación rápida y fluida ante cualquier requerimiento por WhatsApp, Correo electrónico o telefónicamente. Respondemos sus solicitudes en un promedio de 1 ó 2 días hábiles.</p>
@@ -210,13 +210,13 @@ $con = $consignar_inmueble;
     <section class="pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-6 d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">ASESORÍA Y SEGUIMIENTO</h3>
                         <p>Te asignamos un Bróker Inmobiliario encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalmente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <img src="<?php echo $url_host; ?>images/asesoriayseguimiento.jpeg" alt="" class="img-fluid">
                 </div>
             </div>
@@ -240,13 +240,13 @@ $con = $consignar_inmueble;
         <div class="container">
             <div class="row ">
                 <div class="col-12">
-                    <h1 class="mb-4 mt-4 pb-2 text-center">NUESTROS MEJORES PRECIOS Y BENEFICIOS</h1>
+                    <h2 class="mb-4 mt-4 pb-2 text-center">NUESTROS MEJORES PRECIOS Y BENEFICIOS</h2>
                 </div>
                 <div class="col-12">
-                    <h2 class="mb-4 mt-4">Arriendo</h2>
+                    <h2 class="mb-4 mt-4 cont_experiencia">Arriendo</h2>
                 </div>
                 <!-- administración  -->
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <div class="row">
                         <div class="col-12">
                             <h4 class="mt-4 mb-4 text-center">Administración</h4>
@@ -284,7 +284,7 @@ $con = $consignar_inmueble;
                     </div>
                 </div>
                 <!-- corretajae  -->
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <div class="row">
                         <div class="col-12">
                             <h4 class="mt-4 mb-4 text-center">Corretaje</h4>
@@ -315,7 +315,7 @@ $con = $consignar_inmueble;
                     </div>
                 </div>
                 <!-- ventas  -->
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <div class="row">
                         <div class="col-12">
                             <h4 class="mt-4 mb-4 text-center">Ventas</h4>
@@ -350,7 +350,7 @@ $con = $consignar_inmueble;
                     </div>
                 </div>
                 <!-- corretajae  -->
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <div class="row">
                         <div class="col-12">
                             <h4 class="mt-4 mb-4 text-center">Avalúos</h4>
@@ -376,142 +376,7 @@ $con = $consignar_inmueble;
                         </div>
                     </div>
                 </div>
-                <!--
-                <div class="col-12">
-                    <h2 class="mb-4 mt-4">Ventas</h2>
-                </div>
-                <div class="col-12">
-                    <div class="row justify-content-center">
-                        <div class="col-8">
-                            <div class="card-body pl-0">
-                                <ul class="pl-0">
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Comisión de 3% más IVA para inmuebles ubicados en las ciudades principales.
-                                            Comisión de 5% más IVA para inmuebles ubicados por fuera de las ciudades principales. </p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Asesoría jurídica</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Realizamos contrato de Promesa de venta</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Nos encargamos de hacer todos los trámites requeridos y necesarios.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
--->
-
-                <!-- </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">ARRIENDO</h3>
-                        <p>En Administración, PRECIO UNICO mensual del 10% más IVA de comisión INCLUIDO el Seguro/Fianza de Arrendamiento.</p>
-                    </div>
-                </div>
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">EFECTIVIDAD</h3>
-                        
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">PAGOS</h3>
-                        <ul class="pl-3">
-                            <li><i class="fas fa-check mr-2"></i>Garantizamos el pago ANTICIPADO (5 primeros días hábiles de cada mes) de tu canon de arrendamiento por medio de transferencia electrónica, esté o no en mora el arrendatario.</li>
-                            <li><i class="fas fa-check mr-2"></i>Tenemos la opción de ADELANTAR los primeros 3 meses de arriendo. *Aplica términos y condiciones.</li>
-                            <li><i class="fas fa-check mr-2"></i>Contamos con el respaldo de empresas ASEGURADORAS/AFIANZADORAS durante toda la vigencia del contrato.</li>
-                            <li><i class="fas fa-check mr-2"></i>Ofrecemos el servicio de pago de la administración de la copropiedad de tu inmueble (Si aplica).</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">SEGURIDAD Y RESPALDO</h3>
-                        <ul class="pl-3">
-                            <li><i class="fas fa-check mr-2"></i>Realizamos un detallado inventario fotográfico y escrito INICIAL y FINAL del estado del inmueble.</li>
-                            <li><i class="fas fa-check mr-2"></i>Respondemos por los servicios públicos domiciliarios y daños que NO sean por el deterioro normal del inmueble mientras está ocupado.</li>
-                            <li><i class="fas fa-check mr-2"></i>Asumimos honorarios de abogados encargados de llevar cualquier proceso de restitución del inmueble en caso de mora.</li>
-                            <li><i class="fas fa-check mr-2"></i>Revisamos que los arrendatarios que vayan a ocupar el inmueble NO tengan antecedentes legales de ninguna índole.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">Corretaje</h3>
-                        <p>Administras tu arriendo directamente, y SU PROPIEDAD INMOBILIARIA te consigue el cliente.
-                            Precio correspondiente a un (1) Canon de arrendamiento Más IVA.</p>
-                    </div>
-                </div>
-
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">TRAMITES</h3>
-                        <p>Hacemos los trámites de estudio de papeles de los futuros arrendatarios ante la Aseguradora/ Afianzadora.</p>
-                        <p> Realizamos un detallado inventario INCIAL fotográfico y escrito del inmueble. </p>
-                        <p> Realizamos contrato de arrendamiento y ofrecemos también acompañamiento de trámite ante notaria para la firma. </p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">GARANTIA</h3>
-                        <p>Entregamos carpeta al propietario con todos los documentos al día. Aprobado Aseguradora/Afianzadora, contratos autenticados, formularios, inventario, entre otros. </p>
-                    </div>
-                </div>
-
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <h3 class="">VENTA</h3>
-                        <p>Comisión de 3% más IVA para inmuebles ubicados en las ciudades principales.
-                            Comisión de 5% más IVA para inmuebles ubicados por fuera de las ciudades principales. </p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6 pb-4">
-                    <img src="<?php echo $url_host; ?>images/no_image.png" alt="">
-                </div>
-                <div class="col-6 d-flex align-items-center pb-4">
-                    <div>
-                        <h3 class="">Más Beneficios</h3>
-                        <p>Asesoría jurídica</p>
-                        <p>Realizamos contrato de Promesa de venta</p>
-                        <p>Nos encargamos de hacer todos los trámites requeridos y necesarios.</p>
-                    </div>
-                </div> -->
-            </div>
+                     </div>
         </div>
     </section>
 </div>

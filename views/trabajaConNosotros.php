@@ -16,10 +16,10 @@ $con = $consignar_inmueble;
         <div class="col-1"></div>
         <div class="col-12 mb-4">
             <h2 class="titulo_trabaja titulo "><strong>¡GRACIAS POR QUERER SER PARTE DE NUESTRO EQUIPO!</strong></h2>
-            <p class=" mt-3 text-center"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO. <br> Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
+            <p class="texto_trabaja"> <strong>En SU PROPIEDAD INMOBILIARIA estamos en la búsqueda del mejor talento para ser BROKER INMOBILIARIO. <br> Tu metas y sueños los podemos lograr juntos. Si estás ubicado en Bogotá D.C y Medellín y toda el área metropolitana ¡Permítenos conocerte!</strong> </p>
         </div>
         
-        <div class="container wow bounceInLeft">
+        <div class="container wow bounceInLeft col-lg-10 col-md-11 col-10 cont_experiencia_trabajo">
             <div class="mt-4 wow fadeIn">
 
                 <img src="<?php echo $url_host; ?>images/trabaja.jpeg" alt="" class="img-fluid">

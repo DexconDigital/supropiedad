@@ -16,11 +16,11 @@ include 'layout/menu2.php';
         <!-- tabs-principales Medellin Bogota  -->
         <ul class="nav nav-pills mb-3 row w-100 text-center justify-content-center" id="pills-tab" role="tablist">
             <!-- Bogota  -->
-            <li class="nav-item col-4">
+            <li class="nav-item col-lg-4 col-md 4 col-5">
                 <a class="nav-link active rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá D.C</a>
             </li>
             <!-- Medellin -->
-            <li class="nav-item col-4">
+            <li class="nav-item col-lg-4 col-md 4 col-5">
                 <a class="nav-link rounded-0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín</a>
             </li>
         </ul>
@@ -30,11 +30,11 @@ include 'layout/menu2.php';
             <div class="tab-pane fade w-100 " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <ul  class="nav nav-tabs row justify-content-center mt-4 text-center border-0" id="myTab" role="tablist">
                     <!-- sede 1 -->
-                    <li class="nav-item col-2">
+                    <li class="nav-item col-lg-2 col-md-2 col-4">
                         <a class="nav-link active rounded-0" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Poblado</a>
                     </li>
                     <!-- sede 2  -->
-                    <li class="nav-item col-2">
+                    <li class="nav-item col-lg-2 col-md-2 col-4">
                         <a class="nav-link rounded-0" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Centro</a>
                     </li>
                 </ul>
@@ -44,7 +44,7 @@ include 'layout/menu2.php';
                         <div class="container-fluid">
                             <div class="row caracteristicas">
                                 <div class="col-12 row">
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['direccion'] ?>"></i>
@@ -56,19 +56,19 @@ include 'layout/menu2.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['celular'] ?>"></i>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Teléfonos</h5>
-                                                <p class="card-text">
+                                                <p class="card-text" style="text-align: center;">
                                                     <a href="tel:<?php echo $datos_contacto_sedes['medellin_poblado']['celular']['link'] ?>">
                                                         <?php echo $datos_contacto_sedes['medellin_poblado']['celular']['imprimir']; ?>
                                                     </a>
                                                 </p>
-                                                <p class="card-text">
+                                                <p class="card-text" style="text-align: center;">
                                                     <a href="tel:<?php echo $datos_contacto_sedes['medellin_poblado']['fijo']['link'] ?>">
                                                         <?php echo $datos_contacto_sedes['medellin_poblado']['fijo']['imprimir']; ?>
                                                     </a>
@@ -76,7 +76,7 @@ include 'layout/menu2.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
@@ -91,7 +91,7 @@ include 'layout/menu2.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['horario'] ?>"></i>
@@ -125,7 +125,7 @@ include 'layout/menu2.php';
                         <div class="container-fluid">
                             <div class="row caracteristicas">
                                 <div class="col-12 row">
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['direccion'] ?>"></i>
@@ -137,19 +137,19 @@ include 'layout/menu2.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['celular'] ?>"></i>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Teléfono</h5>
-                                                <p class="card-text">
+                                                <p class="card-text" style="text-align: center;">
                                                     <a href="tel:<?php echo $datos_contacto_sedes['medellin_centro']['celular']['link'] ?>">
                                                         <?php echo $datos_contacto_sedes['medellin_centro']['celular']['imprimir']; ?>
                                                     </a>
                                                 </p>
-                                                <p class="card-text">
+                                                <p class="card-text" style="text-align: center;">
                                                     <a href="tel:<?php echo $datos_contacto_sedes['medellin_centro']['fijo']['link'] ?>">
                                                         <?php echo $datos_contacto_sedes['medellin_centro']['fijo']['imprimir']; ?>
                                                     </a>
@@ -157,7 +157,7 @@ include 'layout/menu2.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
@@ -172,7 +172,7 @@ include 'layout/menu2.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="card text-center" style="">
                                             <div class="container-icon">
                                                 <i class="<?php echo $iconos_contacto['horario'] ?>"></i>
@@ -208,7 +208,7 @@ include 'layout/menu2.php';
                 <div class="container-fluid">
                     <div class="row caracteristicas">
                         <div class="col-12 row">
-                            <div class="col-3">
+                            <div class="col-lg-3 col-md-6 col-12">
                                 <div class="card text-center" style="">
                                     <div class="container-icon">
                                         <i class="<?php echo $iconos_contacto['direccion'] ?>"></i>
@@ -220,19 +220,19 @@ include 'layout/menu2.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-md-6 col-12">
                                 <div class="card text-center" style="">
                                     <div class="container-icon">
                                         <i class="<?php echo $iconos_contacto['celular'] ?>"></i>
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Teléfono</h5>
-                                        <p class="card-text">
+                                        <p class="card-text" style="text-align: center;">
                                             <a href="tel:<?php echo $datos_contacto_sedes['bogota_chico']['celular']['link'] ?>">
                                                 <?php echo $datos_contacto_sedes['bogota_chico']['celular']['imprimir']; ?>
                                             </a>
                                         </p>
-                                        <p class="card-text">
+                                        <p class="card-text" style="text-align: center;">
                                             <a href="tel:<?php echo $datos_contacto_sedes['bogota_chico']['fijo']['link'] ?>">
                                                 <?php echo $datos_contacto_sedes['bogota_chico']['fijo']['imprimir']; ?>
                                             </a>
@@ -240,7 +240,7 @@ include 'layout/menu2.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-md-6 col-12">
                                 <div class="card text-center" style="">
                                     <div class="container-icon">
                                         <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
@@ -255,7 +255,7 @@ include 'layout/menu2.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-md-6 col-12">
                                 <div class="card text-center" style="">
                                     <div class="container-icon">
                                         <i class="<?php echo $iconos_contacto['horario'] ?>"></i>

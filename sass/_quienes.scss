@@ -8,11 +8,34 @@
             }
         }
     }
+    .container-img2{
+        overflow: hidden;
+        height: 217px;
+    }
     .mision{
         background-color: $negro;
         color: #fff !important;
         h2{
             color: #fff;
+        }
+    }
+    .contenido_texto{
+    margin-left: 9%;
+    margin-top: 7%;
+    @include media-breakpoint-up(md){
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    }
+    .contenedor_imagenes{
+        padding-left: 12%;
+    }
+    .cont_valores{
+        margin-left: 3%;
+    margin-top: 8%;
+        @include media-breakpoint-up(md){
+            margin-left: 0%;
+            margin-top: 0%;
         }
     }
 }
