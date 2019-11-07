@@ -9,14 +9,29 @@
         }
     }
     .container-img2{
-        overflow: hidden;
-        height: 217px;
+        object-fit: contain;
+        width: 100%;
+        @include media-breakpoint-up(md){
+            margin-top: 29%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 0%;
+        }
     }
     .mision{
         background-color: $negro;
         color: #fff !important;
         h2{
             color: #fff;
+        }
+    }
+    .cont_imagen_quienes{
+        margin-top: 24%;
+        @include media-breakpoint-up(md){
+            margin-top: 15%;
+        }
+        @include media-breakpoint-up(lg){
+            margin-top: 0%;
         }
     }
     .contenido_texto{

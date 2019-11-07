@@ -8,7 +8,7 @@ include 'layout/menu2.php';
 
 <div id="quienesSomos" class="mb-4 w-100 overflow-hidden">
     <section class="quienes-somos pb-4">
-        <div class="container">
+        <div class="container cont_imagen_quienes">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-12 wow slideInLeft" data-wow-delay="0s">
                     <div class="container-img text-center mt-4">
@@ -141,8 +141,8 @@ include 'layout/menu2.php';
         <div class="container">
             <div class="row wow bounceInRight separador">
                 <div class="col-md-6 col-lg-6 col-10 contenido_texto">
-                    <div class="container-img2">
-                        <img src="<?php echo $url_host; ?>images/manos.jpg" alt="">
+                    <div class="">
+                        <img class="container-img2" src="<?php echo $url_host; ?>images/manos.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-11 cont_valores d-flex align-items-center wow flipInX">
