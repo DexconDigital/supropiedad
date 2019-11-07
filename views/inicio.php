@@ -15,9 +15,9 @@ include 'layout/menu.php';
     <div class="container-fluid">
         <div class="row">
             <div id="slide_inicio" class="carousel slide w-100" data-ride="carousel">
-                <div class="" style="height: 427px;">
+                <div class="cont_slider">
                     <div class="carousel-item active">
-                        <video src="./videos/video2.mov" class="d-block w-100" autoplay muted loop></video>
+                      <video src="./videos/video2.mov" class="d-block video_tamaño" autoplay muted loop></video> 
                     </div>
                     <?php
                     for ($i = 0; $i < count($imagenes_slide_principal); $i++) {
@@ -38,34 +38,34 @@ include 'layout/menu.php';
                 </a>
             </div>
             <div class="overlay">
-                <div class="container">
+                <div class="container cont_movil">
                     <div class="row justify-content-center">
                         <div class="col-lg-12 col-md-9 col-9">
                             <h1 class="text-center wow bounceInDown" data-wow-Duration="2s" data-wow-delay=".5s">Encuentra tu Inmueble Ideal con Nosotros</h1>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-9">
+                        <div class="col-12 col-md-12 col-lg-9 cont_secundario">
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
-                                    <div class="col pl-4 ml-4">
+                                    <div class="col bot1 pl-4 ml-4">
                                         <select id="ciudad_buscar" class="form-control rounded-0">
                                             <option selected value="0">Ciudad</option>
                                         </select>
                                     </div>
-                                    <div class="col">
+                                    <div class="col bot2">
                                         <select id="barrio_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Barrio</option>
                                         </select>
                                     </div>
-                                    <div class="col posicion1">
+                                    <div class="col bot3 posicion1">
                                         <select id="tipo_inmueble_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
-                                    <div class="col posicion2 pr-4 mr-4 input-group">
+                                    <div class="col bot4 posicion2 pr-4 mr-4 input-group">
                                         <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Gestión</option>
                                         </select>
-                                        <div class="input-group-append">
+                                        <div class="input-group-append boton_buscar">
                                             <button type="button" class="btn btn-primary btn-lg btn-block" id="buscar">
                                                 <i class="fas fa-search"></i>
                                             </button>

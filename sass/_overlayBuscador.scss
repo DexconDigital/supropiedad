@@ -1,8 +1,11 @@
 .overlay {
   .col{
     padding: 0 !important; 
+    margin-bottom: 1px;
     @include media-breakpoint-up(md){
       padding: 0 !important; 
+      margin-bottom: 0%;
+      
   }
   /*.posicion1{
     flex: 0 0 22%;
@@ -36,6 +39,16 @@
     .btn {
       height: 45px !important;
       border-radius: 0 !important;
+      @include media-breakpoint-up(md){
+        height: 44px !important;
+        border-radius: 0 !important;
+        width: 47px;
+        
+      }
+      @include media-breakpoint-up(lg){
+        height: 45px !important;
+      }
+     
     }
   }
 }
