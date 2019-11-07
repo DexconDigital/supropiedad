@@ -49,7 +49,7 @@ include 'layout/menu2.php';
                         <!-- Contenido Medellin -->
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div class="container contenedor_imagenes">
-                                <div class="row w-100 justify-content-center asesores-contain">
+                                <div class="row w-101 justify-content-center asesores-contain">
                                     <?php
                                     for ($i = 0; $i < count($asesores); $i++) {
                                         if ($asesores[$i]['sede'] == 1 || $asesores[$i]['sede'] == 2) {
