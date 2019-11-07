@@ -8297,7 +8297,7 @@ iframe {
       font-size: 2rem; } }
 
 .cont_bogota {
-  padding: 12%;
+  padding: 9%;
   margin-top: -57px; }
   @media (min-width: 768px) {
     .cont_bogota {
@@ -8309,7 +8309,7 @@ iframe {
       margin-top: 0px; } }
 
 .con_medellin {
-  padding: 12%;
+  padding: 9%;
   margin-top: -57px; }
   @media (min-width: 768px) {
     .con_medellin {
@@ -8392,6 +8392,9 @@ iframe {
   @media (min-width: 768px) {
     .cont_experiencia_trabajo {
       margin-left: 10%; } }
+
+.responsive_menu {
+  background-color: #1b1b1b; }
 
 #contacto ul .nav-item a {
   color: #2c2c2c; }
@@ -8488,6 +8491,18 @@ iframe {
     #quienesSomos .cont_valores {
       margin-left: 0%;
       margin-top: 0%; } }
+
+.contn_btonosede {
+  margin-left: -1%; }
+  @media (min-width: 768px) {
+    .contn_btonosede {
+      margin-left: 0%; } }
+
+.contenido_cards {
+  width: 109%; }
+  @media (min-width: 768px) {
+    .contenido_cards {
+      width: 100%; } }
 
 .oferta .img-fluid {
   width: 100%;

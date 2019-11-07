@@ -56,12 +56,12 @@ include 'layout/menu.php';
                                             <option selected value='0'>Barrio</option>
                                         </select>
                                     </div>
-                                    <div class="col ">
+                                    <div class="col posicion1">
                                         <select id="tipo_inmueble_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
-                                    <div class="col  pr-4 mr-4 input-group">
+                                    <div class="col posicion2 pr-4 mr-4 input-group">
                                         <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Gestión</option>
                                         </select>

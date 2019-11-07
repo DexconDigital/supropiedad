@@ -140,7 +140,7 @@ iframe{
 }
 
 .cont_bogota{
-    padding: 12%;
+    padding: 9%;
     margin-top: -57px;
     @include media-breakpoint-up(md){
         padding: 6%;
@@ -154,7 +154,7 @@ iframe{
 }
 
 .con_medellin{
-    padding: 12%;
+    padding: 9%;
     margin-top: -57px;
     @include media-breakpoint-up(md){
         padding: 5%;
@@ -241,4 +241,7 @@ iframe{
     @include media-breakpoint-up(md){
         margin-left: 10%;
     }
+}
+.responsive_menu{
+    background-color: #1b1b1b;
 }

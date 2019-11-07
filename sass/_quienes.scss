@@ -39,3 +39,16 @@
         }
     }
 }
+.contn_btonosede{
+    margin-left: -1%;
+    @include media-breakpoint-up(md){
+        margin-left: 0%;
+    }
+}
+.contenido_cards{
+    width: 109%;
+    @include media-breakpoint-up(md){
+        width: 100%;
+    }
+
+}

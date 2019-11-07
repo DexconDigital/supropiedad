@@ -1,4 +1,4 @@
-const mediumBp = matchMedia('(min-width: 1199px)');
+const mediumBp = matchMedia('(min-width: 425px)');
 const changesize = mql => {
     if (mql.matches) {
         if (pagina == 'inicio') {

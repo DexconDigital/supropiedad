@@ -52,7 +52,7 @@ $datos_contacto_sedes = array(
 	),
 	"bogota_chico" => array(
 		"nombre_sede" => "Sede Bogotá Chicó",
-		"direccion" => "CARRERA 17 #88-23 EDIFICIO CEZANNE, OFICINA 102, BOGOTÁ D.C",
+		"direccion" => "CARRERA 17 #88-23 EDIFICIO CEZANNE, OFICINA 102, BOGOTÁ D.C.",
 		"celular" => array(
 			'link' => '+0573043297400',
 			"imprimir" => '304 329 7400',
@@ -214,7 +214,7 @@ $texto_servicios = array(
 $consignar_inmueble = array(
 	"parrafos" => array(
 		0 => "¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos.",
-		1 => "Su Propiedad Inmobiliaria tiene experiencia en el mercado inmobiliaria por más de 18 años, lo cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las ciudades Medellín y Bogotá.  En nuestras sucursales contamos con nuestros mejores aliados para realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y garantías.",
+		1 => "Su Propiedad Inmobiliaria tiene experiencia en el mercado inmobiliaria por más de 18 años, lo cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las ciudades Medellín y Bogotá D.C.  En nuestras sucursales contamos con nuestros mejores aliados para realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y garantías.",
 	),
 	"oferta" => array(
 		0  => "¿QUÉ TE OFRECEMOS?",

@@ -10,17 +10,17 @@ include 'layout/menu2.php';
     <section class="quienes-somos pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-6 col-12 wow slideInLeft" data-wow-delay="1s">
+                <div class="col-md-6 col-lg-6 col-12 wow slideInLeft" data-wow-delay="0s">
                     <div class="container-img text-center mt-4">
                         <img src="<?php echo $url_host; ?>images/SEDE MEDELLIN.jpg" alt="" style="width:80%">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-10 d-flex align-items-center contenido_texto">
                     <div>
-                        <h2 class="mb-4 wow bounceInDown" data-wow-delay="1s">
+                        <h2 class="mb-4 wow bounceInDown" data-wow-delay="0s">
                             Somos
                         </h2>
-                        <p class="wow bounceInUp" data-wow-delay="1s"> <?php echo $texto_quienes_somos['parrafos'][0]; ?> </p>
+                        <p class="wow bounceInUp" data-wow-delay="0s"> <?php echo $texto_quienes_somos['parrafos'][0]; ?> </p>
                     </div>
                 </div>
             </div>
@@ -35,21 +35,21 @@ include 'layout/menu2.php';
                 </div>
                 <div class="col-12">
                     <!-- Bogota Medellin  -->
-                    <ul class="nav nav-pills mb-3 row justify-content-center w-100 text-center" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-3 contn_btonosede row justify-content-center w-100 text-center" id="pills-tab" role="tablist">
                         <!-- Bogota  -->
                         <!-- Medellin  -->
                         <li class="nav-item col-md-3 col-lg-3 col-5">
                             <a class="nav-link active rounded-0" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Medellín</a>
                         </li>
-                        <li class="nav-item col-md-3 col-lg-3 col-5">
-                            <a class="nav-link  rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá D.C</a>
+                        <li class="nav-item col-md-3 col-lg-3 col-6">
+                            <a class="nav-link  rounded-0" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Bogotá D.C.</a>
                         </li>
                     </ul>
                     <div class="tab-content row w-100" id="pills-tabContent">
                         <!-- Contenido Medellin -->
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div class="container contenedor_imagenes">
-                                <div class="row w-101 justify-content-center asesores-contain">
+                                <div class="row contenido_cards justify-content-center asesores-contain">
                                     <?php
                                     for ($i = 0; $i < count($asesores); $i++) {
                                         if ($asesores[$i]['sede'] == 1 || $asesores[$i]['sede'] == 2) {
@@ -70,7 +70,7 @@ include 'layout/menu2.php';
                         <!-- Contenido Bogota -->
                         <div class="tab-pane fade  w-100" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                             <div class="container contenedor_imagenes">
-                                <div class="row w-100 justify-content-center asesores-contain">
+                                <div class="row contenido_cards justify-content-center asesores-contain">
                                     <?php
                                     for ($i = 0; $i < count($asesores); $i++) {
                                         if ($asesores[$i]['sede'] == 0 ||$asesores[$i]['sede'] == 2) {

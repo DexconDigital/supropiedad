@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light
+<nav class="navbar responsive_menu navbar-expand-lg navbar-light
     <?php if($page != 'inicio'){echo 'bg-light borde-menu';}else{echo'transparent fixed-top';}?> pt-0" id="menu">
         <a class="navbar-brand pt-0" href="<?php echo $url_host ?>">
             <img id="imagen_menu" src="images/logoB.png" alt="" width="200px;">

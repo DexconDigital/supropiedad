@@ -5,7 +5,7 @@
             <h3 class="text-center mb-4">CONTÁCTANOS</h3>
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-4 cont_bogota">
-                    <h4 class="mb-4 mt-4 text-center">Bogotá D.C</h4>
+                    <h4 class="mb-4 mt-4 text-center">Bogotá D.C.</h4>
                     <h6>Chicó</h6>
                     <ul>
                         <li>
