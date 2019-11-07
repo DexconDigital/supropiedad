@@ -17,7 +17,7 @@ include 'layout/menu.php';
             <div id="slide_inicio" class="carousel slide w-100" data-ride="carousel">
                 <div class="" style="height: 427px;">
                     <div class="carousel-item active">
-                     <!--   <video src="./videos/video2.mov" class="d-block w-100" autoplay muted loop></video> -->
+                        <video src="./videos/video2.mov" class="d-block w-100" autoplay muted loop></video>
                     </div>
                     <?php
                     for ($i = 0; $i < count($imagenes_slide_principal); $i++) {

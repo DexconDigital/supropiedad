@@ -34,7 +34,7 @@ const changesize = mql => {
             });
         }
     }else{
-
+        $('#menu').addClass('fixed-top');
     }
 }
 mediumBp.addListener(changesize);
