@@ -7652,7 +7652,25 @@ a.text-dark:hover, a.text-dark:focus {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
 
 .overlay .col {
-  padding: 0 !important; }
+  padding: 0 !important;
+  /*.posicion1{
+    flex: 0 0 22%;
+    max-width: 39%;
+    margin-top: 12%;
+    margin-left: -17%;
+    position: absolute;
+  }
+  .posicion2{
+    flex: 0 0 37%;
+    max-width: 42%;
+    margin-top: 12%;
+    position: absolute;
+    margin-left: 23%;
+  }
+  */ }
+  @media (min-width: 768px) {
+    .overlay .col {
+      padding: 0 !important; } }
   .overlay .col input,
   .overlay .col select {
     border-radius: 0 !important;
@@ -8063,9 +8081,13 @@ footer {
   .redes li {
     cursor: pointer; }
   .redes img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     transition: all 200ms ease-in-out; }
+    @media (min-width: 992px) {
+      .redes img {
+        width: 40px;
+        height: 40px; } }
   .redes img:hover {
     width: 45px; }
 
@@ -8234,7 +8256,10 @@ p {
     font-family: "Century Gothic";
     font-weight: 600;
     margin-bottom: 1rem;
-    font-size: 2.5em; }
+    font-size: 1.5em; }
+    @media (min-width: 768px) {
+      #carousel .overlay h1 {
+        font-size: 2.5em; } }
   #carousel .overlay .container {
     width: 100%; }
   #carousel .overlay .btn-primary {
@@ -8455,7 +8480,7 @@ iframe {
       margin-left: 0%;
       margin-top: 0%; } }
 #quienesSomos .contenedor_imagenes {
-  padding-left: 12%; }
+  padding-left: 15%; }
 #quienesSomos .cont_valores {
   margin-left: 3%;
   margin-top: 8%; }

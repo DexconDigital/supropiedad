@@ -85,7 +85,10 @@ p{
             font-family: $f-texto;
             font-weight: 600;
             margin-bottom: 1rem;
-            font-size: 2.5em;
+            font-size: 1.5em;
+            @include media-breakpoint-up(md){
+                font-size: 2.5em;
+            }
         }
         .container{
             width: 100%;

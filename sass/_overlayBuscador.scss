@@ -1,6 +1,25 @@
 .overlay {
   .col{
-    padding: 0 !important;
+    padding: 0 !important; 
+    @include media-breakpoint-up(md){
+      padding: 0 !important; 
+  }
+  /*.posicion1{
+    flex: 0 0 22%;
+    max-width: 39%;
+    margin-top: 12%;
+    margin-left: -17%;
+    position: absolute;
+  }
+  .posicion2{
+    flex: 0 0 37%;
+    max-width: 42%;
+    margin-top: 12%;
+    position: absolute;
+    margin-left: 23%;
+  }
+  */
+
     input,
     select {
       border-radius: 0 !important;
