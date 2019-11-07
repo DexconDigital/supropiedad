@@ -278,7 +278,7 @@ iframe{
 .bot1{
     position: absolute;
     margin-top: -2%;
-    width: 34%;
+    width: 155px;
     left: 9%;
     @include media-breakpoint-up(md){
         position: inherit;
@@ -290,8 +290,8 @@ iframe{
 .bot2{
     position: absolute;
     margin-top: -2%;
-    width: 35%;
-    left: 49%;
+    width: 149px;
+    left: 219px;
     @include media-breakpoint-up(md){
     position: initial;
     margin-top: 0%;
@@ -302,7 +302,7 @@ iframe{
 .bot3{
     position: absolute;
     margin-top: 9%;
-    width: 144px;
+    width: 155px;
     left: 63px;
     @include media-breakpoint-up(md){
         position: initial;
@@ -315,7 +315,7 @@ iframe{
     position: absolute;
     margin-top: 9%;
     width: 35%;
-    left: 49%;
+    left: 219px;
     @include media-breakpoint-up(md){
     position: initial;
     margin-top: 0%;
@@ -332,9 +332,9 @@ iframe{
 }
 .boton_buscar{
     position: absolute;
-    margin-left: -71px;
+    margin-left: -75px;
     margin-top: 32%;
-    width: 96%;
+    width: 102%;
     @include media-breakpoint-up(md){
     position: initial;
     margin-left: 0px;
