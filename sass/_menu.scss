@@ -5,22 +5,35 @@
     transition: all 0.5s ease;
 }
 .transparent{
+    background-color: $blanco !important;
+    -webkit-box-shadow: 0px 1px 1px 0px $blanco; 
+    box-shadow: 0px 1px 1px 0px $blanco;
+    color: #2c2c2c !important;
+    @include media-breakpoint-up(lg){
     background-color: transparent !important;
     -webkit-box-shadow: 0px 1px 1px 0px $blanco; 
     box-shadow: 0px 1px 1px 0px $blanco;
     color: $blanco !important;
+    }
+
     a{
+        color: #2c2c2c !important;
+        font-family: $f-texto;
+        font-weight: bold;
+        font-size: 0.9rem !important;
+        @include media-breakpoint-up(lg){
         color: $blanco !important;
         font-family: $f-texto;
         font-weight: bold;
         font-size: 0.9rem !important;
+            }
     }
     .nav-item.active{
         a{
             position: relative;
             &:before{
                 content: "";
-                background: $blanco;
+                background: #c87a33;
                 position: absolute;
                 width: 30px;
                 height: 4px;
@@ -28,6 +41,17 @@
                 left: 0;
                 right: 0;
                 margin: auto;
+                @include media-breakpoint-up(lg){
+                    background: $blanco;
+                    position: absolute;
+                    width: 30px;
+                    height: 4px;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                        }
+
             }
         }
     }
@@ -63,5 +87,8 @@
 }
 .borde-menu{
     box-shadow:0 0 5px rgba(0, 0, 0, .1);
+}
+.logo_menu{
+    src: "images/logo_trazo.png";
 }
 

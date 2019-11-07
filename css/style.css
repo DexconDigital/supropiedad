@@ -7602,20 +7602,32 @@ a.text-dark:hover, a.text-dark:focus {
   transition: all 0.5s ease; }
 
 .transparent {
-  background-color: transparent !important;
+  background-color: #fff !important;
   -webkit-box-shadow: 0px 1px 1px 0px #fff;
   box-shadow: 0px 1px 1px 0px #fff;
-  color: #fff !important; }
+  color: #2c2c2c !important; }
+  @media (min-width: 992px) {
+    .transparent {
+      background-color: transparent !important;
+      -webkit-box-shadow: 0px 1px 1px 0px #fff;
+      box-shadow: 0px 1px 1px 0px #fff;
+      color: #fff !important; } }
   .transparent a {
-    color: #fff !important;
+    color: #2c2c2c !important;
     font-family: "Century Gothic";
     font-weight: bold;
     font-size: 0.9rem !important; }
+    @media (min-width: 992px) {
+      .transparent a {
+        color: #fff !important;
+        font-family: "Century Gothic";
+        font-weight: bold;
+        font-size: 0.9rem !important; } }
   .transparent .nav-item.active a {
     position: relative; }
     .transparent .nav-item.active a:before {
       content: "";
-      background: #fff;
+      background: #c87a33;
       position: absolute;
       width: 30px;
       height: 4px;
@@ -7623,6 +7635,16 @@ a.text-dark:hover, a.text-dark:focus {
       left: 0;
       right: 0;
       margin: auto; }
+      @media (min-width: 992px) {
+        .transparent .nav-item.active a:before {
+          background: #fff;
+          position: absolute;
+          width: 30px;
+          height: 4px;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto; } }
 
 .bg-light {
   background-color: #fff !important;
@@ -7650,6 +7672,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .borde-menu {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+
+.logo_menu {
+  src: "images/logo_trazo.png"; }
 
 .overlay .col {
   padding: 0 !important;
@@ -8392,9 +8417,6 @@ iframe {
   @media (min-width: 768px) {
     .cont_experiencia_trabajo {
       margin-left: 10%; } }
-
-.responsive_menu {
-  background-color: #1b1b1b; }
 
 #contacto ul .nav-item a {
   color: #2c2c2c; }

@@ -1,7 +1,7 @@
 <nav class="navbar responsive_menu navbar-expand-lg navbar-light
     <?php if($page != 'inicio'){echo 'bg-light borde-menu';}else{echo'transparent fixed-top';}?> pt-0" id="menu">
         <a class="navbar-brand pt-0" href="<?php echo $url_host ?>">
-            <img id="imagen_menu" src="images/logoB.png" alt="" width="200px;">
+            <img id="imagen_menu" class="logo_menu" src="images/logo_trazo.png" alt="" width="200px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
