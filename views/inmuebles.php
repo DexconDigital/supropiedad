@@ -1,4 +1,4 @@
-<?php 
+<?php
 require 'controllers/inmueblesController.php';
 $page = "inmuebles";
 include 'layout/menu2.php';
@@ -49,38 +49,42 @@ include 'layout/menu2.php';
                                 <div class="form-group col-md-4 busqueda_avanzada">
                                     <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary btn-md btn-block d-flex align-items-center justify-content-center" id="button_avanzada">Búsqueda Avanzada</a>
                                 </div>
-                                <div class="collapse" id="collapseExample">
-                                    <label for="inputEmail4">Baños</label>
-                                    <input type="number" class="form-control" id="banios_buscar" placeholder="Baños">
-                                </div>
-                                <div class="collapse" id="collapseExample">
+                                
+                                    <div class="form-group col-12 collapse" id="collapseExample">
+                                        <label for="inputEmail4">Baños</label>
+                                        <input type="number" class="form-control col-12" id="banios_buscar" placeholder="Baños">
+                                    </div>
+                                
+
+                                <div class="form-group col-12 collapse" id="collapseExample">
                                     <label for="inputEmail4">Alcobas</label>
                                     <input type="number" class="form-control" id="alcobas_buscar" placeholder="Alcobas">
                                 </div>
-                                <div class="collapse" id="collapseExample">
+                                <div class="form-group col-12 collapse" id="collapseExample">
                                     <label for="inputEmail4">Área Mínima</label>
                                     <input type="number" class="form-control" id="area_minima_buscar" placeholder="Área Mínima">
-                                </div><div class="collapse" id="collapseExample">
+                                </div>
+                                <div class="form-group col-12 collapse" id="collapseExample">
                                     <label for="inputEmail4">Área Máxima</label>
                                     <input type="number" class="form-control" id="area_maxima_buscar" placeholder="Área Máxima">
                                 </div>
-                                <div class="collapse" id="collapseExample">
+                                <div class="form-group col-12 collapse" id="collapseExample">
                                     <label for="inputEmail4">Precio Mínimo</label>
                                     <input type="number" class="form-control" id="precio_minimo_buscar" placeholder="Precio Mínimo">
                                 </div>
-                                <div class="collapse" id="collapseExample">
-                                    <label for="inputEmail4">Máximo</label>
+                                <div class="form-group col-12 collapse" id="collapseExample">
+                                    <label for="inputEmail4">Precio Máximo</label>
                                     <input type="number" class="form-control" id="precio_maximo_buscar" placeholder="Precio Máximo">
                                 </div>
-                                <div class="collapse" id="collapseExample">
+                                <div class="form-group col-12 collapse" id="collapseExample">
                                     <div class="container">
                                         <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-secondary btn-md btn-block d-flex align-items-center justify-content-center" id="button_avanzada_2">Cerrar Búsqueda Avanzada</a>
                                     </div>
                                 </div>
                                 <div class="col-5 text-center">
-                                        <button type="button" class="btn btn-primary btn-md btn-block mt-4" id="buscar2">
-                                            <i class="fas fa-search mr-2"></i>Buscar
-                                        </button>
+                                    <button type="button" class="btn btn-primary btn-md btn-block mt-4" id="buscar2">
+                                        <i class="fas fa-search mr-2"></i>Buscar
+                                    </button>
                                 </div>
                         </form>
                     </div>
@@ -92,51 +96,54 @@ include 'layout/menu2.php';
 </section>
 
 <section id="inmuebles" class="propiedades bg-grey separador wow fadeIn" data-wow-delay="2s">
-    <div class="container">
+    <div class="container cont_inmuebles">
         <div class="row">
             <div class="col-12">
                 <h2 class="">Lista de inmuebles</h2>
             </div>
-            <div class="col-12 row">
-                <?php listar_inmuebles($api['Inmuebles'], $url_host);?>
+            <div class="col-12 margen_cards">
+                <div class="row">
+                <?php listar_inmuebles($api['Inmuebles'], $url_host); ?>
+                </div>
+            
             </div>
-           
+
             <div class="col-12 row">
-                    <div class="col-12 text-center">
-                        <?php if (is_array($api)) : ?>
-                            <div class="pagination-box text-center">
+                <div class="col-12 text-center">
+                    <?php if (is_array($api)) : ?>
+                        <div class="pagination-box text-center">
                             <nav aria-label="Page navigation example" class="text-center">
                                 <span><small id="numero_pagina"></small></span>
-                                    <ul class="pagination align-items-end justify-content-center">
-                                        <?php if ($paginator->getPrevUrl()) : ?>
-                                            <li class="page-item"><a href="<?php echo $paginator->getPrevUrl(); ?>" class="page-link">&laquo;</a></li>
+                                <ul class="pagination align-items-end justify-content-center">
+                                    <?php if ($paginator->getPrevUrl()) : ?>
+                                        <li class="page-item"><a href="<?php echo $paginator->getPrevUrl(); ?>" class="page-link">&laquo;</a></li>
+                                    <?php endif; ?>
+                                    <?php foreach ($paginator->getPages() as $page) : ?>
+                                        <?php if ($page['url']) : ?>
+                                            <li <?php echo $page['isCurrent'] ? 'class="page-item active"' : ''; ?>>
+                                                <a href="<?php echo $page['url']; ?>" class="page-link"><?php echo $page['num']; ?></a>
+                                            </li>
+                                        <?php else : ?>
+                                            <li class="page-item disabled"><span><?php echo $page['num']; ?></span></li>
                                         <?php endif; ?>
-                                        <?php foreach ($paginator->getPages() as $page) : ?>
-                                            <?php if ($page['url']) : ?>
-                                                <li <?php echo $page['isCurrent'] ? 'class="page-item active"' : ''; ?>>
-                                                    <a href="<?php echo $page['url']; ?>" class="page-link"><?php echo $page['num']; ?></a>
-                                                </li>
-                                            <?php else : ?>
-                                                <li class="page-item disabled"><span><?php echo $page['num']; ?></span></li>
-                                            <?php endif; ?>
-                                        <?php endforeach; ?>
-                                        <?php if ($paginator->getNextUrl()) : ?>
-                                            <li class="page-item"><a href="<?php echo $paginator->getNextUrl(); ?>" class="page-link"> &raquo;</a></li>
-                                        <?php endif; ?>
-                                    </ul>
-                                </nav>
-                            </div>
-                        <?php endif; ?>
-                    </div>
+                                    <?php endforeach; ?>
+                                    <?php if ($paginator->getNextUrl()) : ?>
+                                        <li class="page-item"><a href="<?php echo $paginator->getNextUrl(); ?>" class="page-link"> &raquo;</a></li>
+                                    <?php endif; ?>
+                                </ul>
+                            </nav>
+                        </div>
+                    <?php endif; ?>
                 </div>
+            </div>
         </div>
     </div>
 </section>
 
-<?php if(is_array($api) && isset($api['datosGrales'])){
-    echo '<script>var page = "' . $pag . '"; </script>'; 
-    echo '<script>var url = "' . $url_total . '"; </script>'; 
-    echo '<script>var totalpagina = ' . $api['datosGrales']['totalPagina'] . '; </script>'; 
-    echo '<script>var totalInmuebles = ' . $api['datosGrales']['totalInmuebles'] . '; </script>'; 
+<?php if (is_array($api) && isset($api['datosGrales'])) {
+    echo '<script>var page = "' . $pag . '"; </script>';
+    echo '<script>var url = "' . $url_total . '"; </script>';
+    echo '<script>var totalpagina = ' . $api['datosGrales']['totalPagina'] . '; </script>';
+    echo '<script>var totalInmuebles = ' . $api['datosGrales']['totalInmuebles'] . '; </script>';
 };
 ?>

@@ -86,10 +86,13 @@
     }
   }
   #collapseExample{
-    flex: 0 0 33.333333%;
+    @include media-breakpoint-up(md){
+      flex: 0 0 33.333333%;
     max-width: 33.333333%;
     padding-right: 5px;
     padding-left: 5px;
+      }
+    
     .container{
         height: 100%;
         display: flex;
