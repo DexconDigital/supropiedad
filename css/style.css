@@ -7860,11 +7860,14 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   font-weight: 700;
   font-size: 1.4em; }
 .propiedades .detalles {
-  margin: 0;
-  list-style: none;
-  color: #535353;
-  background: #f7f7f7;
-  padding: 20px; }
+  margin: 16px; }
+  @media (min-width: 768px) {
+    .propiedades .detalles {
+      margin: 16px;
+      list-style: none;
+      color: #535353;
+      background: #f7f7f7;
+      padding: 20px; } }
   .propiedades .detalles li {
     list-style: none;
     float: left;
@@ -8001,7 +8004,8 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
     height: 100%; }
     @media (min-width: 768px) {
       #servi_ar_ven_ava .imagen {
-        object-fit: cover; } }
+        object-fit: cover;
+        visibility: inherit; } }
     @media (min-width: 992px) {
       #servi_ar_ven_ava .imagen {
         object-fit: contain; } }
@@ -8128,58 +8132,89 @@ footer {
   .redes img:hover {
     width: 45px; }
 
-#detalle_inmueble ul {
-  font-size: 1.2rem;
-  list-style: none;
-  padding: 0; }
-  #detalle_inmueble ul li i {
-    color: #c87a33 !important; }
-  #detalle_inmueble ul li .badge-dark {
-    background-color: #c87a33 !important; }
-#detalle_inmueble .caracteristicas .card {
-  margin-top: 1.1rem;
-  border: none; }
-  #detalle_inmueble .caracteristicas .card ul {
+#detalle_inmueble {
+  margin-left: 8%; }
+  @media (min-width: 768px) {
+    #detalle_inmueble {
+      margin-left: 0%; } }
+  #detalle_inmueble ul {
+    font-size: 1.2rem;
     list-style: none;
-    padding: 0;
-    font-size: 1rem; }
-#detalle_inmueble .caracteristicas .compartir {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); }
-  #detalle_inmueble .caracteristicas .compartir .fa-facebook-square {
-    color: #3b5998;
-    font-size: 2rem; }
-  #detalle_inmueble .caracteristicas .compartir .fa-twitter {
-    color: #00acee;
-    font-size: 2rem; }
-  #detalle_inmueble .caracteristicas .compartir .fa-whatsapp {
-    color: #00bb2d;
-    font-size: 2rem; }
-#detalle_inmueble .form-contact-property {
-  border: none;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); }
-#detalle_inmueble .form-control {
-  border-radius: 0;
-  height: 47px; }
-#detalle_inmueble textarea {
-  height: 80px !important; }
-#detalle_inmueble .title-form {
-  position: relative;
-  margin-bottom: 1.5rem; }
-  #detalle_inmueble .title-form:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 2.5rem;
-    height: 3px;
-    background-color: #c87a33;
-    bottom: -45%; }
+    padding: 0; }
+    #detalle_inmueble ul li i {
+      color: #c87a33 !important; }
+    #detalle_inmueble ul li .badge-dark {
+      background-color: #c87a33 !important; }
+  #detalle_inmueble .caracteristicas .card {
+    margin-top: 1.1rem;
+    border: none; }
+    #detalle_inmueble .caracteristicas .card ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1rem; }
+  #detalle_inmueble .caracteristicas .compartir {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); }
+    #detalle_inmueble .caracteristicas .compartir .fa-facebook-square {
+      color: #3b5998;
+      font-size: 2rem; }
+    #detalle_inmueble .caracteristicas .compartir .fa-twitter {
+      color: #00acee;
+      font-size: 2rem; }
+    #detalle_inmueble .caracteristicas .compartir .fa-whatsapp {
+      color: #00bb2d;
+      font-size: 2rem; }
+  #detalle_inmueble .form-contact-property {
+    border: none;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); }
+  #detalle_inmueble .form-control {
+    border-radius: 0;
+    height: 47px; }
+  #detalle_inmueble textarea {
+    height: 80px !important; }
+  #detalle_inmueble .title-form {
+    position: relative;
+    margin-bottom: 1.5rem; }
+    #detalle_inmueble .title-form:before {
+      content: "";
+      position: absolute;
+      left: 22px;
+      right: 0;
+      width: 2.5rem;
+      height: 3px;
+      background-color: #c87a33;
+      bottom: -45%; }
 
 .btn-primary {
   background-color: #c87a33;
   border: none; }
   .btn-primary:hover {
     background-color: #77481e; }
+
+@media (min-width: 768px) {
+  .card_contacto {
+    min-width: 134%; } }
+@media (min-width: 992px) {
+  .card_contacto {
+    min-width: 0%; } }
+
+.div_compartir {
+  margin-left: 0%;
+  margin-top: 1%; }
+  @media (min-width: 768px) {
+    .div_compartir {
+      margin-left: -1%;
+      padding: 0;
+      margin-top: 2%; } }
+  @media (min-width: 992px) {
+    .div_compartir {
+      margin-left: 22%;
+      margin-top: 1%; } }
+
+.boton_imprimir {
+  margin-bottom: 4%; }
+  @media (min-width: 768px) {
+    .boton_imprimir {
+      margin-bottom: 0%; } }
 
 .owl-carousel .owl-nav {
   overflow: hidden;
@@ -8271,6 +8306,17 @@ p {
     .separador {
       padding-top: 70px;
       padding-bottom: 40px; } }
+
+.separador_servicios {
+  padding-top: 113px;
+  padding-bottom: 40px; }
+  @media (min-width: 768px) {
+    .separador_servicios {
+      padding-top: 113px;
+      padding-bottom: 40px; } }
+  @media (min-width: 992px) {
+    .separador_servicios {
+      padding-top: 120px; } }
 
 #slide_inicio .carousel-control-next, #slide_inicio .carousel-control-prev {
   width: 5%; }
@@ -8544,6 +8590,40 @@ iframe {
   @media (min-width: 992px) {
     .margen_cards {
       margin-left: 1%; } }
+
+.boton_venta {
+  padding: 0.375rem 0.75rem; }
+  @media (min-width: 768px) {
+    .boton_venta {
+      padding: 9%; } }
+  @media (min-width: 992px) {
+    .boton_venta {
+      padding: 0.375rem 0.75rem; } }
+
+.boton_comprar {
+  padding: 0.375rem 0.75rem; }
+  @media (min-width: 768px) {
+    .boton_comprar {
+      padding-bottom: 9%; } }
+  @media (min-width: 992px) {
+    .boton_comprar {
+      padding: 0.375rem 0.75rem; } }
+
+@media (min-width: 768px) {
+  .texto_boton {
+    margin-top: 9%; } }
+@media (min-width: 992px) {
+  .texto_boton {
+    margin-top: 0%; } }
+
+.propiedad {
+  margin-bottom: 3%; }
+  @media (min-width: 768px) {
+    .propiedad {
+      margin-bottom: 5%; } }
+  @media (min-width: 992px) {
+    .propiedad {
+      margin-top: 0%; } }
 
 #contacto ul .nav-item a {
   color: #2c2c2c; }

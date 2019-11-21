@@ -150,6 +150,7 @@
         height: 100%;
         @include media-breakpoint-up(md){
             object-fit: cover;
+            visibility: inherit;
         }@include media-breakpoint-up(lg){
             object-fit: contain;
         }

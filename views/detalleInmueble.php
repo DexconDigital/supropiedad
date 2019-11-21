@@ -22,19 +22,19 @@ include 'layout/menu2.php';
                 <h3 class="mb-4"><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h3>
             </div>
 
-            <div class="col-8">
+            <div class="col-lg-8 col-md-12 col-12">
                 <ul class="row">
-                    <li class="col-2"><b><?php precio($r); ?></b></li>
-                    <li class="col-2"><span class="badge badge-pill badge-dark">Estrato: <?php echo $r['Estrato'] ?></span></li>
-                    <li class="col-6"><i class="fas fa-map-marker-alt mr-2"></i><?php echo $r['barrio'] . ', ' . $r['ciudad'] ?></li>
+                    <li class="col-lg-2 col-md-2 col-4"><b><?php precio($r); ?></b></li>
+                    <li class="col-lg-2 col-md-2 col-3"><span class="badge badge-pill badge-dark">Estrato: <?php echo $r['Estrato'] ?></span></li>
+                    <li class="col-lg-6 col-md-6 col-12"><i class="fas fa-map-marker-alt mr-2"></i><?php echo $r['barrio'] . ', ' . $r['ciudad'] ?></li>
                 </ul>
             </div>
             <!-- contenedor carousel y formulario -->
             <div class="col-12 row">
 
-                <div class="col-8 row">
+                <div class="col-lg-8 col-md-8 col-12 row">
                     <!-- Carousel -->
-                    <div class="col-12 p-0">
+                    <div class="col-12 ">
                         <section class="mt-3" id="slide-detalle">
                             <?php
                             if (isset($r['fotos'])) {
@@ -110,20 +110,20 @@ include 'layout/menu2.php';
                         </script>
                     </div>
                     <!-- Fin de carousel -->
-                    <div class="col-12 p-0 caracteristicas">
+                    <div class="col-12 caracteristicas">
                         <div class="card compartir">
                             <div class="card-body row">
-                                <div class="col-3"><a class="btn btn-primary" href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=813-<?php echo $co ?>" target="_blank">Imprimir Ficha</a></div>
-                                <div class="col-3 offset-3">Compartir por:</div>
-                                <div class="col-1">
+                                <div class="text-center col-lg-3 col-md-4 col-12 boton_imprimir"><a class="btn btn-primary" href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=813-<?php echo $co ?>" target="_blank">Imprimir Ficha</a></div>
+                                <div class="col-lg-3 col-md-4 col-7 div_compartir">Compartir por:</div>
+                                <div class="mr-1 col-1">
                                     <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.supropiedadinmobiliaria.com%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
                                         <i class="fab fa-facebook-square"></i></a>
                                 </div>
-                                <div class="col-1">
+                                <div class="mr-1 col-1">
                                     <a href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.supropiedadinmobiliaria.com%2FdetalleInmueble%3Fcodigo%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
                                         <i class="fab fa-twitter"></i></a>
                                 </div>
-                                <div class="col-1">
+                                <div class="mr-1 col-1">
                                     <a href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www.supropiedadinmobiliaria.com/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
                                         <i class="fab fa-whatsapp"></i></a>
                                 </div>
@@ -229,8 +229,8 @@ include 'layout/menu2.php';
                     </div>
                     <!-- fin del script de carousel -->
                 </div>
-                <div class="col-4 row pr-lg-0">
-                    <div class="col-12">
+                <div class="col-lg-4 col-md-4 col-12 pr-md-0 row pr-lg-0">
+                    <div class="col-12 card_contacto ">
                         <div class="card form-contact-property">
                             <div class="card-body">
                                 <form action="" class="row">

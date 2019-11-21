@@ -1,4 +1,9 @@
 #detalle_inmueble {
+  margin-left: 8%;
+  @include media-breakpoint-up(md){
+    margin-left: 0%;
+    }
+  
   ul {
     font-size: 1.2rem;
     list-style: none;
@@ -55,12 +60,16 @@
     &:before {
       content: "";
       position: absolute;
-      left: 0;
+      left: 22px;
       right: 0;
       width: 2.5rem;
       height: 3px;
       background-color: $color_principal;
       bottom: -45%;
+      @include media-breakpoint-up(md){
+        
+        }
+
     }
   }
 }
@@ -70,4 +79,33 @@
   &:hover {
     background-color: darken($color_principal, 20%);
   }
+}
+.card_contacto{
+  @include media-breakpoint-up(md){
+    min-width: 134%;
+    }
+    @include media-breakpoint-up(lg){
+      min-width:0%;
+      }
+
+}
+.div_compartir{
+  margin-left: 0%;
+    margin-top: 1%;
+  @include media-breakpoint-up(md){
+    margin-left: -1%;
+    padding: 0;
+    margin-top: 2%;
+    }
+    @include media-breakpoint-up(lg){
+      margin-left: 22%;
+      margin-top: 1%;
+      }
+
+}
+.boton_imprimir{
+  margin-bottom: 4%;
+  @include media-breakpoint-up(md){
+    margin-bottom: 0%;
+    }
 }
