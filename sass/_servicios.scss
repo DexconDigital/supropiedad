@@ -235,7 +235,7 @@
     color: inherit;
 }
 .titulo_imagen{
-    margin-top: 16%;
+    margin-top: 28%;
     @include media-breakpoint-up(md){
         margin-top: 14%;
     }
@@ -262,7 +262,7 @@
     }
   }
   .titulo_contacto
-{    margin-top: 20%;
+{
     @include media-breakpoint-up(md){
         margin-top: 10%;
     }

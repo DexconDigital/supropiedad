@@ -8073,7 +8073,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   color: inherit; }
 
 .titulo_imagen {
-  margin-top: 16%; }
+  margin-top: 28%; }
   @media (min-width: 768px) {
     .titulo_imagen {
       margin-top: 14%; } }
@@ -8099,14 +8099,12 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
     .titulo_publica {
       margin-top: 4%; } }
 
-.titulo_contacto {
-  margin-top: 20%; }
-  @media (min-width: 768px) {
-    .titulo_contacto {
-      margin-top: 10%; } }
-  @media (min-width: 992px) {
-    .titulo_contacto {
-      margin-top: 0%; } }
+@media (min-width: 768px) {
+  .titulo_contacto {
+    margin-top: 10%; } }
+@media (min-width: 992px) {
+  .titulo_contacto {
+    margin-top: 0%; } }
 
 footer {
   font-family: "Century Gothic";
