@@ -9,7 +9,7 @@ include 'layout/menu2.php';
 <section id="contacto" class="separador">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 titulo_contacto">
                 <h2>Contáctanos</h2>
             </div>
         </div>

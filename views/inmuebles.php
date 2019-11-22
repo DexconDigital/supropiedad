@@ -10,7 +10,7 @@ include 'layout/menu2.php';
 <section id="buscador_inmueble" class="separador">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 titulo_buscador">
                 <h2 class="mt-4 wow bounceInDown">Búsqueda de Inmuebles</h2>
             </div>
             <div class="col-12">

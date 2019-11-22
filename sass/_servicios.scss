@@ -243,3 +243,30 @@
         margin-top: 0%;
     }
 }
+.titulo_buscador{
+    margin-top: 31%;
+    @include media-breakpoint-up(md){
+        margin-top: 17%;
+    }
+      @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
+  } 
+  .titulo_publica{
+    margin-top: 14%;
+    @include media-breakpoint-up(md){
+        margin-top: 7%;
+    }
+      @include media-breakpoint-up(lg){
+        margin-top: 4%;
+    }
+  }
+  .titulo_contacto
+{    margin-top: 20%;
+    @include media-breakpoint-up(md){
+        margin-top: 10%;
+    }
+      @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
+}

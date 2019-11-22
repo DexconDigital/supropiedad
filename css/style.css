@@ -8081,6 +8081,33 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
     .titulo_imagen {
       margin-top: 0%; } }
 
+.titulo_buscador {
+  margin-top: 31%; }
+  @media (min-width: 768px) {
+    .titulo_buscador {
+      margin-top: 17%; } }
+  @media (min-width: 992px) {
+    .titulo_buscador {
+      margin-top: 0%; } }
+
+.titulo_publica {
+  margin-top: 14%; }
+  @media (min-width: 768px) {
+    .titulo_publica {
+      margin-top: 7%; } }
+  @media (min-width: 992px) {
+    .titulo_publica {
+      margin-top: 4%; } }
+
+.titulo_contacto {
+  margin-top: 20%; }
+  @media (min-width: 768px) {
+    .titulo_contacto {
+      margin-top: 10%; } }
+  @media (min-width: 992px) {
+    .titulo_contacto {
+      margin-top: 0%; } }
+
 footer {
   font-family: "Century Gothic";
   font-size: 13px;
