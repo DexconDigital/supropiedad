@@ -234,3 +234,12 @@
 .color_modal{
     color: inherit;
 }
+.titulo_imagen{
+    margin-top: 14%;
+    @include media-breakpoint-up(md){
+        margin-top: 14%;
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 0%;
+    }
+}

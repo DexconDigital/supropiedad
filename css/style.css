@@ -8072,6 +8072,15 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
 .color_modal {
   color: inherit; }
 
+.titulo_imagen {
+  margin-top: 14%; }
+  @media (min-width: 768px) {
+    .titulo_imagen {
+      margin-top: 14%; } }
+  @media (min-width: 992px) {
+    .titulo_imagen {
+      margin-top: 0%; } }
+
 footer {
   font-family: "Century Gothic";
   font-size: 13px;

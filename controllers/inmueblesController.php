@@ -77,7 +77,7 @@ if(isset($api['datosGrales'])){
 $valor_reemplazar = '/pagina/'.$pag.'';
 $url_total = str_ireplace($valor_reemplazar, '', $url_total);
 $totalItems = $totalinmuebles;
-$itemsPerPage = 9;
+$itemsPerPage = 6;
 $currentPage = $pag;
 $urlPattern = $url_total.'/pagina/(:num)';
 

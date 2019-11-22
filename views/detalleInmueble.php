@@ -1,7 +1,6 @@
 <?php
 require 'controllers/detalleInmuebleController.php';
 $page = "inmuebles";
-include 'layout/menu2.php';
 ?>
 <script>
     var pagina = 'inmuebles';
@@ -14,12 +13,70 @@ include 'layout/menu2.php';
 <link rel="stylesheet" href="<?php echo $url_host ?>css/carousel.tamanos.css">
 <!-- fin de llamado -->
 
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light borde-menu" id="menu">
+        <a class="navbar-brand" href="<?php echo $url_host ?>">
+            <img id="imagen_menu" src="<?php echo $url_host ?>images/logo_trazo.png" alt="" width="200px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto d-flex  align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_host ?>inicio">INICIO</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'quienesSomos') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>quienesSomos">QUIÉNES SOMOS</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'servicios') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>servicios">SERVICIOS</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'inmuebles') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>inmuebles">INMUEBLES</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'clientes') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>clientes">CLIENTES</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'consigna') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>publicaTuInmueble">PUBLICA TU INMUEBLE</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'trabaja') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>trabajaConNosotros">TRABAJA CON NOSOTROS</a>
+                </li>
+                <li class="nav-item <?php if ($page == 'contacto') {
+                                        echo 'active';
+                                    } ?>">
+                    <a class="nav-link" href="<?php echo $url_host ?>contactenos">CONTÁCTANOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $link_pse ?>" target="_blank">
+                        <img src="<?php echo $url_host . $logo_pse; ?>" alt="Logo Pse" width="50px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
 
 <section id="detalle_inmueble">
     <div class="container p-0">
         <div class="row pt-3">
             <div class="col-12">
-                <h3 class="mb-4"><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h3>
+                <h3 class="mb-4 text-break titulo_imagen"><?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?></h3>
             </div>
 
             <div class="col-lg-8 col-md-12 col-12">
@@ -267,11 +324,12 @@ include 'layout/menu2.php';
                         <div class="card form-contact-property mt-4">
                             <div class="card-body pr-0">
                                 <div class="row">
-                                <div class="col-12">
-                                    <h5 class="title-form">Propiedades Similares</h5>
-                                </div>
-                                <div class="col-12 row propiedades pr-0 ">
-                                    <?php similares($url_host, $r['IdCiudad'], $r['IdTpInm'])?>
+                                    <div class="col-12">
+                                        <h5 class="title-form">Propiedades Similares</h5>
+                                    </div>
+                                    <div class="col-12 row propiedades pr-0 ">
+                                        <?php similares($url_host, $r['IdCiudad'], $r['IdTpInm']) ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -279,5 +337,4 @@ include 'layout/menu2.php';
                 </div>
             </div>
         </div>
-    </div>
 </section>
