@@ -8073,7 +8073,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   color: inherit; }
 
 .titulo_imagen {
-  margin-top: 14%; }
+  margin-top: 16%; }
   @media (min-width: 768px) {
     .titulo_imagen {
       margin-top: 14%; } }
