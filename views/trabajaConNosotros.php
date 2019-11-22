@@ -83,7 +83,7 @@ $con = $consignar_inmueble;
                     <h3 class="titulo"><strong>¿QUIERES POSTULARTE?</strong></h3>
                     <div class="row justify-content-center">
                         <div class="card-body pl-0 col-8">
-                            <p>Envíanos un correo electrónico a <a class="link_correo" href="mailto:jaristizabal@supropiedadinmobiliaria.com">jaristizabal@supropiedadinmobiliaria.com</a> incluyendo tu hoja de vida y contándonos por qué quieres ser parte del equipo de SU PROPIEDAD INMOBILIARIA.</p>
+                            <p>Envíanos un correo electrónico a <a class="link_correo text-break" href="mailto:jaristizabal@supropiedadinmobiliaria.com">jaristizabal@supropiedadinmobiliaria.com</a> incluyendo tu hoja de vida y contándonos por qué quieres ser parte del equipo de SU PROPIEDAD INMOBILIARIA.</p>
                         </div>
                     </div>
                 </div>

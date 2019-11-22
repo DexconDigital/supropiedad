@@ -208,3 +208,29 @@
     }
 
 }
+
+.tamaño_boton{
+    padding-left: 23%;
+    padding-right: 23%;
+    @include media-breakpoint-up(md){
+        padding-left: 12%;
+    padding-right: 12%;
+    }@include media-breakpoint-up(lg){
+    padding-left: 6%;
+    padding-right: 6%;
+    }
+}
+.tamaño_comparar{
+    padding-left: 19%;
+    padding-right: 19%;
+    @include media-breakpoint-up(md){
+        padding-left: 10%;
+        padding-right: 10%;
+    }@include media-breakpoint-up(lg){
+        padding-left: 6%;
+    padding-right: 6%;
+    }
+}
+.color_modal{
+    color: inherit;
+}

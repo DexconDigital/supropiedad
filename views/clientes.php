@@ -121,12 +121,12 @@ include 'layout/menu2.php';
             <div class="modal-body">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                        <a href="" target="_blank">
+                        <a class="color_modal" href="" target="_blank">
                             Instructivo de Arrendatarios
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="" target="_blank">
+                        <a class="color_modal"href="" target="_blank">
                             Instructivo de Propiertarios
                         </a>
                     </li>

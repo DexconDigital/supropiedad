@@ -87,7 +87,7 @@
     font-size: 1.4em;
   }
   .detalles {
-    margin: 16px;
+    
     @include media-breakpoint-up(md){
       margin: 16px;
       list-style: none;

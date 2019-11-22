@@ -143,7 +143,7 @@ include 'layout/menu2.php';
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-md-6 col-lg-6 col-12">
                                                 <p class="sub_tit">PERSONA NATURAL (EMPLEADO)</p>
                                                 <ul class="pl-0">
                                                     <li class="d-flex">
@@ -188,7 +188,7 @@ include 'layout/menu2.php';
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-12 col-md-6 col-lg-6">
                                                 <p class="sub_tit">PERSONA JURÍDICA</p>
                                                 <ul class="pl-0">
                                                     <li class="d-flex">
@@ -224,7 +224,7 @@ include 'layout/menu2.php';
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-12 col-md-6 col-lg-6">
                                                 <p class="sub_tit">PERSONA NATURAL (EMPLEADO)</p>
                                                 <ul class="pl-0">
                                                     <li class="d-flex">
@@ -269,7 +269,7 @@ include 'layout/menu2.php';
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-12 col-md-6 col-lg-6">
                                                 <p class="sub_tit">PERSONA JURÍDICA</p>
                                                 <ul class="pl-0">
                                                     <li class="d-flex">
@@ -325,7 +325,7 @@ include 'layout/menu2.php';
                         <div class="card">
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingtres">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsetres" aria-expanded="true" aria-controls="collapsetres">
+                                    <button class="btn btn-primary tamaño_boton" type="button" data-toggle="collapse" data-target="#collapsetres" aria-expanded="true" aria-controls="collapsetres">
                                         <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO VENDER
                                     </button>
 
@@ -396,7 +396,7 @@ include 'layout/menu2.php';
                         <div class="card">
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingcuatro">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapcuatro" aria-expanded="false" aria-controls="collapcuatro">
+                                    <button class="btn btn-primary collapsed tamaño_comparar" type="button" data-toggle="collapse" data-target="#collapcuatro" aria-expanded="false" aria-controls="collapcuatro">
                                         <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO COMPRAR
                                     </button>
                                 </h2>

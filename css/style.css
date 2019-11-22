@@ -7859,25 +7859,23 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   color: #c87a33;
   font-weight: 700;
   font-size: 1.4em; }
-.propiedades .detalles {
-  margin: 16px; }
-  @media (min-width: 768px) {
-    .propiedades .detalles {
-      margin: 16px;
-      list-style: none;
-      color: #535353;
-      background: #f7f7f7;
-      padding: 20px; } }
-  .propiedades .detalles li {
+@media (min-width: 768px) {
+  .propiedades .detalles {
+    margin: 16px;
     list-style: none;
-    float: left;
-    font-weight: 500;
-    line-height: 30px;
-    font-size: 14px;
-    margin-right: 25px; }
-    .propiedades .detalles li span {
-      display: table;
-      font-weight: 600; }
+    color: #535353;
+    background: #f7f7f7;
+    padding: 20px; } }
+.propiedades .detalles li {
+  list-style: none;
+  float: left;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 14px;
+  margin-right: 25px; }
+  .propiedades .detalles li span {
+    display: table;
+    font-weight: 600; }
 .propiedades .footer {
   padding: 15px 20px;
   font-size: 14px;
@@ -8046,6 +8044,33 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   @media (min-width: 992px) {
     #nuestros_servicios .cont_servicios {
       margin-left: -6%; } }
+
+.tamaño_boton {
+  padding-left: 23%;
+  padding-right: 23%; }
+  @media (min-width: 768px) {
+    .tamaño_boton {
+      padding-left: 12%;
+      padding-right: 12%; } }
+  @media (min-width: 992px) {
+    .tamaño_boton {
+      padding-left: 6%;
+      padding-right: 6%; } }
+
+.tamaño_comparar {
+  padding-left: 19%;
+  padding-right: 19%; }
+  @media (min-width: 768px) {
+    .tamaño_comparar {
+      padding-left: 10%;
+      padding-right: 10%; } }
+  @media (min-width: 992px) {
+    .tamaño_comparar {
+      padding-left: 6%;
+      padding-right: 6%; } }
+
+.color_modal {
+  color: inherit; }
 
 footer {
   font-family: "Century Gothic";
@@ -8753,7 +8778,14 @@ iframe {
   object-fit: contain; }
 
 .titulo {
-  margin-bottom: 12px; }
+  margin-bottom: 12px;
+  margin-top: 19%; }
+  @media (min-width: 768px) {
+    .titulo {
+      margin-top: 9%; } }
+  @media (min-width: 992px) {
+    .titulo {
+      margin-top: 0%; } }
 
 .link_correo {
   color: #c87a33; }
