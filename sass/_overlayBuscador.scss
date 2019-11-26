@@ -1,12 +1,16 @@
 .overlay {
   .col{
     padding: 0 !important; 
+    min-width: 34%;
     margin-bottom: 1px;
     @include media-breakpoint-up(md){
       padding: 0 !important; 
       margin-bottom: 0%;
+      min-width: 0%;
       
   }
+  
+
   /*.posicion1{
     flex: 0 0 22%;
     max-width: 39%;

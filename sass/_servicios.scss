@@ -262,7 +262,8 @@
     }
   }
   .titulo_contacto
-{
+  
+{margin-top: 17%;
     @include media-breakpoint-up(md){
         margin-top: 10%;
     }
