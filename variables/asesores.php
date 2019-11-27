@@ -97,7 +97,7 @@ $asesores =[
         'sede' => 1
     ],
     14=>[
-        'rutaImagen' => 'images/NATALIE DRAGO-BOGOTÁ.jpg',
+        'rutaImagen' => 'images/NATALIE DRAGO-BOGOTA.jpg',
         'alt' => 'texto alternativo',
 		'nombre' => 'Natalie Drago',
         'sede' => 0

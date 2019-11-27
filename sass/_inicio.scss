@@ -3,9 +3,11 @@
     src: url("../fonts/GOTHIC.TTF"); 
 }
 @font-face {
-    font-family: 'DidactGothic';
-    src: url("../fonts/DidactGothic-Regular.ttf"); 
+    font-family: 'CenturyGothic';
+    src: url("../fonts/Questrial-Regular.ttf"); 
   }
+
+  
 
 html, body {
     overflow-x: hidden;
@@ -19,10 +21,10 @@ html, body {
 
 }
 h1,h2,h3,h4,h5{
-    font-family: "DidactGothic";
+    font-family: "CenturyGothic";
     @include media-breakpoint-up(md){
         font-family: "Century-Gothic";
-        font-family: "DidactGothic";
+        font-family: "CenturyGothic";
     } @include media-breakpoint-up(lg){
         font-family: "Century-Gothic";
     }
@@ -36,7 +38,7 @@ body {
     margin: 0;
 }
 section h2, section h3 , h5 , h4{
-    font-family: "DidactGothic";
+    font-family: "CenturyGothic";
     font-weight: 800;
     color: $color_principal;
     margin-bottom: 70px;
@@ -44,7 +46,7 @@ section h2, section h3 , h5 , h4{
     text-transform: uppercase;
     @include media-breakpoint-up(md){
         font-family: "Century-Gothic";
-        font-family: "DidactGothic";
+        font-family: "CenturyGothic";
     }
     @include media-breakpoint-up(lg){
         font-family: "Century-Gothic";

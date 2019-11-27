@@ -44,10 +44,10 @@
   box-sizing: border-box; }
 
 @font-face {
-  font-family: 'DidactGothic';
-  src: url("../fonts/DidactGothic-Regular.ttf"); }
+  font-family: 'CenturyGothic';
+  src: url("../fonts/Questrial-Regular.ttf"); }
 html {
-  font-family: "DidactGothic";
+  font-family: "CenturyGothic";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -8323,8 +8323,8 @@ span.img-text {
   font-family: 'Century-Gothic';
   src: url("../fonts/GOTHIC.TTF"); }
 @font-face {
-  font-family: 'DidactGothic';
-  src: url("../fonts/DidactGothic-Regular.ttf"); }
+  font-family: 'CenturyGothic';
+  src: url("../fonts/Questrial-Regular.ttf"); }
 html, body {
   overflow-x: hidden;
   font-family: "Century-Gothic";
@@ -8334,11 +8334,11 @@ html, body {
       font-family: "Century-Gothic"; } }
 
 h1, h2, h3, h4, h5 {
-  font-family: "DidactGothic"; }
+  font-family: "CenturyGothic"; }
   @media (min-width: 768px) {
     h1, h2, h3, h4, h5 {
       font-family: "Century-Gothic";
-      font-family: "DidactGothic"; } }
+      font-family: "CenturyGothic"; } }
   @media (min-width: 992px) {
     h1, h2, h3, h4, h5 {
       font-family: "Century-Gothic"; } }
@@ -8352,7 +8352,7 @@ body {
   margin: 0; }
 
 section h2, section h3, h5, h4 {
-  font-family: "DidactGothic";
+  font-family: "CenturyGothic";
   font-weight: 800;
   color: #c87a33;
   margin-bottom: 70px;
@@ -8361,7 +8361,7 @@ section h2, section h3, h5, h4 {
   @media (min-width: 768px) {
     section h2, section h3, h5, h4 {
       font-family: "Century-Gothic";
-      font-family: "DidactGothic"; } }
+      font-family: "CenturyGothic"; } }
   @media (min-width: 992px) {
     section h2, section h3, h5, h4 {
       font-family: "Century-Gothic"; } }
