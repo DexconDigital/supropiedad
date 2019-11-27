@@ -67,7 +67,7 @@ $asesores =[
         'sede' => 1
     ],
 	10=>[
-        'rutaImagen' => 'images/CECILIA DAVILA-BOGOTA.jpg',
+        'rutaImagen' => 'images/CECILIA DAVILA-BOGOTA.JPG',
         'alt' => 'texto alternativo',
 		'nombre' => 'Cecilia Dávila',
         'sede' => 0

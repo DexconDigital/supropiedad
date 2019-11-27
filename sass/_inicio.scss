@@ -2,12 +2,31 @@
     font-family: 'Century-Gothic';
     src: url("../fonts/GOTHIC.TTF"); 
 }
+@font-face {
+    font-family: 'DidactGothic';
+    src: url("../fonts/DidactGothic-Regular.ttf"); 
+  }
 
 html, body {
     overflow-x: hidden;
     font-family: "Century-Gothic";
-}
+    @include media-breakpoint-up(md){
+        font-family: "Century-Gothic";
+    }
+    @include media-breakpoint-up(lgs){
+        font-family: "Century-Gothic";
+    }
 
+}
+h1,h2,h3,h4,h5{
+    font-family: "DidactGothic";
+    @include media-breakpoint-up(md){
+        font-family: "Century-Gothic";
+        font-family: "DidactGothic";
+    } @include media-breakpoint-up(lg){
+        font-family: "Century-Gothic";
+    }
+}
 body {
     display: flex;
     min-height: 100vh;
@@ -17,12 +36,19 @@ body {
     margin: 0;
 }
 section h2, section h3 , h5 , h4{
-    font-family: $f-texto;
+    font-family: "DidactGothic";
     font-weight: 800;
     color: $color_principal;
     margin-bottom: 70px;
     text-align: center;
     text-transform: uppercase;
+    @include media-breakpoint-up(md){
+        font-family: "Century-Gothic";
+        font-family: "DidactGothic";
+    }
+    @include media-breakpoint-up(lg){
+        font-family: "Century-Gothic";
+    }
 }
 body .body {
     flex: 1;
