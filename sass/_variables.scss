@@ -2,16 +2,16 @@
 //         Colores principales
 // ********************************************
 @font-face {
-    font-family: 'Century Gothic';
-    src: local('Century Gothic'),
-    url(../fonts/DidactGothic-Regular.ttf);
+    font-family: 'Century-Gothic';
+    src: local('Century-Gothic'),
+    url(../fonts/GOTHIC.TTF);
 }
 
 // ****************************************
 //     Colores
 // ****************************************
 
-$f-texto: 'Century Gothic';
+$f-texto: 'Century-Gothic';
 // $color_principal: #944813;
 $color_principal: rgb(200, 122, 51);
 $blanco: #fff;

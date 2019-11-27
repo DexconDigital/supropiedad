@@ -6,8 +6,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @font-face {
-  font-family: 'Century Gothic';
-  src: local("Century Gothic"), url(../fonts/DidactGothic-Regular.ttf); }
+  font-family: 'Century-Gothic';
+  src: local("Century-Gothic"), url(../fonts/GOTHIC.TTF); }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7618,13 +7618,13 @@ a.text-dark:hover, a.text-dark:focus {
       color: #fff !important; } }
   .transparent a {
     color: #2c2c2c !important;
-    font-family: "Century Gothic";
+    font-family: "Century-Gothic";
     font-weight: bold;
     font-size: 0.9rem !important; }
     @media (min-width: 992px) {
       .transparent a {
         color: #fff !important;
-        font-family: "Century Gothic";
+        font-family: "Century-Gothic";
         font-weight: bold;
         font-size: 0.9rem !important; } }
   .transparent .nav-item.active a {
@@ -7657,7 +7657,7 @@ a.text-dark:hover, a.text-dark:focus {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .bg-light a {
-    font-family: "Century Gothic";
+    font-family: "Century-Gothic";
     color: #2c2c2c !important;
     font-size: 0.9rem !important;
     font-weight: bold; }
@@ -7918,7 +7918,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   #servicios .container-icon i {
     font-size: 70px; }
 #servicios h3 {
-  font-family: "Century Gothic"; }
+  font-family: "Century-Gothic"; }
 
 #propiedad_virtual a {
   color: inherit; }
@@ -7993,7 +7993,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   #clientes .container-icon i {
     font-size: 70px; }
 #clientes h3 {
-  font-family: "Century Gothic"; }
+  font-family: "Century-Gothic"; }
 
 .asesores-contain .card-title {
   color: #c87a33;
@@ -8114,7 +8114,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
       margin-top: 0%; } }
 
 footer {
-  font-family: "Century Gothic";
+  font-family: "Century-Gothic";
   font-size: 13px;
   padding-top: 50px;
   background-color: #565656;
@@ -8451,7 +8451,7 @@ p {
     display: flex;
     align-items: center; }
     #carousel .overlay h1 {
-      font-family: "Century Gothic";
+      font-family: "Century-Gothic";
       font-weight: 600;
       margin-bottom: 1rem;
       font-size: 1.5em; }

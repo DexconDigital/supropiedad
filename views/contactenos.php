@@ -275,7 +275,7 @@ include 'layout/menu2.php';
                         <div class="col-12">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5474923451197!2d-74.05741368573688!3d4.6744501431873955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af2e8e9a9eb%3A0x4ac3417faacef1fc!2sCra.%2017%20%2388-23%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1570504366085!5m2!1ses-419!2sco" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
-                        <div class="col-11 col-md-12 col-lg-12">
+                        <div class="container col-11 col-md-12 col-lg-12">
                             <h5 class="text-center">¿Tienes dudas o inquietudes? Por favor llena este
                                 formulario para poder ponernos en contacto contigo lo más pronto posible.</h5>
                         </div>
