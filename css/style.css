@@ -45,7 +45,7 @@
 
 @font-face {
   font-family: 'CenturyGothic';
-  src: url("../fonts/Questrial-Regular.ttf"); }
+  src: url("../fonts/GillSansStd-Light.otf"); }
 html {
   font-family: "CenturyGothic";
   line-height: 1.15;
@@ -8324,7 +8324,7 @@ span.img-text {
   src: url("../fonts/GOTHIC.TTF"); }
 @font-face {
   font-family: 'CenturyGothic';
-  src: url("../fonts/Questrial-Regular.ttf"); }
+  src: url("../fonts/GillSansStd-Light.otf"); }
 html, body {
   overflow-x: hidden;
   font-family: "Century-Gothic";
