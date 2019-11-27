@@ -149,7 +149,11 @@ $imagenes_slide_principal = array(
 	0 => [
 		'imagen' => 'images/imagenslide.png',
 		'alt' =>''
-	]
+	],
+	1 => [
+		'imagen' => 'images/imgenslide2.png',
+		'alt' =>''
+	],
 );
 
 
