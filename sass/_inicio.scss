@@ -404,10 +404,10 @@ iframe{
 
 }
 .boton_buscar{
-    width: 107%;
-    padding-top: 5%;
+    width: 50%;
+    padding-top: 0px;
     position: inherit;
-    left: -50%;
+    left: 1px;
     @include media-breakpoint-up(md){
     position: initial;
     margin-left: 0px;

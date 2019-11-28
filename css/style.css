@@ -8692,10 +8692,10 @@ iframe {
       margin-top: 0%; } }
 
 .boton_buscar {
-  width: 107%;
-  padding-top: 5%;
+  width: 50%;
+  padding-top: 0px;
   position: inherit;
-  left: -50%; }
+  left: 1px; }
   @media (min-width: 768px) {
     .boton_buscar {
       position: initial;

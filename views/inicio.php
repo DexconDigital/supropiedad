@@ -46,25 +46,25 @@ include 'layout/menu.php';
                         <div class="col-12 col-md-12 col-lg-9 cont_secundario contenedor_compresor">
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
-                                    <div class="col col-lg-2  bot1">
+                                    <div class="col col-md-2 col-lg-2  bot1">
                                         <input type="number" class="form-control" id="codigo_buscar" placeholder="Código">
                                     </div>
-                                    <div class="col col-lg-1 col-lg-2  bot1">
+                                    <div class="col col-md-2 col-lg-2  bot1">
                                         <select id="ciudad_buscar" class="form-control rounded-0">
                                             <option selected value="0">Ciudad</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-4 col-lg-2  bot2">
+                                    <div class="col col-md-2 col-lg-2  bot2">
                                         <select id="barrio_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Barrio</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-3 col-lg-2  bot3 posicion1">
+                                    <div class="col col-md-2 col-lg-3  bot3 posicion1">
                                         <select id="tipo_inmueble_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-3 col-lg-2  bot4 posicion2 pr-4 margen_2 input-group">
+                                    <div class="col col-md-2 col-lg-2  bot4 posicion2 pr-4 margen_2 input-group">
                                         <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Gestión</option>
                                         </select>
