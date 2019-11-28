@@ -8396,6 +8396,10 @@ p {
   padding-bottom: 40px; }
   @media (min-width: 768px) {
     .separador {
+      padding-top: 70px;
+      padding-bottom: 40px; } }
+  @media (min-width: 992px) {
+    .separador {
       padding-top: 20px;
       padding-bottom: 40px; } }
 
@@ -8551,6 +8555,9 @@ iframe {
   padding-top: 32px;
   padding-bottom: 40px; }
   @media (min-width: 768px) {
+    .separador_clientes {
+      padding-top: 25px; } }
+  @media (min-width: 992px) {
     .separador_clientes {
       padding-top: 25px; } }
 
