@@ -12,7 +12,7 @@ $con = $consignar_inmueble;
         <div class="container">
             <div class="row">
                 <div class="col-12 wow fadeIn titulo_publica">
-                    <h1 class="pt-2 mb-4 text-center">PUBLICA TU INMUEBLE</h1>
+                    <h2 class="pt-2 mb-4 text-center">PUBLICA TU INMUEBLE</h2>
                 </div>
                 <div class="col-10 col-md-11 col-lg-12 text_publica wow fadeIn">
                     <p><?php echo $con['parrafos'][0]; ?></p>
