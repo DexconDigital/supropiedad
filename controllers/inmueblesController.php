@@ -44,7 +44,7 @@ if (isset($datos[3]) && isset($datos[11])) {
 }
 $ch = curl_init();
 $headers =  'Authorization:' . TOKEN;
-curl_setopt($ch, CURLOPT_URL, 'http://www.simi-api.com/ApiSimiweb/response/v2.1.1/filtroInmueble/limite/' . $pag . '/total/9/departamento/0/ciudad/' . $ciudad . '/zona/0/barrio/' . $barrio . '/tipoInm/' . $inmueble . '/tipOper/' . $gestion . '/areamin/'.$area_minima.'/areamax/'.$area_maxima.'/valmin/'.$precio_minimo.'/valmax/'.$precio_maximo.'/campo/0/order/0/banios/'.$banos.'/alcobas/'.$alcobas.'/garajes/0/sede/0/usuario/0');
+curl_setopt($ch, CURLOPT_URL, 'http://www.simi-api.com/ApiSimiweb/response/v2.1.1/filtroInmueble/limite/' . $pag . '/total/6/departamento/0/ciudad/' . $ciudad . '/zona/0/barrio/' . $barrio . '/tipoInm/' . $inmueble . '/tipOper/' . $gestion . '/areamin/'.$area_minima.'/areamax/'.$area_maxima.'/valmin/'.$precio_minimo.'/valmax/'.$precio_maximo.'/campo/0/order/0/banios/'.$banos.'/alcobas/'.$alcobas.'/garajes/0/sede/0/usuario/0');
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
