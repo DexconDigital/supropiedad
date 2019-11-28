@@ -17,7 +17,7 @@ include 'layout/menu.php';
             <div id="slide_inicio" class="carousel slide w-100" data-ride="carousel">
                 <div class="cont_slider">
                     <div class="carousel-item active">
-                      <video src="./videos/video2.mov" class="d-block video_tamaño" autoplay muted loop></video> 
+                        <video src="./videos/video2.mov" class="d-block video_tamaño" autoplay muted loop></video>
                     </div>
                     <?php
                     for ($i = 0; $i < count($imagenes_slide_principal); $i++) {
@@ -46,22 +46,25 @@ include 'layout/menu.php';
                         <div class="col-12 col-md-12 col-lg-9 cont_secundario contenedor_compresor">
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
-                                    <div class="col  bot1 pl-4 margen">
+                                    <div class="col col-lg-2  bot1">
+                                        <input type="number" class="form-control" id="codigo_buscar" placeholder="Código">
+                                    </div>
+                                    <div class="col col-lg-1 col-lg-2  bot1">
                                         <select id="ciudad_buscar" class="form-control rounded-0">
                                             <option selected value="0">Ciudad</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-3 col-lg-3  bot2">
+                                    <div class="col col-md-4 col-lg-2  bot2">
                                         <select id="barrio_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Barrio</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-3 col-lg-3  bot3 posicion1">
+                                    <div class="col col-md-3 col-lg-2  bot3 posicion1">
                                         <select id="tipo_inmueble_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Tipo Inmueble</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-3 col-lg-3  bot4 posicion2 pr-4 margen_2 input-group">
+                                    <div class="col col-md-3 col-lg-2  bot4 posicion2 pr-4 margen_2 input-group">
                                         <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Gestión</option>
                                         </select>
@@ -201,7 +204,7 @@ include 'layout/menu.php';
                         </div>
                     </a>
                 </div>
-               <div class="col-lg-3 col-md-6 col-9 tarjeta">
+                <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a type="button" class="wow zoomInRight botton_virtual" data-wow-Duration="1.5s" data-toggle="modal" data-target="#formularios">
                         <div class="card text-center" style="">
                             <div class="container-icon">
@@ -213,7 +216,7 @@ include 'layout/menu.php';
                         </div>
                     </a>
                 </div>
-                
+
             </div>
         </div>
 </section>

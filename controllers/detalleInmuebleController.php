@@ -19,8 +19,10 @@ $r = json_decode($result, true);
 
 if(isset($r['msn']))
 {
-    echo "<script>alert('No se Encontraron Inmuebles');</script>";
-    die();
+    echo "<script>alert('No se Encontraron Inmuebles');
+                        window.location.href='../inmuebles'
+            </script>";
+    
 }
 
 $r['ValorVenta'] = number_format($r['ValorVenta']);
