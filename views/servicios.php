@@ -129,7 +129,7 @@ include 'layout/menu2.php';
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card card-body mb-3">
                                     <div class="row">
-                                        <div class="col-12 col-lg-5 col-md-12 propiedad"><img class="imagen" id="" src="images/arrendar_inmueble.jpeg" alt=""></div>
+                                        <div class="col-12 col-lg-4 col-md-12 propiedad"><img class="imagen" id="" src="images/arrendar_inmueble.jpeg" alt=""></div>
                                         <div class="col-12 col-lg-7 col-md-12 text-justify mt-4">¿POR QUÉ ARRENDAR CON NOSOTROS?, En SU PROPIEDAD INMOBILIARIA somos expertos en brindarte el mejor acompañamiento en la búsqueda de tu inmueble ideal hasta finalizar el proceso con la entrega de este. Nuestros aliados hacen que el proceso de arriendo sea más fácil y práctico a la hora de presentar los documentos para tu estudio. Tenemos en promedio respuesta en trámites en menos de 24 horas.
                                             Para tranquilidad de nuestros clientes, nuestros contratos y procesos están avalados por la secretaria de gobierno y La Lonja de Propiedad raíz.
                                             Nuestros asesores, están totalmente a disposición de nuestros clientes para la búsqueda de tu inmueble ideal según tus necesidades y requerimientos.
@@ -405,8 +405,8 @@ include 'layout/menu2.php';
                                 <!-- card #cuatro -->
                                 <div class="card card-body mb-3">
                                     <div class="row">
-                                        <div class="col-12 col-lg-5 col-md-12"><img class="imagen" src="images/comprar.jpeg" alt=""></div>
-                                        <div class="col-12 col-lg-6 col-md-12 text-justify">
+                                        <div class="col-12 col-lg-4 col-md-12"><img class="imagen" src="images/comprar.jpeg" alt=""></div>
+                                        <div class="col-12 col-lg-7 col-md-12 text-justify">
                                             <p class="stylo_p">SU PROPIEDAD INMOBILIARIA cuenta con bróker inmobiliarios calificados y expertos en la búsqueda de tu inmueble ideal y los trámites de venta, de esta forma ofrecemos a nuestros clientes un servicio ágil y seguro.</p>
                                         </div>
                                     </div>

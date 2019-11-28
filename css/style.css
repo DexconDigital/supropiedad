@@ -8104,7 +8104,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
       margin-top: 7%; } }
   @media (min-width: 992px) {
     .titulo_publica {
-      margin-top: 4%; } }
+      margin-top: 1%; } }
 
 .titulo_contacto {
   margin-top: 17%; }
