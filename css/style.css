@@ -8104,7 +8104,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
       margin-top: 7%; } }
   @media (min-width: 992px) {
     .titulo_publica {
-      margin-top: 1%; } }
+      margin-top: 0%; } }
 
 .titulo_contacto {
   margin-top: 17%; }
@@ -8396,7 +8396,7 @@ p {
   padding-bottom: 40px; }
   @media (min-width: 768px) {
     .separador {
-      padding-top: 30px;
+      padding-top: 20px;
       padding-bottom: 40px; } }
 
 .separador_servicios {
@@ -8408,7 +8408,7 @@ p {
       padding-bottom: 40px; } }
   @media (min-width: 992px) {
     .separador_servicios {
-      padding-top: 30px; } }
+      padding-top: 0px; } }
 
 .margen_top {
   margin-top: 2%; }
@@ -8552,7 +8552,7 @@ iframe {
   padding-bottom: 40px; }
   @media (min-width: 768px) {
     .separador_clientes {
-      padding-top: 70px; } }
+      padding-top: 25px; } }
 
 .text_publica {
   margin-left: 9%; }

@@ -82,7 +82,7 @@ p{
     padding-top: 51px;
     padding-bottom: 40px;
     @include media-breakpoint-up(md){
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 40px;
     }
 
@@ -95,7 +95,7 @@ p{
         padding-bottom: 40px;
     }
     @include media-breakpoint-up(lg){
-        padding-top: 30px;
+        padding-top: 0px;
     }
 }
 .margen_top{
@@ -266,7 +266,7 @@ iframe{
     padding-top: 32px;
     padding-bottom: 40px;   
     @include media-breakpoint-up(md){
-        padding-top: 70px;
+        padding-top: 25px;
     }
 
 }

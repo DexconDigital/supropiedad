@@ -141,7 +141,7 @@ $con = $consignar_inmueble;
                     <!-- Contenedor -->
                     <div>
                         <h3 class="">Experiencia</h3>
-                        <p>Su PROPIEDAD INMOBILIARIA tiene experiencia en el mercado inmobiliaria por más de 18 años, lo
+                        <p>SU PROPIEDAD INMOBILIARIA tiene experiencia en el mercado inmobiliaria por más de 18 años, lo
                             cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las
                             ciudades Medellín y Bogotá. En nuestras sucursales contamos con nuestros mejores aliados para
                             realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y
