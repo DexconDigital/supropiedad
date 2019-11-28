@@ -8552,11 +8552,11 @@ iframe {
   margin-left: -2%; }
 
 .separador_clientes {
-  padding-top: 32px;
+  padding-top: 25px;
   padding-bottom: 40px; }
   @media (min-width: 768px) {
     .separador_clientes {
-      padding-top: 25px; } }
+      padding-top: 130px; } }
   @media (min-width: 992px) {
     .separador_clientes {
       padding-top: 25px; } }
