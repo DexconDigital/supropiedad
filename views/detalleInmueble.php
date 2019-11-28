@@ -82,7 +82,7 @@ $page = "inmuebles";
             <div class="col-lg-8 col-md-12 col-12">
                 <ul class="row">
                     <li class="col-lg-2 col-md-2 col-4"><b><?php precio($r); ?></b></li>
-                    <li class="col-lg-2 col-md-2 col-3"><span class="badge badge-pill badge-dark">Estrato: <?php echo $r['Estrato'] ?></span></li>
+                    <li class="col-lg-2 col-md-2 col-3 contendor_precio"><span class="badge badge-pill badge-dark">Estrato: <?php echo $r['Estrato'] ?></span></li>
                     <li class="col-lg-6 col-md-6 col-12"><i class="fas fa-map-marker-alt mr-2"></i><?php echo $r['barrio'] . ', ' . $r['ciudad'] ?></li>
                 </ul>
             </div>

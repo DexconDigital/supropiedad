@@ -12,9 +12,9 @@ require 'variables/variables.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Su propiedad Inmobiliaria</title>
     <meta property="og:url"           content="<?php echo $url_host;?>" />
-    <meta property="og:type"          content="Sitio web Inmobiliario de SuPropiedad" />
-    <meta property="og:title"         content="Inmueble de Supropiedad" />
-    <meta property="og:description"   content="Mira este increible Inmueble" />
+    <meta property="og:type"          content="Su Propiedad Inmobiliaria" />
+    <meta property="og:title"         content="Empresa Inmobiliaria de Colombia" />
+    <meta property="og:description"   content="Somos Profesionales en Vivir Mejor. Trabajamos siempre en la búsqueda del bienestar y la satisfacción de todos nuestros clientes, a través de un equipo capacitado dispuesto a brindarle la mejor asesoría del sector inmobiliario." />
     <meta property="og:image"         content="<?php echo $url_host;?>logo_trazo.png"/>
     <link rel="shortcut icon" href="<?php echo $url_host ?>favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $url_host ?>css/all.min.css" class="css">
