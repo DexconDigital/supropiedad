@@ -82,7 +82,7 @@ p{
     padding-top: 51px;
     padding-bottom: 40px;
     @include media-breakpoint-up(md){
-        padding-top: 70px;
+        padding-top: 30px;
         padding-bottom: 40px;
     }
 
@@ -95,10 +95,12 @@ p{
         padding-bottom: 40px;
     }
     @include media-breakpoint-up(lg){
-        padding-top: 120px;
+        padding-top: 30px;
     }
 }
-
+.margen_top{
+    margin-top: 2%;
+}
 
 #slide_inicio{
     .carousel-control-next, .carousel-control-prev {

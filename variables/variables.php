@@ -192,7 +192,7 @@ $imagenes_slide_quienes_somos = array(
 
 $texto_servicios = array(
 	"parrafos" => array(
-		0 => " ¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años."
+		0 => " ¡En SU PROPIEDAD INMOBILIARIA estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años."
 	),
 	"lista" => array(
 		0 => "¿QUÉ TE OFRECEMOS?",
@@ -217,8 +217,8 @@ $texto_servicios = array(
 
 $consignar_inmueble = array(
 	"parrafos" => array(
-		0 => "¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos.",
-		1 => "Su Propiedad Inmobiliaria tiene experiencia en el mercado inmobiliaria por más de 18 años, lo cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las ciudades Medellín y Bogotá D.C.  En nuestras sucursales contamos con nuestros mejores aliados para realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y garantías.",
+		0 => "¡En SU PROPIEDAD INMOBILIARIA estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos.",
+		1 => "SU PROPIEDAD INMOBILIARIA tiene experiencia en el mercado inmobiliaria por más de 18 años, lo cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las ciudades Medellín y Bogotá D.C.  En nuestras sucursales contamos con nuestros mejores aliados para realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y garantías.",
 	),
 	"oferta" => array(
 		0  => "¿QUÉ TE OFRECEMOS?",
@@ -266,15 +266,15 @@ $consignar_inmueble = array(
 			0 => "Es completamente GRATIS",
 		),
 		"mensaje_confirmatorio_envio_consignar_inmueble" => array(
-			0 => "¡Hola! ¡En Su Propiedad Inmobiliaria estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos.",
+			0 => "¡Hola! ¡En SU PROPIEDAD INMOBILIARIA estamos felices de saber que has decidido poner en nuestras manos la administración de sus bienes inmuebles! Sabemos lo importante que es para nuestros clientes darnos la confianza de manejar el capital que han construido con mucho esfuerzo por años; y tener la certeza del manejo y la rentabilidad en el futuro será cumplida según nuestros valores y servicios ofrecidos.",
 			1 => "Para finalizar el proceso de consignar tu inmueble, Un asesor se pondrá en contacto contigo durante las próximas horas para brindarte más información.",
 			2 => "Feliz día",
-			3 => "Su Propiedad inmobiliaria",
+			3 => "SU PROPIEDAD INMOBILIARIA",
 		),
 		"mensaje_confirmatorio_envio_formulario_contacto" => array(
 			0 => "¡Hola! Gracias por ponerte en contacto con nosotros, en las próximas horas un asesor de nuestra empresa se comunicara contigo, para brindarte más información.",
 			1 => "Feliz día",
-			2 => "Su Propiedad inmobiliaria",
+			2 => "SU PROPIEDAD INMOBILIARIA",
 		),
 	)
 );

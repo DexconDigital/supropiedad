@@ -35,7 +35,7 @@ $con = $consignar_inmueble;
                     </div>
                     <div class="col-lg-6 col-md-6 col-11 cont_items  d-flex align-items-center">
                         <div>
-                            <h5 class="text-center mb-2">¡Un asesor se contactara contigo lo más pronto posible!</h5>
+                            <h5 class="text-center mb-2">¡Un asesor se contactará contigo lo más pronto posible!</h5>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Contacto</a>
@@ -111,7 +111,7 @@ $con = $consignar_inmueble;
                                                 <label class="form-check-label" for="gridCheck">
                                                     Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política
                                                         de tratamiento de datos personales</a>
-                                                    de su Propiedad Inmobiliaria SAS
+                                                    de SU PROPIEDAD INMOBILIARIA SAS
                                                 </label>
                                             </div>
                                         </div>
@@ -141,7 +141,7 @@ $con = $consignar_inmueble;
                     <!-- Contenedor -->
                     <div>
                         <h3 class="">Experiencia</h3>
-                        <p>Su Propiedad Inmobiliaria tiene experiencia en el mercado inmobiliaria por más de 18 años, lo
+                        <p>Su PROPIEDAD INMOBILIARIA tiene experiencia en el mercado inmobiliaria por más de 18 años, lo
                             cual nos permite brindar siempre el mejor servicio en nuestras diferentes sedes ubicadas en las
                             ciudades Medellín y Bogotá. En nuestras sucursales contamos con nuestros mejores aliados para
                             realizar un estudio ágil y confiable para poderles brindar siempre el mejor respaldo y
@@ -160,8 +160,8 @@ $con = $consignar_inmueble;
                 <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">FOTOGRAFIA CON CAMARAS Y LENTES PROFESIONALES</h3>
-                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro Bróker
-                            Inmobiliario y se tomarán fotografías de alta calidad, con cámaras y lentes profesionales.
+                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro BRÓKER INMOBILIARIO 
+                            y se tomarán fotografías de alta calidad, con cámaras y lentes profesionales.
                             Sabemos la importancia de mostrar cada de detalle al momento de ofrecerlos para venta/arriendo.
                         </p>
                     </div>
@@ -213,7 +213,7 @@ $con = $consignar_inmueble;
                 <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">ASESORÍA Y SEGUIMIENTO</h3>
-                        <p>Te asignamos un Bróker Inmobiliario encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalmente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
+                        <p>Te asignamos un BRÓKER INMOBILIARIO encargado de tu inmueble y de realizar las asesorías y visitas que requiera tu inmueble. Adicionalmente diseñamos plan de marketing y estrategias para arrendar/vender tu inmueble rápidamente, junto con asesoría jurídica y comercial durante todo el proceso.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-10 cont_experiencia">

@@ -111,7 +111,7 @@ include 'layout/menu2.php';
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-12 text-center">
+                                    <div class="col-12 text-center margen_top">
                                         <h2 style="margin-bottom: 0px;"><a class="enlace" href="publicaTuInmueble">PUBLICA TU INMUEBLE AQUÍ</a></h2>
                                     </div>
                                 </div>
@@ -129,8 +129,8 @@ include 'layout/menu2.php';
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card card-body mb-3">
                                     <div class="row">
-                                        <div class="col-12 col-lg-6 col-md-12 propiedad"><img class="imagen" src="images/arrendar_inmueble.jpeg" alt=""></div>
-                                        <div class="col-12 col-lg-6 col-md-12 text-justify mt-4">¿POR QUÉ ARRENDAR CON NOSOTROS?, En SU PROPIEDAD INMOBILIARIA somos expertos en brindarte el mejor acompañamiento en la búsqueda de tu inmueble ideal hasta finalizar el proceso con la entrega de este. Nuestros aliados hacen que el proceso de arriendo sea más fácil y práctico a la hora de presentar los documentos para tu estudio. Tenemos en promedio respuesta en trámites en menos de 24 horas.
+                                        <div class="col-12 col-lg-5 col-md-12 propiedad"><img class="imagen" id="" src="images/arrendar_inmueble.jpeg" alt=""></div>
+                                        <div class="col-12 col-lg-7 col-md-12 text-justify mt-4">¿POR QUÉ ARRENDAR CON NOSOTROS?, En SU PROPIEDAD INMOBILIARIA somos expertos en brindarte el mejor acompañamiento en la búsqueda de tu inmueble ideal hasta finalizar el proceso con la entrega de este. Nuestros aliados hacen que el proceso de arriendo sea más fácil y práctico a la hora de presentar los documentos para tu estudio. Tenemos en promedio respuesta en trámites en menos de 24 horas.
                                             Para tranquilidad de nuestros clientes, nuestros contratos y procesos están avalados por la secretaria de gobierno y La Lonja de Propiedad raíz.
                                             Nuestros asesores, están totalmente a disposición de nuestros clientes para la búsqueda de tu inmueble ideal según tus necesidades y requerimientos.
                                         </div>
@@ -307,7 +307,7 @@ include 'layout/menu2.php';
                                         <p class="text-justify">La aseguradora cobra un valor por el estudio, equivalente al 5% + iva del valor del canon. Si esta solicitud es aprobada por la aseguradora y se efectúa el contrato de arrendamiento con la empresa SU PROPIEDAD INMOBILIARIA, se genera una comisión equivalente al 20% + iva del valor del canon en la ciudad de Medellín más $25.000 de papelería. </p>
                                     </div>
 
-                                    <div class="col-12 text-center">
+                                    <div class="col-12 text-center margen_top">
                                         <h2 style="margin-bottom: 0px;"><a class="enlace" href="inmuebles">ENCUENTRA TU INMUEBLE AQUÍ </a></h2>
                                     </div>
                                 </div>
@@ -386,7 +386,7 @@ include 'layout/menu2.php';
                                         </div>
 
                                     </div>
-                                    <div class="col-12 text-center">
+                                    <div class="col-12 text-center margen_top">
                                         <h2 style="margin-bottom: 0px;"><a class="enlace" href="publicaTuInmueble">PUBLICA TU INMUEBLE AQUÍ</a></h2>
                                     </div>
                                 </div>
@@ -453,7 +453,7 @@ include 'layout/menu2.php';
                                         </div>
 
                                     </div>
-                                    <div class="col-12 text-center">
+                                    <div class="col-12 text-center margen_top">
                                         <h2 style="margin-bottom: 0px;"><a class="enlace" href="inmuebles">ENCUENTRA TU INMUEBLE AQUÍ</a></h2>
                                     </div>
                                 </div>
@@ -479,18 +479,11 @@ include 'layout/menu2.php';
                                 <div class="card card-body">
                                     <div class="row">
                                         <div class="col-12 col-lg-4 col-md-12 propiedad"><img class="imagen" src="images/avaluos.jpeg" alt=""></div>
-                                        <div class="col-12 col-lg-8 col-md-12 text-justify"> En SU PROPIEDAD INMOBILIARIA contamos con un grupo de Avaluadores altamente capacitados y calificados para ofrecerles un servicio de calidad a los clientes. Nuestros Avaluadores cuentan con el Registro Nacional de Avalúos R.N.A. y el Registro Abierto de Avaluadores A.N.A. <br>
-                                            En nuestros Avalúos tenemos diferentes maneras y métodos de hacer la estimación más aproximada del valor del inmueble ya sea para compra o venta.
-
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12 mt-3">
-                                            <div class="col-12 text-justify"> Nuestro personal está constantemente actualizándose acerca de los precios, de acuerdo al mercado inmobiliario y su comportamiento, tanto para venta, como para arriendo.
+                                        <div class="col-12 col-lg-8 col-md-12 text-justify"> En SU PROPIEDAD INMOBILIARIA contamos con un grupo de Avaluadores altamente capacitados y calificados para ofrecerles un servicio de calidad a los clientes. Nuestros Avaluadores cuentan con el Registro Nacional de Avalúos R.N.A. y el Registro Abierto de Avaluadores A.N.A. <br><br>
+                                            En nuestros Avalúos tenemos diferentes maneras y métodos de hacer la estimación más aproximada del valor del inmueble ya sea para compra o venta.<br><br>  Nuestro personal está constantemente actualizándose acerca de los precios, de acuerdo al mercado inmobiliario y su comportamiento, tanto para venta, como para arriendo.
                                                 Para realizar el avaluó solo necesitamos una copia de la escritura de compraventa del bien, en cuanto al precio este varía de acuerdo al área del inmueble.
-                                            </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>

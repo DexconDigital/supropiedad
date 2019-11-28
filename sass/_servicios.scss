@@ -144,7 +144,7 @@
 }
 
 #servi_ar_ven_ava{
-       margin-bottom: 10%;;
+       margin-bottom: 10%;
     .imagen{
         width: 100%;
         height: 100%;
@@ -155,6 +155,7 @@
             object-fit: contain;
         }
     }
+    
     .color_titulo{
         color: #4b290f;
     }
@@ -233,6 +234,9 @@
 }
 .color_modal{
     color: inherit;
+    &:hover{
+        color:$color_principal;
+    }
 }
 .titulo_imagen{
     margin-top: 28%;

@@ -120,7 +120,7 @@
         </div>
     </div>
     <div class="row justify-content-center pl-0 pr-0 borde pt-3 pb-1">
-        <div class="col-8">
+        <div class="col-9">
             <p class="pt-1 pb-1 text-center">
                 Diseñado y Desarrollado por <a href="https://www.dexcondigital.com" target="_blank">Dexcon Digital</a> ©Copyright 2019 para Su Propiedad
                 Inmobiliaria. Todos los derechos reservados.

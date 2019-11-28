@@ -7,7 +7,7 @@
  */
 @font-face {
   font-family: 'Century-Gothic';
-  src: local("Century-Gothic"), url(../fonts/GOTHIC.TTF); }
+  src: local("Century-Gothic"), url(../fonts/CenturyGothicStdRegular.otf); }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8076,6 +8076,8 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
 
 .color_modal {
   color: inherit; }
+  .color_modal:hover {
+    color: #c87a33; }
 
 .titulo_imagen {
   margin-top: 28%; }
@@ -8394,7 +8396,7 @@ p {
   padding-bottom: 40px; }
   @media (min-width: 768px) {
     .separador {
-      padding-top: 70px;
+      padding-top: 30px;
       padding-bottom: 40px; } }
 
 .separador_servicios {
@@ -8406,7 +8408,10 @@ p {
       padding-bottom: 40px; } }
   @media (min-width: 992px) {
     .separador_servicios {
-      padding-top: 120px; } }
+      padding-top: 30px; } }
+
+.margen_top {
+  margin-top: 2%; }
 
 #slide_inicio .carousel-control-next, #slide_inicio .carousel-control-prev {
   width: 5%; }
