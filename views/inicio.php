@@ -43,7 +43,7 @@ include 'layout/menu.php';
                         <div class="col-lg-12 col-md-9 col-9">
                             <h1 class="text-center wow bounceInDown" data-wow-Duration="2s" data-wow-delay=".5s">Encuentra tu Inmueble Ideal con Nosotros</h1>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-9 cont_secundario contenedor_compresor">
+                        <div class="col-12 col-md-12 col-lg-11 cont_secundario contenedor_compresor">
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
                                     <div class="col col-md-2 col-lg-2  bot1">
