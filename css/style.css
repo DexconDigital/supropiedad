@@ -8768,6 +8768,12 @@ iframe {
 #color_footer2:hover {
   color: #c87a33; }
 
+.colapse_movil {
+  display: block; }
+  @media (min-width: 768px) {
+    .colapse_movil {
+      display: initial; } }
+
 #contacto ul .nav-item a {
   color: #2c2c2c; }
 #contacto ul .nav-item .nav-link.active {

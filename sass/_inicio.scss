@@ -496,3 +496,9 @@ iframe{
                color: #c87a33;
            }
    }
+   .colapse_movil{
+    display: block;
+    @include media-breakpoint-up(md){
+        display: initial;
+        }
+   }

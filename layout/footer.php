@@ -122,9 +122,8 @@
     <div class="row justify-content-center pl-0 pr-0 borde pt-3 pb-1">
         <div class="col-12">
             <p class="pt-1 pb-1 text-center">
-            Todos los derechos reservados. Su Propiedad Inmobiliaria Asociados SAS.
-               
-                <div class="col-12 text-center">
+                 Todos los derechos reservados. <span class="colapse_movil">Su Propiedad Inmobiliaria Asociados SAS.</span> 
+               <div class="col-12 text-center">
                    <a id="color_footer" target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">Política de protección de datos</a>  |  <a id="color_footer2" target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Téminos y condiciones.</a> | Diseñado y Desarrollado por <a  href="https://www.dexcondigital.com" target="_blank">Dexcon Digital</a> © Copyright
                 </div>
 
