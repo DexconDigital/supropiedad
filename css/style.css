@@ -7706,7 +7706,7 @@ a.text-dark:hover, a.text-dark:focus {
       min-width: 0%; } }
   .overlay .col input,
   .overlay .col select {
-    border-radius: 0 !important;
+    /* border-radius: 0 !important; */
     border: none;
     border-left: 1px solid #9c9c9c;
     height: 45px; }
@@ -7866,7 +7866,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus, textarea:f
   font-size: 1.4em; }
 @media (min-width: 768px) {
   .propiedades .detalles {
-    margin: 16px;
+    margin: 13px;
     list-style: none;
     color: #535353;
     background: #f7f7f7;
@@ -8705,6 +8705,12 @@ iframe {
       padding-top: 0%;
       width: 0%; } }
 
+.contenido_formualrio {
+  padding-right: 5%; }
+  @media (min-width: 768px) {
+    .contenido_formualrio {
+      padding-right: 0%; } }
+
 @media (min-width: 768px) {
   .cont_secundario {
     margin-left: -5%; } }
@@ -8755,6 +8761,12 @@ iframe {
   @media (min-width: 992px) {
     .propiedad {
       margin-top: 0%; } }
+
+#color_footer:hover {
+  color: #c87a33; }
+
+#color_footer2:hover {
+  color: #c87a33; }
 
 #contacto ul .nav-item a {
   color: #2c2c2c; }
@@ -8885,10 +8897,10 @@ iframe {
 
 .titulo {
   margin-bottom: 12px;
-  margin-top: 19%; }
+  margin-top: -2%; }
   @media (min-width: 768px) {
     .titulo {
-      margin-top: 9%; } }
+      margin-top: 0%; } }
   @media (min-width: 992px) {
     .titulo {
       margin-top: 0%; } }

@@ -418,6 +418,12 @@ iframe{
     }
 
 }
+.contenido_formualrio{
+    padding-right: 5%;
+    @include media-breakpoint-up(md){
+        padding-right: 0%;
+        }
+}
 .cont_secundario{
     @include media-breakpoint-up(md){
         margin-left: -5%;
@@ -479,3 +485,14 @@ iframe{
                 margin-top: 0%;
                 }
     }
+
+    #color_footer{
+         &:hover{
+                color: #c87a33;
+            }
+    }
+    #color_footer2{
+        &:hover{
+               color: #c87a33;
+           }
+   }

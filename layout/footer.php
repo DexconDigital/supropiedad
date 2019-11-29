@@ -108,7 +108,7 @@
                                 <div class="icon-container">
                                     <i class="<?php echo $iconos_contacto['correo'] ?>"></i>
                                 </div>
-        
+
                                 <a href='<?php echo $datos_contacto_sedes['medellin_centro']['correo']; ?>'>
                                     <?php echo $datos_contacto_sedes['medellin_centro']['correo']; ?>
                                 </a>
@@ -120,10 +120,14 @@
         </div>
     </div>
     <div class="row justify-content-center pl-0 pr-0 borde pt-3 pb-1">
-        <div class="col-9">
+        <div class="col-12">
             <p class="pt-1 pb-1 text-center">
-                Diseñado y Desarrollado por <a href="https://www.dexcondigital.com" target="_blank">Dexcon Digital</a> ©Copyright 2019 para Su Propiedad
-                Inmobiliaria. Todos los derechos reservados.
+            Todos los derechos reservados. Su Propiedad Inmobiliaria Asociados SAS.
+               
+                <div class="col-12 text-center">
+                   <a id="color_footer" target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">Política de protección de datos</a>  |  <a id="color_footer2" target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Téminos y condiciones.</a> | Diseñado y Desarrollado por <a  href="https://www.dexcondigital.com" target="_blank">Dexcon Digital</a> © Copyright
+                </div>
+
             </p>
         </div>
     </div>

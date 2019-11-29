@@ -109,8 +109,8 @@ $con = $consignar_inmueble;
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
                                                 <label class="form-check-label" for="gridCheck">
-                                                    Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política
-                                                        de tratamiento de datos personales</a>
+                                                    Confirmo que he leído, entendido y acepto la <a target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política
+                                                        de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>
                                                     de SU PROPIEDAD INMOBILIARIA SAS
                                                 </label>
                                             </div>
@@ -159,7 +159,7 @@ $con = $consignar_inmueble;
                 </div>
                 <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
-                        <h3 class="">FOTOGRAFIA CON CAMARAS Y LENTES PROFESIONALES</h3>
+                        <h3 class="">FOTOGRAFÍA CON CAMARAS Y LENTES PROFESIONALES</h3>
                         <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro BRÓKER INMOBILIARIO 
                             y se tomarán fotografías de alta calidad, con cámaras y lentes profesionales.
                             Sabemos la importancia de mostrar cada de detalle al momento de ofrecerlos para venta/arriendo.

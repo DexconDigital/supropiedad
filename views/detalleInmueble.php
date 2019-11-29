@@ -310,7 +310,7 @@ $page = "inmuebles";
                                         <input type="checkbox" class="form-check-input ml-1" id="exampleCheck1">
                                         <label class="form-check-label ml-4" for="gridCheck">
                                             <small>
-                                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
+                                                Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>
                                                 de su Propiedad Inmobiliaria SAS
                                             </small>
                                         </label>

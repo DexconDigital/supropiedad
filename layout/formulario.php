@@ -3,13 +3,13 @@
         <div class="col-6 form-group">
             <input type="text" class="form-control" placeholder="Nombre Completo">
         </div>
-        <div class="col-6 form-group">
+        <div class="col-6 form-group pl-0">
             <input type="text" class="form-control" placeholder="Correo">
         </div>
         <div class="col-6 form-group">
             <input type="text" class="form-control" placeholder="Teléfono">
         </div>
-        <div class="col-6 form-group">
+        <div class="col-6 form-group pl-0">
             <input type="text" class="form-control" placeholder="Asunto">
         </div>
         <div class="col-12 form-group">
@@ -19,8 +19,8 @@
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
                 <label class="form-check-label" for="gridCheck">
-                    Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a>
-                    de su Propiedad Inmobiliaria SAS
+                    Confirmo que he leído, entendido y acepto la <a target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>
+                    de SU PROPIEDAD INMOBILIARIA SAS
                 </label>
             </div>
         </div>

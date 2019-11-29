@@ -47,9 +47,9 @@ include 'layout/menu.php';
                             <form action="" class="w-100 wow bounceInUp" data-wow-Duration="2s" data-wow-delay=".5s">
                                 <div class="form-row justify-content-center">
                                     <div class="col col-md-2 col-lg-2  bot1">
-                                        <input type="number" class="form-control" id="codigo_buscar" placeholder="Código">
+                                        <input type="number" class="form-control rounded-0" id="codigo_buscar" placeholder="Código">
                                     </div>
-                                    <div class="col col-md-2 col-lg-2  bot1">
+                                    <div class="col col-md-2 col-lg-2   bot1">
                                         <select id="ciudad_buscar" class="form-control rounded-0">
                                             <option selected value="0">Ciudad</option>
                                         </select>
@@ -65,7 +65,7 @@ include 'layout/menu.php';
                                         </select>
                                     </div>
                                     <div class="col col-md-2 col-lg-2  bot4 posicion2 pr-4 margen_2 input-group">
-                                        <select id="tipo_gestion_buscar" class="form-control rounded-0">
+                                        <select id="tipo_gestion_buscar" class="form-control">
                                             <option selected value='0'>Gestión</option>
                                         </select>
                                         <div class="input-group-append boton_buscar">
