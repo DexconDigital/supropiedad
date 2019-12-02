@@ -44,85 +44,106 @@ $con = $consignar_inmueble;
                                     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Inmueble</a>
                                 </li>
                             </ul>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                    <div class="row mt-4">
-                                        <div class="col-lg-6 col-md-6 col-12 form-group">
-                                            <input type="text" class="form-control" placeholder="Nombres">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-12 form-group">
-                                            <input type="text" class="form-control" placeholder="Apellidos">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-12 form-group">
-                                            <input type="text" class="form-control" placeholder="Documento">
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-12 form-group">
-                                            <input type="text" class="form-control" placeholder="Teléfono">
-                                        </div>
-                                        <div class="col-12 form-group">
-                                            <input type="text" class="form-control" placeholder="Correo">
-                                        </div>
-                                        <div class="col-12 row justify-content-end pr-0">
-                                            <div class="col-4 pr-0">
-                                                <a class="btn btn-primary btn-md btn-block" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Siguiente</a>
+                            <form action="email/formulario_publica_tu_inmueble.php" method="post">
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row mt-4">
+                                            <div class="col-lg-6 col-md-6 col-12 form-group">
+                                                <input type="text" name="nombrep" id="nombrep" class="form-control" placeholder="Nombres">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12 form-group">
+                                                <input type="text" name="apellidop" id="apellidop" class="form-control" placeholder="Apellidos">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12 form-group">
+                                                <input type="text" name="documentop" id="documentop" class="form-control" placeholder="Documento">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12 form-group">
+                                                <input type="text" name="telefonop" id="telefonop" class="form-control" placeholder="Teléfono">
+                                            </div>
+                                            <div class="col-12 form-group">
+                                                <input type="text" name="correop" id="correop" class="form-control" placeholder="Correo">
+                                            </div>
+                                            <div class="col-12 row justify-content-end pr-0">
+                                                <div class="col-4 pr-0">
+                                                    <a class="btn btn-primary btn-md btn-block" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Siguiente</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div class="row mt-4">
-                                        <div class="col-lg-6 col-md-6 col-12 form-group">
-                                            <select name="" id="tipo_gestion_buscar" class="form-control">
-                                                <option value="0">Gestión</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-12 form-group">
-                                            <select name="" id="tipo_inmueble_buscar" class="form-control">
-                                                <option value="0">Tipo Inmueble</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-4 form-group">
-                                            <input type="text" class="form-control" placeholder="Estrato">
-                                        </div>
-                                        <div class="col-lg-9 col-md-8 col-8 form-group">
-                                            <input type="text" class="form-control" placeholder="Dirección">
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-6 form-group">
-                                            <input type="text" class="form-control" placeholder="Ciudad">
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-6 form-group">
-                                            <input type="text" class="form-control" placeholder="Precio">
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-6 form-group">
-                                            <input type="text" class="form-control" placeholder="Área">
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-6 form-group">
-                                            <input type="text" class="form-control" placeholder="Habitaciones">
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-6 form-group">
-                                            <input type="text" class="form-control" placeholder="Baños">
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-6 form-group">
-                                            <input type="text" class="form-control" placeholder="Parqueaderos">
-                                        </div>
-                                        <div class=" col-12 form-group">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
-                                                <label class="form-check-label" for="gridCheck">
-                                                    Confirmo que he leído, entendido y acepto la <a target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política
-                                                        de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>
-                                                    de SU PROPIEDAD INMOBILIARIA SAS
-                                                </label>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="row mt-4">
+                                            <div class="col-lg-6 col-md-6 col-12 form-group">
+                                                <select name="tipo_gestionp" id="tipo_gestionp" class="form-control">
+                                                    <option selected>Gestión</option>
+                                                    <option value="Arriendo">Arriendo</option>
+                                                    <option value="Venta">Venta</option>
+                                                    <option value="Venta Y Arriendo">Venta Y Arriendo</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12 form-group">
+                                                <select name="tipo_inmueblep" id="tipo_inmueblep" class="form-control">
+                                                    <option selected>Tipo Inmueble</option>
+                                                    <option value="Apartaestudio">Apartaestudio</option>
+                                                    <option value="Apartamento">Apartamento</option>
+                                                    <option value="Bodega">Bodega</option>
+                                                    <option value="Casas">Casas</option>
+                                                    <option value="Consultorios">Consultorios</option>
+                                                    <option value="Edificios">Edificios</option>
+                                                    <option value="Fincas">Fincas</option>
+                                                    <option value="Hotel">Hotel</option>
+                                                    <option value="Locales">Locales</option>
+                                                    <option value="Lotes">Lotes</option>
+                                                    <option value="Oficinas">Oficinas</option>
+                                                    <option value="Parqueaderos">Parqueaderos</option>
+                                                    <option value="Proyecto">Proyecto</option>
+                                                    <option value="Otro">Otro</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-4 form-group">
+                                                <input type="text" name="estratop" id="estratop" class="form-control" placeholder="Estrato">
+                                            </div>
+                                            <div class="col-lg-9 col-md-8 col-8 form-group">
+                                                <input type="text" name="direccionp" id="direccionp" class="form-control" placeholder="Dirección">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-6 form-group">
+                                                <input type="text" id="ciudadp" name="ciudadp" class="form-control" placeholder="Ciudad">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-6 form-group">
+                                                <input type="text" id="preciop" name="preciop" class="form-control" placeholder="Precio">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-6 form-group">
+                                                <input type="text" id="areap" name="areap" class="form-control" placeholder="Área">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-6 form-group">
+                                                <input type="text" id="habitap" name="habitap" class="form-control" placeholder="Habitaciones">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-6 form-group">
+                                                <input type="text" id="banosp" name="banosp" class="form-control" placeholder="Baños">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-6 form-group">
+                                                <input type="text" id="garajep" name="garajep" class="form-control" placeholder="Parqueaderos">
+                                            </div>
+                                            <div class=" col-12 form-group">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Confirmo que he leído, entendido y acepto la <a target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política
+                                                            de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>
+                                                        de SU PROPIEDAD INMOBILIARIA SAS
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 row justify-content-center">
+                                                <div class="col-4">
+                                                    <button type="submit" class="btn btn-primary btn-md btn-block">Enviar</button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 row justify-content-center">
-                                            <div class="col-4">
-                                                <button type="button" class="btn btn-primary btn-md btn-block">Enviar</button>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -160,7 +181,7 @@ $con = $consignar_inmueble;
                 <div class="col-lg-6 col-md-6 col-10 cont_experiencia d-flex align-items-center">
                     <div>
                         <h3 class="">FOTOGRAFÍA CON CAMARAS Y LENTES PROFESIONALES</h3>
-                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro BRÓKER INMOBILIARIO 
+                        <p>Todos los inmuebles consignados a SU PROPIEDAD INMOBILIARIA serán visitados por nuestro BRÓKER INMOBILIARIO
                             y se tomarán fotografías de alta calidad, con cámaras y lentes profesionales.
                             Sabemos la importancia de mostrar cada de detalle al momento de ofrecerlos para venta/arriendo.
                         </p>
@@ -376,7 +397,7 @@ $con = $consignar_inmueble;
                         </div>
                     </div>
                 </div>
-                     </div>
+            </div>
         </div>
     </section>
 </div>

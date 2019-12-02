@@ -65,7 +65,7 @@ include 'layout/menu.php';
                                         </select>
                                     </div>
                                     <div class="col col-md-2 col-lg-2  bot4 posicion2 pr-4 margen_2 input-group">
-                                        <select id="tipo_gestion_buscar" class="form-control">
+                                        <select id="tipo_gestion_buscar" class="form-control rounded-0">
                                             <option selected value='0'>Gestión</option>
                                         </select>
                                         <div class="input-group-append boton_buscar">

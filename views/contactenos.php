@@ -39,7 +39,7 @@ include 'layout/menu2.php';
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <!-- contenido sede 1 -->
+                    <!-- contenido sede 1 Medellin_poblado-->
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container-fluid">
                             <div class="row caracteristicas">
@@ -115,13 +115,13 @@ include 'layout/menu2.php';
                                 </div>
                                 
                                 <div class="col-11">
-                                    <?php include 'layout/formulario.php'; ?>
+                                    <?php include 'layout/formulario_medellin_poblado.php'; ?>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <!-- contenido sede 2  -->
+                    <!-- contenido sede 2 Medellin_centro -->
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="container-fluid">
                             <div class="row caracteristicas">
@@ -197,7 +197,7 @@ include 'layout/menu2.php';
                                         formulario para poder ponernos en contacto contigo lo más pronto posible.</h5>
                                 </div>
                                 <div class="col-11">
-                                    <?php include 'layout/formulario.php'; ?>
+                                    <?php include 'layout/formulario_medellin_centro.php'; ?>
                                 </div>
                             </div>
                         </div>
@@ -280,7 +280,7 @@ include 'layout/menu2.php';
                                 formulario para poder ponernos en contacto contigo lo más pronto posible.</h5>
                         </div>
                         <div class="col-11 col-md-10 col-lg-10 contenido_formualrio">
-                            <?php include 'layout/formulario.php'; ?>
+                            <?php include 'layout/formulario_bogota.php'; ?>
                         </div>
                     </div>
                 </div>

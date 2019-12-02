@@ -102,6 +102,7 @@ $asesores =[
 		'nombre' => 'Natalie Drago',
         'sede' => 0
     ],
+    
 ]
 
 ?>
