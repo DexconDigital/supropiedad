@@ -23,9 +23,7 @@ if ($_POST) {
     $parqueaderos  = $_POST['garajep'];
 
 
-    /* echo 'Nombre :' , $nombre, 'Apellido:' , $apellido , 'Documento:' , $documento , 'Telefono:' ,  $telefono, 'Tipo de gestion: ' , $tipo_gestion , 'Tipo de inmueble:' , $tipo_inmueble , 'estrato:' , $estrato , 'Direccion:' , $direccion , 'Ciudad:' , $ciudad , 'Precio:' , $precio , 'Area:', $area ,   'Habitacion' , $habitacion ,
-    'Baños:' ,$baños ,  'Parqueaderos: ',  $parqueaderos ;
-    die(); */
+   
 }
 
 
@@ -37,6 +35,7 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     //acceso
+    $mail->CharSet = 'UTF-8';
     $mail->Username = 'masivoinmobiliarias@gmail.com';
     $mail->Password = 'dexcon2019@';
 
@@ -47,14 +46,13 @@ try {
 
     $mail->isHTML(true);
     //Cabecera
-    $mail->setFrom('SuPropiedad@supropiedad.com', 'SuPropiedad@supropiedad.com');
+    $mail->setFrom('SuPropiedadInmobiliaria@supropiedadinmobiliaria.com', 'SuPropiedadInmobiliaria@supropiedadinmobiliaria.com');
     //destinos
-    $mail->addAddress('alexthunder7@gmail.com');
-    $mail->addAddress('wdsp9898@gmail.com');
-    $mail->addAddress('ceo@dexcondigital.com');
+    /* $mail->addAddress('servicioalcliente@supropiedadinmobiliaria.com'); */
+    
 
 
-    $mail->Subject = 'Mensaje desde la pagina web de Su Propiedad Inmobiliaria';
+    $mail->Subject = 'Mensaje desde la página web de Su Propiedad Inmobiliaria';
     $mail->Body = '<span>Hola, ' . $nombre . ' quiere recibir información sobre como consignar un inmueble</span>
                    <span>sus datos de contacto son: </span>
                    <ul>

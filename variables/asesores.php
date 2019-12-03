@@ -90,13 +90,13 @@ $asesores =[
 		'nombre' => 'Paula Fernández',
         'sede' => 0
     ],
-	9=>[
+	14=>[
         'rutaImagen' => 'images/YULY SAENZ-MEDELLIN.jpg',
         'alt' => 'texto alternativo',
 		'nombre' => 'Yuly Sáenz', 
         'sede' => 1
     ],
-    14=>[
+    15=>[
         'rutaImagen' => 'images/NATALIE DRAGO-BOGOTA.jpg',
         'alt' => 'texto alternativo',
 		'nombre' => 'Natalie Drago',

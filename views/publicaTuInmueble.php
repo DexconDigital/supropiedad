@@ -49,19 +49,19 @@ $con = $consignar_inmueble;
                                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row mt-4">
                                             <div class="col-lg-6 col-md-6 col-12 form-group">
-                                                <input type="text" name="nombrep" id="nombrep" class="form-control" placeholder="Nombres">
+                                                <input type="text" name="nombrep" id="nombrep" class="form-control" placeholder="Nombres" required>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-12 form-group">
-                                                <input type="text" name="apellidop" id="apellidop" class="form-control" placeholder="Apellidos">
+                                                <input type="text" name="apellidop" id="apellidop" class="form-control" placeholder="Apellidos" required>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-12 form-group">
-                                                <input type="text" name="documentop" id="documentop" class="form-control" placeholder="Documento">
+                                                <input type="text" name="documentop" id="documentop" class="form-control" placeholder="Documento" required>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-12 form-group">
-                                                <input type="text" name="telefonop" id="telefonop" class="form-control" placeholder="Teléfono">
+                                                <input type="text" name="telefonop" id="telefonop" class="form-control" placeholder="Teléfono" required>
                                             </div>
                                             <div class="col-12 form-group">
-                                                <input type="text" name="correop" id="correop" class="form-control" placeholder="Correo">
+                                                <input type="text" name="correop" id="correop" class="form-control" placeholder="Correo" required>
                                             </div>
                                             <div class="col-12 row justify-content-end pr-0">
                                                 <div class="col-4 pr-0">
@@ -73,7 +73,7 @@ $con = $consignar_inmueble;
                                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                         <div class="row mt-4">
                                             <div class="col-lg-6 col-md-6 col-12 form-group">
-                                                <select name="tipo_gestionp" id="tipo_gestionp" class="form-control">
+                                                <select name="tipo_gestionp" id="tipo_gestionp" class="form-control" required>
                                                     <option selected>Gestión</option>
                                                     <option value="Arriendo">Arriendo</option>
                                                     <option value="Venta">Venta</option>
@@ -81,7 +81,7 @@ $con = $consignar_inmueble;
                                                 </select>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-12 form-group">
-                                                <select name="tipo_inmueblep" id="tipo_inmueblep" class="form-control">
+                                                <select name="tipo_inmueblep" id="tipo_inmueblep" class="form-control" required>
                                                     <option selected>Tipo Inmueble</option>
                                                     <option value="Apartaestudio">Apartaestudio</option>
                                                     <option value="Apartamento">Apartamento</option>
@@ -101,32 +101,32 @@ $con = $consignar_inmueble;
                                                 </select>
                                             </div>
                                             <div class="col-lg-3 col-md-4 col-4 form-group">
-                                                <input type="text" name="estratop" id="estratop" class="form-control" placeholder="Estrato">
+                                                <input type="text" name="estratop" id="estratop" class="form-control" placeholder="Estrato" required>
                                             </div>
                                             <div class="col-lg-9 col-md-8 col-8 form-group">
-                                                <input type="text" name="direccionp" id="direccionp" class="form-control" placeholder="Dirección">
+                                                <input type="text" name="direccionp" id="direccionp" class="form-control" placeholder="Dirección" required>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-6 form-group">
-                                                <input type="text" id="ciudadp" name="ciudadp" class="form-control" placeholder="Ciudad">
+                                                <input type="text" id="ciudadp" name="ciudadp" class="form-control" placeholder="Ciudad" required>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-6 form-group">
-                                                <input type="text" id="preciop" name="preciop" class="form-control" placeholder="Precio">
+                                                <input type="text" id="preciop" name="preciop" class="form-control" placeholder="Precio" required>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-6 form-group">
-                                                <input type="text" id="areap" name="areap" class="form-control" placeholder="Área">
+                                                <input type="text" id="areap" name="areap" class="form-control" placeholder="Área" required>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-6 form-group">
-                                                <input type="text" id="habitap" name="habitap" class="form-control" placeholder="Habitaciones">
+                                                <input type="text" id="habitap" name="habitap" class="form-control" placeholder="Habitaciones" required>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-6 form-group">
-                                                <input type="text" id="banosp" name="banosp" class="form-control" placeholder="Baños">
+                                                <input type="text" id="banosp" name="banosp" class="form-control" placeholder="Baños" required>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-6 form-group">
-                                                <input type="text" id="garajep" name="garajep" class="form-control" placeholder="Parqueaderos">
+                                                <input type="text" id="garajep" name="garajep" class="form-control" placeholder="Parqueaderos" required>
                                             </div>
                                             <div class=" col-12 form-group">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck" style="height:auto;" required>
                                                     <label class="form-check-label" for="gridCheck">
                                                         Confirmo que he leído, entendido y acepto la <a target="_blank" href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política
                                                             de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>

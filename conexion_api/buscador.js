@@ -1,4 +1,4 @@
-$(document).ready(function () {
+    $(document).ready(function () {
     // si el campo codigo tiene un valor los demas  campos se desabilitan
     $('#codigo_buscar').keyup(function () {
         var value = $(this).val();

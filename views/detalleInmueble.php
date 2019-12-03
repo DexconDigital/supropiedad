@@ -71,7 +71,6 @@ $page = "inmuebles";
     </nav>
 </section>
 
-
 <section id="detalle_inmueble">
     <div class="container p-0">
         <div class="row pt-3">
@@ -208,7 +207,8 @@ $page = "inmuebles";
                                     echo '<li><i class="fas fa-check mr-2"></i> Edad del Inmueble: ' . $r['EdadInmueble'] . '</li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Alcobas: ' . $r['alcobas'] . '</li>';
                                     echo '<li><i class="fas fa-check mr-2"></i> Baños: ' . $r['banos'] . '</li>';
-                                    echo '<li><i class="fas fa-check mr-2"></i> Garaje: ' . $r['garaje'] . '</li>';; ?>
+                                    echo '<li><i class="fas fa-check mr-2"></i> Garaje: ' . $r['garaje'] . '</li>';;
+                                    ?>
                                 </ul>
                             </div>
                         </div>
@@ -288,26 +288,29 @@ $page = "inmuebles";
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 pr-md-0 row pr-lg-0">
                     <div class="col-12 card_contacto ">
-                        <div class="card form-contact-property">
-                            <div class="card-body">
-                                <form action="" class="row">
+                        <form action="<?php echo $url_host ?>email/formulario_detalle_inmueble.php" method="post">
+                            <div class="card form-contact-property">
+                                <div class="card-body">
                                     <div class="col-12">
                                         <h5 class="title-form">Nosotros te llamamos</h5>
                                     </div>
                                     <div class="form-group col-12">
-                                        <input type="text" class="form-control" placeholder="Nombre Completo">
+                                        <input type="text" name="nombred" id="nombred" class="form-control" placeholder="Nombre Completo" required>
                                     </div>
                                     <div class="form-group col-12">
-                                        <input type="email" class="form-control" placeholder="Correo Electrónico">
+                                        <input type="email" name="correod" id="correod" class="form-control" placeholder="Correo Electrónico" required>
                                     </div>
                                     <div class="form-group col-12">
-                                        <input type="number" class="form-control" placeholder="Teléfono">
+                                        <input type="number" name="telefonod" id="telefonod" class="form-control" placeholder="Teléfono" required>
                                     </div>
                                     <div class="form-group col-12">
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                                        <textarea class="form-control" name="mensajed" id="mensajed" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required></textarea>
                                     </div>
+                                    <select style="visibility:hidden" name="codigo" id="codigo"  >
+                                        <option value="<?php echo $co ?>"><?php echo $co ?></option>
+                                    </select>
                                     <div class="form-group form-check col-12">
-                                        <input type="checkbox" class="form-check-input ml-1" id="exampleCheck1">
+                                        <input type="checkbox" class="form-check-input ml-1" id="exampleCheck1" required>
                                         <label class="form-check-label ml-4" for="gridCheck">
                                             <small>
                                                 Confirmo que he leído, entendido y acepto la <a href="<?php echo $url_host; ?>formatos/politica_de_datos.pdf">política de tratamiento de datos personales</a> y <a target="_blank" href="<?php echo $url_host; ?>formatos/TERMINOS-Y-CONDICIONES.pdf">Terminos y condiciones</a>
@@ -316,25 +319,25 @@ $page = "inmuebles";
                                         </label>
                                     </div>
                                     <div class="form-group col-12">
-                                        <button class="btn btn-primary btn-md btn-block">Enviar</button>
+                                        <button type="submit" class="btn btn-primary btn-md btn-block">Enviar</button>
                                     </div>
-                                </form>
+                        </form>
+                    </div>
+                </div>
+                <div class="card form-contact-property mt-4">
+                    <div class="card-body pr-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="title-form">Propiedades Similares</h5>
                             </div>
-                        </div>
-                        <div class="card form-contact-property mt-4">
-                            <div class="card-body pr-0">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h5 class="title-form">Propiedades Similares</h5>
-                                    </div>
-                                    <div class="col-12 row propiedades pr-0 ">
-                                        <?php similares($url_host, $r['IdCiudad'], $r['IdTpInm']) ?>
-                                    </div>
-                                </div>
+                            <div class="col-12 row propiedades pr-0 ">
+                                <?php similares($url_host, $r['IdCiudad'], $r['IdTpInm']) ?>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 </section>
