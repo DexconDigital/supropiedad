@@ -496,8 +496,8 @@ include 'layout/menu2.php';
 
 </section>
 
-
-
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/servicios.js"></script> 
 
 <!-- <section id="servi_ar_ven_ava" class=" wow bounceInLeft " data-wow-delay=".7s" data-wow-duration="2s">
     <div id="accordion">
