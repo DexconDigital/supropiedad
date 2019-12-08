@@ -25,30 +25,125 @@ include 'layout/menu2.php';
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="js/common.js"></script>
 
-
-
 <section id="servi_ar_ven_ava" class=" wow bounceInLeft " data-wow-delay=".7s" data-wow-duration="2s">
+    <div class="container">
+        <div class="col-12 text-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <span style="color:white;" class="far fa-hand-pointer"></span> QUIERO ARRENDAR MI PROPIEDAD
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">QUIERO ARRENDAR MI PROPIEDAD</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 propiedad"><img class="imagen" src="images/Arrienda_propiedad.jpeg" alt=""></div>
+                            <div class="col-lg-8 col-12 col-md-12 text-justify"> En SU PROPIEDAD INMOBILIARIA somos expertos en brindarte el mejor acompañamiento en la búsqueda de tu inmueble ideal hasta finalizar el proceso con la entrega de este. Nuestros aliados hacen que el proceso de arriendo sea más fácil y práctico a la hora de presentar los documentos para tu estudio. Tenemos en promedio respuesta en trámites en menos de 24 horas. Para tranquilidad de nuestros clientes, nuestros contratos y procesos están avalados por la secretaria de gobierno y La Lonja de Propiedad raíz. Nuestros asesores, están totalmente a disposición de nuestros clientes para la búsqueda de tu inmueble ideal según tus necesidades y requerimientos.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <h5 class="titulos"> <strong>EN ADMINISTRACIÓN - TU ARRIENDO SEGURO</strong></h5>
+                                <ul class="pl-0">
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>PRECIO UNICO mensual del 10% más IVA de comisión INCLUIDO el Seguro/Fianza de Arrendamiento.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Realizamos estudios de crédito al arrendatario con respuesta en menos de 4-8 horas en promedio. <small><strong>Aplica términos y condiciones.</strong></small></p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Tenemos la opción de ADELANTAR los primeros 3 meses de arriendo. <small><strong>Aplica términos y condiciones.</strong></small></p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>El contrato de arredramiento contara con una póliza de ASEGURADORAS/AFIANZADORAS durante toda la vigencia del contrato.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Ofrecemos el servicio de pago de la administración de la copropiedad de tu inmueble (Si aplica). <small><strong>Aplica términos y condiciones.</strong></small></p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Pago 100% de la cláusula penal si el inquilino abandona el inmueble sin justa causa ante de que finalice el contrato.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <h5 class="titulos"> <strong>CORRETAJE</strong></h5>
+                                <ul class="pl-0">
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Administras tu arriendo directamente, SU PROPIEDAD INMOBILIARIA te proporcionara el cliente. El Precio de este corresponde a un (1) Canon de arrendamiento más IVA.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Prestamos asesoría en los trámites de estudio de documentos de los futuros arrendatarios de tu inmueble ante la Aseguradora/ Afianzadora.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Realizamos los contratos de arrendamientos.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Ejecutamos un detallado inventario INICIAL fotográfico y escrito del inmueble.</p>
+                                    </li>
+                                    <li class="d-flex">
+                                        <i class="fas fa-check mt-1 mr-2"></i>
+                                        <p>Asesoría jurídica durante el trámite.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center margen_top">
+                            <h2 style="margin-bottom: 0px;"><a class="enlace" href="publicaTuInmueble">PUBLICA TU INMUEBLE AQUÍ</a></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="servi_ar_ven_ava" class=" wow bounceInLeft " data-wow-delay=".7s" data-wow-duration="2s">
     <div class="container">
         <div class="col-12">
             <div class="row">
-                <!-- arriendo -->
+                arriendo
                 <div class="col-12">
                     <div class="accordion" id="accordionExample">
                         <div>
                             <h2 class="color_titulo">Arriendo</h2>
                         </div>
-                        <!-- card #uno -->
+                        card #uno
                         <div class="card">
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingOne">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO ARRENDAR MI PROPIEDAD
+                                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span style="color:white;" class="far fa-hand-pointer"></span> QUIERO ARRENDAR MI PROPIEDAD
                                     </button>
                                 </h2>
                             </div>
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <!-- targeta #uno -->
+                                targeta #uno
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-12 propiedad"><img class="imagen" src="images/Arrienda_propiedad.jpeg" alt=""></div>
@@ -117,7 +212,7 @@ include 'layout/menu2.php';
                                 </div>
                             </div>
                         </div>
-                        <!-- card #dos -->
+                        card #dos
                         <div class="card">
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingTwo">
                                 <h2 class="mb-0">
@@ -321,7 +416,7 @@ include 'layout/menu2.php';
                         <div>
                             <h2 class="color_titulo">VENTA</h2>
                         </div>
-                        <!-- card #tres -->
+                        card #tres
                         <div class="card">
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingtres">
                                 <h2 class="mb-0">
@@ -333,7 +428,7 @@ include 'layout/menu2.php';
                             </div>
 
                             <div id="collapsetres" class="collapse show" aria-labelledby="headingtres" data-parent="#accordionExample2">
-                                <!-- card #tres -->
+                                card #tres
                                 <div class="card card-body ">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12"><img class="imagen" src="images/vender_inmueble.jpeg" alt=""></div>
@@ -392,17 +487,17 @@ include 'layout/menu2.php';
                                 </div>
                             </div>
                         </div>
-                        <!-- card #cuatro -->
+                        card #cuatro
                         <div class="card">
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingcuatro">
                                 <h2 class="mb-0">
                                     <button class="btn btn-primary collapsed tamaño_comparar" type="button" data-toggle="collapse" data-target="#collapcuatro" aria-expanded="false" aria-controls="collapcuatro">
-                                        <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO COMPRAR
+                                        <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO COMPRAR <span>ver más</span>
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapcuatro" class="collapse" aria-labelledby="headingcuatro" data-parent="#accordionExample2">
-                                <!-- card #cuatro -->
+                                card #cuatro
                                 <div class="card card-body mb-3">
                                     <div class="row">
                                         <div class="col-12 col-lg-4 col-md-12"><img class="imagen" src="images/comprar.jpeg" alt=""></div>
@@ -470,7 +565,7 @@ include 'layout/menu2.php';
                             <div class="card-header shadow-lg p-3 mb-5 bg-white rounded" id="headingcinco">
                                 <h2 class="mb-0">
                                     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsinco" aria-expanded="true" aria-controls="collapsinco">
-                                        <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO AVALUAR MI INMUEBLE
+                                        <span style="color:white;" class="fas fa-chevron-up"></span> QUIERO AVALUAR MI INMUEBLE <span>ver más</span>
                                     </button>
                                 </h2>
                             </div>
@@ -480,8 +575,8 @@ include 'layout/menu2.php';
                                     <div class="row">
                                         <div class="col-12 col-lg-4 col-md-12 propiedad"><img class="imagen" src="images/avaluos.jpeg" alt=""></div>
                                         <div class="col-12 col-lg-8 col-md-12 text-justify"> En SU PROPIEDAD INMOBILIARIA contamos con un grupo de Avaluadores altamente capacitados y calificados para ofrecerles un servicio de calidad a los clientes. Nuestros Avaluadores cuentan con el Registro Nacional de Avalúos R.N.A. y el Registro Abierto de Avaluadores A.N.A. <br><br>
-                                            En nuestros Avalúos tenemos diferentes maneras y métodos de hacer la estimación más aproximada del valor del inmueble ya sea para compra o venta.<br><br>  Nuestro personal está constantemente actualizándose acerca de los precios, de acuerdo al mercado inmobiliario y su comportamiento, tanto para venta, como para arriendo.
-                                                Para realizar el avaluó solo necesitamos una copia de la escritura de compraventa del bien, en cuanto al precio este varía de acuerdo al área del inmueble.
+                                            En nuestros Avalúos tenemos diferentes maneras y métodos de hacer la estimación más aproximada del valor del inmueble ya sea para compra o venta.<br><br> Nuestro personal está constantemente actualizándose acerca de los precios, de acuerdo al mercado inmobiliario y su comportamiento, tanto para venta, como para arriendo.
+                                            Para realizar el avaluó solo necesitamos una copia de la escritura de compraventa del bien, en cuanto al precio este varía de acuerdo al área del inmueble.
 
                                         </div>
                                     </div>
@@ -494,10 +589,10 @@ include 'layout/menu2.php';
         </div>
     </div>
 
-</section>
+</section> -->
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/servicios.js"></script> 
+<script type="text/javascript" src="js/servicios.js"></script>
 
 <!-- <section id="servi_ar_ven_ava" class=" wow bounceInLeft " data-wow-delay=".7s" data-wow-duration="2s">
     <div id="accordion">
