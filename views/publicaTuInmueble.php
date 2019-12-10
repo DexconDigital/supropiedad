@@ -270,7 +270,7 @@ $con = $consignar_inmueble;
                 <div class="col-lg-6 col-md-6 col-10 cont_experiencia">
                     <div class="row">
                         <div class="col-12">
-                            <h4 class="mt-4 mb-4 text-center">Administración</h4>
+                            <h4 class="mt-4 mb-4 text-center">En Administración - Tu Arriendo Seguro</h4>
                         </div>
                         <div class="col-12">
                             <div class="card-body pl-0">
