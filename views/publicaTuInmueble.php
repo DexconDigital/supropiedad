@@ -274,32 +274,48 @@ $con = $consignar_inmueble;
                         </div>
                         <div class="col-12">
                             <div class="card-body pl-0">
-                                <ul class="pl-0">
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>PRECIO UNICO mensual del 10% más IVA de comisión INCLUIDO el Seguro/Fianza de Arrendamiento.</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Realizamos estudios de crédito al arrendatario con respuesta en menos de 4-8 horas en promedio.</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Garantizamos el pago ANTICIPADO (5 primeros días hábiles de cada mes) de tu canon de arrendamiento por medio de transferencia electrónica, esté o no en mora el arrendatario.</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Tenemos la opción de ADELANTAR los primeros 3 meses de arriendo. *Aplica términos y condiciones.</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt-1 mr-2"></i>
-                                        <p>Contamos con el respaldo de empresas ASEGURADORAS/AFIANZADORAS durante toda la vigencia del contrato.</p>
-                                    </li>
-                                    <li class="d-flex">
-                                        <i class="fas fa-check mt   -1 mr-2"></i>
-                                        <p>Ofrecemos el servicio de pago de la administración de la copropiedad de tu inmueble (Si aplica).</p>
-                                    </li>
-                                </ul>
+                            <ul class="pl-0">
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>PRECIO UNICO mensual del 10% más IVA de comisión INCLUIDO el Seguro/Fianza de Arrendamiento.</p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Pagamos el canon de arrendamiento los primeros CINCO (5) días hábiles de cada mes. </p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Respondemos por los DAÑOS Y FALTANTES realizados por el arrendatario durante la vigencia del contrato. <small><strong>No incluye desgaste natural por uso ó por tiempo; ni arreglos locativos que requiera el inmueble.</strong></small></p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Pagamoslos SERVICIOS PÚBLICOS hasta el día que sea habitado el inmueble por el arrendatario.</p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Cobramos y pagamos a la Administración de la copropiedad las multas generadas por el inquilino, durante la vigencia del contrato. <small><strong>Aplica debido proceso en el cobro de la multa generada.</strong></small></p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Pago del 100% de la cláusula penal si el inquilino abandona o desocupa el inmueble sin justa causa antes de que finalice el contrato. <small><strong>Aplica términos y condiciones.</strong></small></p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Ofrecemos el servicio de pago de la administración de la copropiedad de tu inmueble (Si aplica). <small><strong>Aplica términos y condiciones.</strong></small></p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>El contrato de arredamiento contará con una póliza de ASEGURADORA/AFIANZADORA durante toda la vigencia del contrato.</p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Brindamos la opción de ADELANTAR los primeros 3 meses de arriendo. <small><strong>Aplica términos y condiciones.</strong></small></p>
+                               </li>
+                               <li class="d-flex">
+                                   <i class="fas fa-check mt-1 mr-2"></i>
+                                   <p>Realizamos estudios de crédito al arrendatario con respuesta en menos de 4-8 horas en promedio. <small><strong>Aplica términos y condiciones.</strong></small></p>
+                               </li>
+                                  </ul>
                             </div>
                         </div>
                     </div>

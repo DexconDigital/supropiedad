@@ -122,12 +122,12 @@ include 'layout/menu2.php';
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <a class="color_modal" href="formatos/INSTRUCTIVO_ARRENDATARIO.pdf" target="_blank">
-                            Instructivo de Arrendatarios
+                            Instructivo Arrendatarios
                         </a>
                     </li>
                     <li class="list-group-item">
                         <a class="color_modal"href="formatos/INSTRUCTIVO_PROPIETARIO.pdf" target="_blank">
-                            Instructivo de Propiertarios
+                            Instructivo Propietarios
                         </a>
                     </li>
                     
