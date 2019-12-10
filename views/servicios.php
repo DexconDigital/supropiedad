@@ -646,7 +646,7 @@ include 'layout/menu2.php';
                                 <div class="modal-body">
                                     <div class="card card-body mb-3">
                                         <div class="row">
-                                            <div class="col-lg-4 col-12"><img class="imagen" src="images/vender_inmueble.jpeg" alt=""></div>
+                                            <div class="col-lg-4 col-12 mb-4"><img class="imagen" src="images/vender_inmueble.jpeg" alt=""></div>
                                             <div class="col-md-12 col-lg-8 text-justify">
                                                 <p class="stylo_p">SU PROPIEDAD INMOBILIARIA cuenta con brókers inmobiliarios calificados y expertos en la promoción y trámites en la venta de tu inmueble; de esta forma ofrecemos a nuestros clientes un servicio ágil y seguro.</p>
                                             </div>
