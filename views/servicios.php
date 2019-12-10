@@ -598,7 +598,7 @@ include 'layout/menu2.php';
                                                     </li>
                                                     <li class="d-flex">
                                                         <i class="fas fa-check mt-1 mr-2"></i>
-                                                        <p>El contrato de arredamiento contará con una póliza de ASEGURADORA/AFIANZADORA durante toda la vigencia del contrato.</p>
+                                                        <p>El contrato de arrendamiento contará con una póliza de ASEGURADORA/AFIANZADORA durante toda la vigencia del contrato.</p>
                                                     </li>
                                                     <li class="d-flex">
                                                         <i class="fas fa-check mt-1 mr-2"></i>
