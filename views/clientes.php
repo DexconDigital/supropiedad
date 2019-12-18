@@ -14,7 +14,7 @@ include 'layout/menu2.php';
             <div class="col-12 row justify-content-center cont_cards">
                 <div class="col-lg-4 col-md-6 col-12 wow slideInLeft">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=2" target="_blank">
-                        <div class="card text-center" style="">
+                        <div class="card text-center">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['arredatarios'] ?>"></i>
                             </div>
@@ -26,7 +26,7 @@ include 'layout/menu2.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 wow slideInDown">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=1" target="_blank">
-                        <div class="card text-center" style="">
+                        <div class="card text-center">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['propietarios'] ?>"></i>
                             </div>
@@ -38,7 +38,7 @@ include 'layout/menu2.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 wow slideInUp">
                     <a href="<?php echo $link_pse ?>" target="_blank">
-                        <div class="card text-center" style="">
+                        <div class="card text-center">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['pse'] ?>"></i>
                             </div>
@@ -48,9 +48,36 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
+                <div class="col-lg-4 col-md-6 col-12 espacio wow slideInRight">
+                    <a data-toggle="modal" class="botton_virtual" data-target="#formularios">
+                        <div class="card text-center">
+                            <div class="container-icon">
+                                <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Formularios</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 espacio wow slideInRight">
+                    <a data-toggle="modal" class="cont_intruct_boton" data-target="#instructivo">
+                        <div class="card text-center">
+                            <div class="container-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Instructivos</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!--
                 <div class="col-lg-3 col-md-6 col-12 wow slideInRight">
                     <a type="button" data-toggle="modal" class="botton_virtual" data-target="#formularios">
-                        <div class="card text-center" style="">
+                        <div class="card text-center">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
                             </div>
@@ -62,7 +89,7 @@ include 'layout/menu2.php';
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 wow slideInRight">
                     <a type="button"  data-toggle="modal" class="cont_intruct_boton" data-target="#instructivo">
-                        <div class="card text-center" style="">
+                        <div class="card text-center">
                             <div class="container-icon">
                                 <i class="fas fa-book-open"></i>
                             </div>
@@ -72,6 +99,7 @@ include 'layout/menu2.php';
                         </div>
                     </a>
                 </div>
+                -->
             </div>
         </div>
     </div>
@@ -126,11 +154,11 @@ include 'layout/menu2.php';
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a class="color_modal"href="formatos/INSTRUCTIVO_PROPIETARIO.pdf" target="_blank">
+                        <a class="color_modal" href="formatos/INSTRUCTIVO_PROPIETARIO.pdf" target="_blank">
                             Instructivo Propietarios
                         </a>
                     </li>
-                    
+
                 </ul>
             </div>
             <div class="modal-footer">

@@ -108,7 +108,7 @@ include 'layout/menu.php';
         </div>
         <div class="col-12 row justify-content-center cont_servicios">
             <div class="col-lg-3 col-md-6 col-10 tarjeta">
-                <div class="card text-center wow slideInLeft" style="">
+                <div class="card text-center wow slideInLeft">
                     <a href="<?php echo $url_host ?>servicios">
                         <div class="container-icon">
                             <i class="<?php echo $iconos_servicios['arriendos'] ?>"></i>
@@ -120,7 +120,7 @@ include 'layout/menu.php';
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-10 tarjeta">
-                <div class="card text-center wow slideInDown" style="">
+                <div class="card text-center wow slideInDown">
                     <a href="<?php echo $url_host ?>servicios">
                         <div class="container-icon">
                             <i class="<?php echo $iconos_servicios['ventas'] ?>"></i>
@@ -132,7 +132,7 @@ include 'layout/menu.php';
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-10 tarjeta">
-                <div class="card text-center wow slideInRight" style="">
+                <div class="card text-center wow slideInRight">
                     <a href="<?php echo $url_host ?>servicios">
                         <div class="container-icon">
                             <i class="<?php echo $iconos_servicios['avaluos'] ?>"></i>
@@ -144,7 +144,7 @@ include 'layout/menu.php';
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-10 tarjeta">
-                <div class="card text-center wow slideInRight" style="">
+                <div class="card text-center wow slideInRight">
                     <a href="<?php echo $url_host ?>publicaTuInmueble">
                         <div class="container-icon">
                             <i class="fas fa-hotel"></i>
@@ -170,7 +170,7 @@ include 'layout/menu.php';
             <div class="col-12 row justify-content-center cont_servicios">
                 <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=2" target="_blank">
-                        <div class="card text-center wow zoomInLeft" data-wow-Duration="1.5s" style="">
+                        <div class="card text-center wow zoomInLeft" data-wow-Duration="1.5s">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['arredatarios'] ?>"></i>
                             </div>
@@ -182,7 +182,7 @@ include 'layout/menu.php';
                 </div>
                 <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=813&tipo=1" target="_blank">
-                        <div class="card text-center wow zoomInUp" data-wow-Duration="1.5s" style="">
+                        <div class="card text-center wow zoomInUp" data-wow-Duration="1.5s">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['propietarios'] ?>"></i>
                             </div>
@@ -194,7 +194,7 @@ include 'layout/menu.php';
                 </div>
                 <div class="col-lg-3 col-md-6 col-9 tarjeta">
                     <a href="<?php echo $link_pse ?>" target="_blank">
-                        <div class="card text-center wow zoomInDown" data-wow-Duration="1.5s" style="">
+                        <div class="card text-center wow zoomInDown" data-wow-Duration="1.5s">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['pse'] ?>"></i>
                             </div>
@@ -205,8 +205,8 @@ include 'layout/menu.php';
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-9 tarjeta">
-                    <a type="button" class="wow zoomInRight botton_virtual" data-wow-Duration="1.5s" data-toggle="modal" data-target="#formularios">
-                        <div class="card text-center" style="">
+                    <a  class="wow zoomInRight botton_virtual" data-wow-Duration="1.5s" data-toggle="modal" data-target="#formularios">
+                        <div class="card text-center">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
                             </div>
