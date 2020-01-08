@@ -189,7 +189,7 @@ $page = "inmuebles";
                             <div class="card-body">
                                 <h5 class="card-title">Descripción</h5>
                                 <p class="card-text">
-                                    <?php echo $r['descripcionlarga']; ?>
+                                    <?php echo $r['descrip']; ?>
                                 </p>
                             </div>
                         </div>
