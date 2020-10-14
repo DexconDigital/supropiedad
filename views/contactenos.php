@@ -107,7 +107,7 @@ include 'layout/menu2.php';
                             </div>
                             <div class="row justify-content-center" id="formulario">
                                 <div class="col-12">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.413866790555!2d-75.56875278590688!3d6.209017028463473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442971b6f1ddbb%3A0x96843d9f5a2ef9ec!2sSu+propiedad+inmobiliaria!5e0!3m2!1ses!2sco!4v1563976009544!5m2!1ses!2sco" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1405.8281581520803!2d-75.5664073743318!3d6.209779959971997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428291c6c1eed%3A0x925d71c868b2cbff!2sCl%2010B%20%2336-7%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1601305627278!5m2!1ses!2sco" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                                 </div>
                                 <div class="col-12">
                                     <h5 class="text-center mb-4">¿Tienes dudas o inquietudes? Por favor llena este

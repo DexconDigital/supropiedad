@@ -6,10 +6,23 @@ include 'layout/menu.php';
 <script>
     var pagina = 'inicio';
 </script>
-
 <style>
+    .celulares {
+        color: #c87a33;
+    }
 
+    .celulares:hover {
+        color: #c87a33;
+    }
 </style>
+<script src="./js/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#myModal').modal('show')
+        }, 3500);
+    });
+</script>
 
 <section id="carousel">
     <div class="container-fluid">
@@ -205,7 +218,7 @@ include 'layout/menu.php';
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-9 tarjeta">
-                    <a  class="wow zoomInRight botton_virtual" data-wow-Duration="1.5s" data-toggle="modal" data-target="#formularios">
+                    <a class="wow zoomInRight botton_virtual" data-wow-Duration="1.5s" data-toggle="modal" data-target="#formularios">
                         <div class="card text-center">
                             <div class="container-icon">
                                 <i class="<?php echo $iconos_clientes['formularios_aseguradoras'] ?>"></i>
@@ -292,6 +305,33 @@ include 'layout/menu.php';
                     } ?>
 
                 </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">UN MENSAJE PARA NUESTROS CLIENTES</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body p-3">
+                <p> ESTIMADOS CLIENTES DEBIDO A NUESTRO TRASLADO DE SEDE PRINCIPAL, ESTAMOS PRESENTANDO INCONVENIENTES CON NUESTRO PBX, PARA CUALQUIER REQUERIMIENTO, POR FAVOR COMUNICARSE A LOS SIGUIENTES CELULARES.</p><br>
+
+                <ul>
+                    <li>SEDE POBLADO: <a class="celulares" href="tel:3156733000">315-673-3000</a></li>
+                    <li>SEDE CENTRO: <a class="celulares" href="tel:3166161076"> 316-616-1076</a></li>
+                    <li>SEDE BOGOTÁ: <a class="celulares" href="tel:3043297400"> 304-329-7400</a></li>
+                </ul>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>

@@ -9,9 +9,18 @@ $page = "inmuebles";
 <link rel="stylesheet" type="text/css" href="<?php echo $url_host ?>css/slick.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $url_host ?>css/slick-theme.css">
 <script src="<?php echo $url_host ?>js/jquery.min.js"></script>
+<script src="<?php echo $url_host ?>js/jquery.fancybox.min.js"></script>
 <script src="<?php echo $url_host ?>js/slick.min.js"></script>
 <link rel="stylesheet" href="<?php echo $url_host ?>css/carousel.tamanos.css">
+<link rel="stylesheet" href="<?php echo $url_host ?>css/jquery.fancybox.min.css">
 <!-- fin de llamado -->
+<style>
+    .video_detalle{
+        width: 100%;
+        height: 100% !important;
+        margin-bottom: 5rem;
+    }
+</style>
 
 <section>
     <nav class="navbar navbar-expand-lg navbar-light bg-light borde-menu" id="menu">
@@ -96,12 +105,17 @@ $page = "inmuebles";
                             if (isset($r['fotos'])) {
                                 for ($i = 1; $i < count($r['fotos']); $i++) {
                                     echo '<div class="contenedor-img">
+                                    <a data-fancybox="gallery" href="' . $r['fotos'][$i]['foto'] . '" data-width="2048" data-height="1365">
                                         <img src="' . $r['fotos'][$i]['foto'] . '" alt="">
+                                    </a>
+                                    
                                     </div>';
                                 }
                             } else {
                                 echo  '<div class="contenedor-img">
-                                        <img src="' . $url_host . 'images/no_image.png" alt="">
+                                <a data-fancybox="gallery" href="' . $url_host . 'images/no_image.png">
+                                    <img src="' . $url_host . 'images/no_image.png" alt="">
+                                </a>
                                     </div>';
                             }
                             ?>
@@ -274,8 +288,8 @@ $page = "inmuebles";
                                 <div class="card-body">
                                     <h5 class="card-title">Video</h5>
                                     <div class="row">
-                                        <div class="col-12 col-md-4">
-                                        <iframe src="' . $r['video'] . '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="col-12">
+                                        <iframe src="' . $r['video'] . '" frameborder="0" allow="accelerometer;  autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen" class="video_detalle"></iframe>
                                         </div>
                                     </div>
                                 </div>
